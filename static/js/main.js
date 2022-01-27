@@ -14,5 +14,9 @@ document.getElementById('mode').addEventListener('click', () => {
 // enforce local storage setting but also fallback to user-agent preferences
 if (localStorage.getItem('theme') === 'dark' || (!localStorage.getItem('theme') && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
   document.body.classList.add('dark');
-  document.getElementById("polyring-banner").setAttribute("theme", "dark");
+  var polyringBanner = document.getElementById("polyring-banner");
+  
+  if(polyringBanner != null){
+    polyringBanner.setAttribute("theme", "dark");
+  }
 }

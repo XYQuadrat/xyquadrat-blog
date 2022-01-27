@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
 	<title>xyquadrat.ch</title>
 	<subtitle>Blog about software, ETH and life</subtitle>
-	<link href="https://staging.xyquadrat.ch/atom.xml" rel="self" type="application/atom+xml"/>
-  <link href="https://staging.xyquadrat.ch"/>
+	<link href="https://xyquadrat.ch/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://xyquadrat.ch"/>
 	<generator uri="https://www.getzola.org/">Zola</generator>
 	<updated>2021-12-23T00:00:00+00:00</updated>
-	<id>https://staging.xyquadrat.ch/atom.xml</id>
+	<id>https://xyquadrat.ch/atom.xml</id>
 	<entry xml:lang="en">
 		<title>ETH D-INFK Ersti Exam FAQ</title>
 		<published>2021-12-23T00:00:00+00:00</published>
 		<updated>2021-12-23T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/12/23/eth-exam-faq/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/12/23/eth-exam-faq/</id>
+		<link href="https://xyquadrat.ch/2021/12/23/eth-exam-faq/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/12/23/eth-exam-faq/</id>
 		<content type="html">&lt;p&gt;Note: This is not an official resource. The content here is tailored for the semester HS21 and might not be up-to-date for other years. Also, lots of the points raised here are common sense, but maybe it still helps someone.&lt;&#x2F;p&gt;
 &lt;h3 id=&quot;in-which-subjects-am-i-allowed-to-bring-cheatsheets&quot;&gt;In which subjects am I allowed to bring cheatsheets?&lt;&#x2F;h3&gt;
 &lt;p&gt;You may bring a handwritten (that is, either on paper or digitally with a tablet) cheatsheet of 6 pages in Discrete Mathematics and 12 pages in Linear Algebra. For Algorithms &amp;amp; Datastructures and Introduction to Programming, no cheatsheet is allowed.&lt;&#x2F;p&gt;
@@ -71,29 +71,29 @@
 		<title>My experience as a Teaching Assistant at ETH</title>
 		<published>2021-12-17T00:00:00+00:00</published>
 		<updated>2021-12-17T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/12/17/teaching-assistant-experiences/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/12/17/teaching-assistant-experiences/</id>
+		<link href="https://xyquadrat.ch/2021/12/17/teaching-assistant-experiences/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/12/17/teaching-assistant-experiences/</id>
 		<content type="html">&lt;p&gt;This semester I’ve been teaching the course “Algorithms &amp;amp; Datastructures” at ETH for the first time as a Teaching Assistant. That means that every week, I’d lead an exercise session with about 25 people where I would explain the exercises, recap some theory and highlight common pitfalls. In addition, I would correct and grade bonus exercises. Here’s what I learnt, how I liked it, and what I’d do differently if I did it again (which I might, who knows!).&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;classroom-teaching&quot;&gt;Classroom teaching&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;classroom-teaching&quot;&gt;Classroom teaching&lt;&#x2F;h2&gt;
 &lt;p&gt;Teaching is fun! I already thought beforehand that standing in front of a group of students and trying to get my point across would be something I like; especially given that I’ve been playing with the thought of becoming a part-time teacher at high school level after ETH for a while. And now, after a semester of actually teaching, I can conclude that I indeed do enjoy giving lessons, and that the “aha”-moments of my students had made the challenges of explaining well worth it.&lt;&#x2F;p&gt;
 &lt;p&gt;I also have seen how it’s critical to strike the balance between preparing every detail of your lesson and improvising everything. Sometimes it’s possible to walk into the room having barely looked at the exercises and hold a good, (hopefully) helpful two hour lesson nearly without any preparation. But then again that can easily come back and bite you; I distinctly remember a moment where a student was asking me to explain a more challenging exercise, I said “Yeah, sure”, started doing it and got lost halfway through. No one paid attention anymore, and I had to regretfully end the lesson not having explained the exercise.&lt;&#x2F;p&gt;
 &lt;p&gt;At the same time, the semester confirmed what I had already thought to be true earlier on: to be a good Teaching Assistant, it’s not necessary to know &lt;em&gt;everything&lt;&#x2F;em&gt;. It’s fine to not have an answer immediately, and it’s also fine to be wrong (at least occasionally).&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;correcting-exercises&quot;&gt;Correcting exercises&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;correcting-exercises&quot;&gt;Correcting exercises&lt;&#x2F;h2&gt;
 &lt;p&gt;Ugh. I don’t like correcting stuff. Of course I know that it’s required, and that a good correction can be very helpful. But the hours I spent every week on wading through proofs that ranged from basically perfect to me barely understanding the idea after multiple perusals weren’t exactly enjoyable.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;and_unreadable_solution.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Ah yes. My students were the best, absolutely, but sometimes a slightly cleaner solution wouldn’t have hurt.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;a-note-on-kahoots&quot;&gt;A note on Kahoots&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;a-note-on-kahoots&quot;&gt;A note on Kahoots&lt;&#x2F;h2&gt;
 &lt;p&gt;In 2021, seemingly no lecture or exercise session can avoid using the omnipresent quiz platform &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;kahoot.com&quot;&gt;Kahoot&lt;&#x2F;a&gt;. Now see, I get it. It’s fun to compete and win, and it’s great to activate all students instead of only hearing from the select few that are brave enough to raise their hand. But honestly, I really don’t like Kahoot. First, they aggressively try to upsell you on a hundred different subscriptions, and they at one point just forbid me to host a quiz for more than 10 players, requiring me to pretend to be a K-12 teacher. (Oh, and don’t get me started on them recommending &lt;em&gt;wonderful&lt;&#x2F;em&gt; “Elsa in Frozen 2” quizzes to me.) But more importantly, I think that &lt;strong&gt;Kahoots are not a good didactic tool&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
 &lt;p&gt;The simple reason for that is the fact that the best way to win a quiz is not by thinking thoroughly about your answer but to click as fast as possible once you have a decent guess. That’s neither how the exams nor real life works. As such, you can easily win a Kahoot even if others have more correct answers in total, and that makes Kahoots unrepresentative of actual student performance, which is &lt;em&gt;exactly&lt;&#x2F;em&gt; what you as a teacher want to know.&lt;&#x2F;p&gt;
 &lt;p&gt;Anyways. Rant over.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;organizational-matters&quot;&gt;Organizational matters&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;organizational-matters&quot;&gt;Organizational matters&lt;&#x2F;h2&gt;
 &lt;p&gt;Eh, fine. I would have appreciated knowing which exercises will come next in advance, so that I could tell students what I want see in their approach. Oh, and it turns out that an actual grading scheme that includes how one should grade common errors would be very helpful. But I get that this requires a lot of work, so I don’t think it’s unreasonable not to do that.&lt;&#x2F;p&gt;
 &lt;p&gt;Ah, and I always got paid on time (in contrast to other subjects where this can take multiple months… Parallel Programming, I’m looking at you).&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;what-i-would-change&quot;&gt;What I would change&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;what-i-would-change&quot;&gt;What I would change&lt;&#x2F;h2&gt;
 &lt;p&gt;I’m not certain it’s sensible to always discuss all bonus exercises. We were explicitly told by the Head TA to do so and to also discuss most non-bonus exercises, but due to the large gap of skill (some people solved the exercises without any problems and are bored when explaining, whereas others didn’t even try and thus don’t benefit either) I think it might make more sense to focus more on theory recaps.&lt;&#x2F;p&gt;
 &lt;p&gt;I’d like to have some sort of more direct channel of communication with my students. It’d be great to have students tell me in advance what they haven’t understood yet, because then I can actually prepare these topics.&lt;&#x2F;p&gt;
 &lt;p&gt;Finally, I believe there are still a lot of potential synergies among us TAs that we could use to lower our work load and improve our lessons - sharing notes, additional resources, explanations on solutions, etc. (Ah, you can find some of my stuff on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;and&quot;&gt;xyquadrat.ch&#x2F;and&lt;&#x2F;a&gt;, by the way.)&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;closing-thoughts&quot;&gt;Closing thoughts&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;closing-thoughts&quot;&gt;Closing thoughts&lt;&#x2F;h2&gt;
 &lt;p&gt;Teaching, even if in a small setting like in my case, is very fulfilling. It’s great to see students understand something because you were able to get your point across. A great TA can make a course easy, whilst a bad one can rob you of all your motivation to study. Whilst I might not have been the best or even a great TA, given that I still had about as many people in my session at the end of the semester as in the beginning, I think I’m also not that bad. And that’s pretty cool, honestly.&lt;&#x2F;p&gt;
 </content>
 	</entry>
@@ -101,21 +101,21 @@
 		<title>Running an appropriately sophisticated Minecraft server in 2021</title>
 		<published>2021-12-13T00:00:00+00:00</published>
 		<updated>2021-12-13T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/12/13/running-vanilla-minecraft-in-2021/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/12/13/running-vanilla-minecraft-in-2021/</id>
+		<link href="https://xyquadrat.ch/2021/12/13/running-vanilla-minecraft-in-2021/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/12/13/running-vanilla-minecraft-in-2021/</id>
 		<content type="html">&lt;p&gt;Even more than a decade after its release, Minecraft continues to be popular and receives regular updates.
 A healthy modding community (if we conveniently ignore debates about Forge versus Fabric) produces a steady stream of huge modpacks that use Minecraft merely as a game engine to build their own experiences on top. But sometimes, all you want is to play good old Vanilla Minecraft, go farm some diamonds and be happy if you manage to build a house that looks better than a dirt block.&lt;&#x2F;p&gt;
 &lt;p&gt;From the perspective of a server admin, things have changed in the last years, though much of the improvements that have been made have never reached a large 
 number of servers. I want to give a concise overview of what the best options (in my view) for various aspects of running a server in 2021 are.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;minecraft_screenshot.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;hardware&quot;&gt;Hardware&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;hardware&quot;&gt;Hardware&lt;&#x2F;h2&gt;
 &lt;p&gt;No hardware, no server. Realistically speaking, you’ll want to have something with the at very least 1GB of RAM. Even that will not be a very pleasant experience if you have more than 2-3 players. At 4GB+ we’re starting to get into the reasonable territory, with about 8GB being a good choice for up to about 20 players and a modest set of plugins. More than that doesn’t hurt, of course. In terms of CPU power, single threaded performance matters more than additional cores, but as a rule of thumb: anything that can run Minecraft decently as a client can also run it as a server.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;operating-system&quot;&gt;Operating System&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;operating-system&quot;&gt;Operating System&lt;&#x2F;h2&gt;
 &lt;p&gt;Just use some flavor of Linux. Ubuntu Server Edition or Debian are solid choices. I would not recommend using graphical desktop environments (unnecessary loss of performance) or Windows &#x2F; MacOS - these really aren’t meant to be server operating systems, and their server variants are on life support at best.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;server-implementation&quot;&gt;Server implementation&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;server-implementation&quot;&gt;Server implementation&lt;&#x2F;h2&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;paper-logo.svg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Originally, you would be using the offically provided server binary from Mojang, but these days are long gone. Spigot with their extensive plugin support was a great choice for a long time, but by now most new setups have moved on to &lt;strong&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;papermc.io&#x2F;&quot;&gt;Paper&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;, a fork with better performance and plugin compatibility. &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;velocitypowered.com&#x2F;&quot;&gt;There&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;PatinaMC&#x2F;Patina&quot;&gt;are&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pufferfish-gg&#x2F;Pufferfish&quot;&gt;numerous&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;airplane.gg&#x2F;&quot;&gt;other&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;YatopiaMC&#x2F;Yatopia&quot;&gt;forks&lt;&#x2F;a&gt;, in fact there are so many of them that &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;forks.smhsmh.club&#x2F;img.png#v=1&quot;&gt;someone created a Forkception image listing only a select few of them&lt;&#x2F;a&gt; to show how messy the landscape is. Really the only other significant fork&#x2F;project I’d consider apart from Paper is &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;purpurmc.org&#x2F;&quot;&gt;Purpur&lt;&#x2F;a&gt; which has a million config tweaks (including some that make every mob rideable…) - but given that I personally don’t need those, I stick with Paper. Most forks either have a tiny community, include patches that break plugins &#x2F; expected behavior or have a questionable code quality.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;plugins&quot;&gt;Plugins&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;plugins&quot;&gt;Plugins&lt;&#x2F;h2&gt;
 &lt;p&gt;In principle, just running a Paper server without anything is already enough, and some will be happy with such a setup. But most server populations demand &lt;em&gt;some&lt;&#x2F;em&gt; amount of plugins, for example because &lt;del&gt;they aren’t good enough at the game to survive a night on Hard&lt;&#x2F;del&gt; they don’t want to require everyone to sleep to skip the night, or because they want permissions to &lt;code&gt;&#x2F;tp&lt;&#x2F;code&gt; but you’d (rightfully) prefer not to give everyone OP rights. Personally, I like to roll with these four plugins:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;essentialsx.net&#x2F;&quot;&gt;EssentialsX&lt;&#x2F;a&gt; has a nice selection of “a bit of everything”, including warps and convenience features such as &lt;code&gt;&#x2F;otp&lt;&#x2F;code&gt; that teleports you to offline players.&lt;&#x2F;li&gt;
@@ -123,22 +123,22 @@ number of servers. I want to give a concise overview of what the best options (i
 &lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mrgeneralq&#x2F;sleep-most&quot;&gt;sleep-most&lt;&#x2F;a&gt; is a simple but very customizable sleep skipping plugin. It does one thing, and it does it well.&lt;&#x2F;li&gt;
 &lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.spigotmc.org&#x2F;resources&#x2F;vault.34315&#x2F;&quot;&gt;Vault&lt;&#x2F;a&gt; is just an API for Permissions &#x2F; Chat &#x2F; Economy, but some features of EssentialsX need it.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;tweaking-performance&quot;&gt;Tweaking performance&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;tweaking-performance&quot;&gt;Tweaking performance&lt;&#x2F;h2&gt;
 &lt;p&gt;Just Paper on a reasonably fast server should already provide a good experience for your players. But there are lots of improvements you can make to enhance performance. There’s an &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;YouHaveTrouble&#x2F;minecraft-optimization&quot;&gt;excellent extensive guide on optimization&lt;&#x2F;a&gt; by YouHaveTrouble. To save you some reading, here are the 3 most important things to change:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Use the Java startup flags by Aikar (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;blog.airplane.gg&#x2F;aikar-flags&#x2F;&quot;&gt;here’s a handy generator&lt;&#x2F;a&gt;). Quite a bit of testing has went into these flags, and they are widely accepted to be the gold standard (until ZGC, a comparatively new garbage collector, becomes mature enough).&lt;&#x2F;li&gt;
 &lt;li&gt;Pregenerate your chunks. &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pop4959&#x2F;Chunky&quot;&gt;Chunky&lt;&#x2F;a&gt; makes this very easy. This helps a ton in my experience, especially when there are multiple players exploring the world.&lt;&#x2F;li&gt;
 &lt;li&gt;If you run a redstone-heavy server, you’ll benefit a lot by setting &lt;code&gt;use-faster-eigencraft-redstone: true&lt;&#x2F;code&gt; in your &lt;code&gt;paper.yml&lt;&#x2F;code&gt; which enables an alternative implementation of the redstone logic that is much more performant.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;miscellaneous-things&quot;&gt;Miscellaneous things&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;miscellaneous-things&quot;&gt;Miscellaneous things&lt;&#x2F;h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;tmux&lt;&#x2F;code&gt; is helpful because otherwise the server will stop when disconnecting over SSH.&lt;&#x2F;li&gt;
 &lt;li&gt;Consider using a whitelist or WorldGuard to protect your server against griefing.&lt;&#x2F;li&gt;
 &lt;li&gt;Ask your players what they want. Unless you’re a dictator.&lt;&#x2F;li&gt;
 &lt;&#x2F;ul&gt;
-&lt;h1 id=&quot;backups&quot;&gt;Backups&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;backups&quot;&gt;Backups&lt;&#x2F;h2&gt;
 &lt;p&gt;See, it’s kind of a mistake to put this at the very bottom. Backups are important. When your server crashes and the world save is corrupted, your players won’t like hearing that the life-sized recreation of Atlantis that they’ve been working on for weeks is irrevocably lost. There is a myriad of options for backing up stuff, from simple Bash scripts that make a &lt;code&gt;.zip&lt;&#x2F;code&gt; file to enterprise-grade redundant systems. I personally really like &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;torsion.org&#x2F;borgmatic&#x2F;&quot;&gt;&lt;code&gt;borgmatic&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;, which is a friendly interface to &lt;code&gt;borgbackup&lt;&#x2F;code&gt;. Throw their systemd unit file in the right folder, set the timer to once per day when everyone is sleeping, and you’re good to go.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;future-areas-of-work&quot;&gt;Future areas of work&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;future-areas-of-work&quot;&gt;Future areas of work&lt;&#x2F;h2&gt;
 &lt;p&gt;Two big things are missing here:&lt;&#x2F;p&gt;
 &lt;ul&gt;
 &lt;li&gt;Autorestarting your server after a crash or power outage&lt;&#x2F;li&gt;
@@ -151,8 +151,8 @@ number of servers. I want to give a concise overview of what the best options (i
 		<title>Reading files in Zig for Advent of Code</title>
 		<published>2021-12-01T00:00:00+00:00</published>
 		<updated>2021-12-01T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/12/01/reading-files-in-zig/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/12/01/reading-files-in-zig/</id>
+		<link href="https://xyquadrat.ch/2021/12/01/reading-files-in-zig/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/12/01/reading-files-in-zig/</id>
 		<content type="html">&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ziglang.org&quot;&gt;Zig&lt;&#x2F;a&gt; is a lovely low-level language I’ve recently learned about, and what better way is there to learn a new language than to use it to solve &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;adventofcode.com&quot;&gt;Advent of Code&lt;&#x2F;a&gt; problems. Alas, I set out on solving the technically very easy first task, managing to complete it in less than 15 minutes.&lt;&#x2F;p&gt;
 &lt;p&gt;Or so I thought. Whilst I did have a rough idea of Zig’s syntax, and I had no problem writing loops or functions, I conveniently overlooked the issue of getting the input into my program. For reference, Day 1 had a list of integers as input; nothing difficult to parse per se. But my unfamiliarity with Zig led to serious problems when I tried to read said list of integers into an array.&lt;&#x2F;p&gt;
 &lt;p&gt;I’ve tried various solutions, some of which seem deprecated whilst others should in theory work but I must have made mistakes whilst implementing them (I got lots of type mismatch errors), because it took me 45 minutes of trying before a helpful tip from a colleague that also decided to do AoC in Zig finally got me to a working snippet of code. (Once I had the input parsed, the two tasks were indeed easy and I managed to solve both of them within a few minutes.) To possibly spare someone else this frustrating process, the actual working code is as follows:&lt;&#x2F;p&gt;
@@ -175,8 +175,8 @@ number of servers. I want to give a concise overview of what the best options (i
 		<title>Getting PHP to work in subfolders with nginx</title>
 		<published>2021-10-21T00:00:00+00:00</published>
 		<updated>2021-10-21T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/10/21/nginx-php-subfolder/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/10/21/nginx-php-subfolder/</id>
+		<link href="https://xyquadrat.ch/2021/10/21/nginx-php-subfolder/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/10/21/nginx-php-subfolder/</id>
 		<content type="html">&lt;p&gt;If you have &lt;code&gt;nginx&lt;&#x2F;code&gt; as your reverse proxy of choice (like I do) and you for one reason or the other have to run PHP code on your website, you might have a configuration in your nginx config file like this:&lt;&#x2F;p&gt;
 &lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;location ~ \.php$ {
 &lt;&#x2F;span&gt;&lt;span&gt;    include &#x2F;etc&#x2F;nginx&#x2F;snippets&#x2F;fastcgi-php.conf;
@@ -203,8 +203,8 @@ number of servers. I want to give a concise overview of what the best options (i
 		<title>Announcing the Polyring Blogging Challenge</title>
 		<published>2021-09-19T00:00:00+00:00</published>
 		<updated>2021-09-19T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/09/19/announcing-polyring-challenge/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/09/19/announcing-polyring-challenge/</id>
+		<link href="https://xyquadrat.ch/2021/09/19/announcing-polyring-challenge/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/09/19/announcing-polyring-challenge/</id>
 		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;polyring_banner.png&quot; alt=&quot;Polyring banner&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;Fellow Polyring members: Do you have a blog, but you only have two or three posts? Do you, like me, write something only once every month or so? Would you like to blog more, but just haven’t gotten around to it? Then maybe you should join the new Polyring Blogging Challenge! Throughout the coming semester at ETH, your challenge is to make at least &lt;strong&gt;10&lt;&#x2F;strong&gt; blog posts in the &lt;strong&gt;14&lt;&#x2F;strong&gt; weeks of the semester. And, of course, if you do so, you get a fancy prize.&lt;&#x2F;p&gt;
 &lt;p&gt;The rules are simple:&lt;&#x2F;p&gt;
@@ -223,8 +223,8 @@ number of servers. I want to give a concise overview of what the best options (i
 		<title>Solving a simple linearizability problem</title>
 		<published>2021-07-06T00:00:00+00:00</published>
 		<updated>2021-07-06T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/07/06/linearizable/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/07/06/linearizable/</id>
+		<link href="https://xyquadrat.ch/2021/07/06/linearizable/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/07/06/linearizable/</id>
 		<content type="html">&lt;p&gt;Let us tackle the following problem: &lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Give a two-thread history that is sequentially consistent, but not linearizable. Use a single atomic register &lt;code&gt;r&lt;&#x2F;code&gt; that initially contains the value zero and supports the operations &lt;code&gt;read()&lt;&#x2F;code&gt; and &lt;code&gt;write()&lt;&#x2F;code&gt;. (HS20)&lt;&#x2F;p&gt;
@@ -269,8 +269,8 @@ number of servers. I want to give a concise overview of what the best options (i
 		<title>On finishing blog posts</title>
 		<published>2021-05-25T00:00:00+00:00</published>
 		<updated>2021-05-25T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/05/25/on-finishing-blog-posts/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/05/25/on-finishing-blog-posts/</id>
+		<link href="https://xyquadrat.ch/2021/05/25/on-finishing-blog-posts/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/05/25/on-finishing-blog-posts/</id>
 		<content type="html">&lt;p&gt;As of today, the 25th of May 2021, I have published 13 blog posts (assuming you include this one). Another post I published about 2 years ago got lost in the abyss of the internet when I switched from Ghost, a blogging software, to my current Jekyll setup. Finally, I’ve written a text on bug reporting in open source software that doesn’t seem to be reachable either anymore; whether or not that counts is up for debate.&lt;&#x2F;p&gt;
 &lt;p&gt;But regardless what blog posts you include or exclude, a big part of my writing is missing in this enumeration. The majority of posts I compose never get released online. They linger locally, sometimes for days, weeks or months, until I open them up again, only to find that their quality is not sufficient. Whenever that happens, I purge the file and I’ve never restored one from the trash yet. That also has its reasons. Let me explain.&lt;&#x2F;p&gt;
 &lt;p&gt;In general, I’d say I am not too bad at writing, both in English and German. I might not be the next Goethe or Shakespeare, but I can express myself and my ideas reasonably well, and that without doing too many grammar mistakes in the process. Given that blogging in general does neither demand long texts, nor does it impose artificial limitations (like in school essays) onto you, I &lt;em&gt;should&lt;&#x2F;em&gt; be able to transfer my overall writing skills to blogging without much hassle. Sadly, the emphasis here lies on &lt;em&gt;should&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
@@ -283,16 +283,16 @@ number of servers. I want to give a concise overview of what the best options (i
 		<title>Optimizing font file size with glyphhanger</title>
 		<published>2021-04-27T00:00:00+00:00</published>
 		<updated>2021-04-27T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/04/27/glyphhanger-font-performance/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/04/27/glyphhanger-font-performance/</id>
+		<link href="https://xyquadrat.ch/2021/04/27/glyphhanger-font-performance/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/04/27/glyphhanger-font-performance/</id>
 		<content type="html">&lt;p&gt;A good font choice is essential to a good-looking website. xyquadrat.ch surely wouldn’t look even remotely trustworthy if I used Comic Sans, would it?&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;polyring_comic_sans.png&quot; alt=&quot;Screenshot of xyquadrat.ch with Comic Sans&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;It… really doesn’t fit.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;actually-it-s-pretty-easy&quot;&gt;Actually, it’s pretty easy.&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;actually-it-s-pretty-easy&quot;&gt;Actually, it’s pretty easy.&lt;&#x2F;h2&gt;
 &lt;p&gt;So let’s assume that you decided to find a nice font for your website; something that fits your style of content and is well readable. This is luckily no longer that much of a challenge - &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;fonts.google.com&quot;&gt;Google Fonts&lt;&#x2F;a&gt; and similar sites have hundreds of different fonts that look great and are free for you to use. In my case, the font I settled on was &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;fonts.google.com&#x2F;specimen&#x2F;Merriweather&quot;&gt;Merriweather&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
 Google Fonts offers you to include the fonts directly from their CDN, which only requires you to copy-paste the appropriate code into your HTML or CSS (depending on the method you are using). If you do this, then you’re done, there’s not much to optimize, and you can safely close this tab now.&lt;&#x2F;p&gt;
 &lt;p&gt;But maybe that’s not what you want to do. At least it was not what I wanted to do; my general credo is: if I can self-host something, I’ll self-host it. Also, if you self-host your fonts, you don’t need exceptions in your CORS headers. The tidyness of these headers is something (however irrational that may be) I really like.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;selfhosting-it-is-then&quot;&gt;Selfhosting it is, then.&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;selfhosting-it-is-then&quot;&gt;Selfhosting it is, then.&lt;&#x2F;h2&gt;
 &lt;p&gt;To self-host the fonts, you’ll first want to download the fonts locally. For some weird reason, the standard format for fonts downloaded from Google Fonts is &lt;code&gt;.ttf&lt;&#x2F;code&gt;. TTF might be a fine format for local fonts you’d use in a word processor; it surely &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;36105194&#x2F;are-eot-ttf-and-svg-still-necessary-in-the-font-face-declaration&#x2F;36110385#36110385&quot;&gt;isn’t well-suited for the web&lt;&#x2F;a&gt; though. You should use WOFF2 (and, if you expect to have IE 9 - 11 traffic, WOFF as a fallback) instead. These are basically the compressed versions of TTF, and they are strictly superior to TTF for the web.&lt;&#x2F;p&gt;
 &lt;p&gt;So you’ll have to convert the &lt;code&gt;.ttf&lt;&#x2F;code&gt; to the appropriate formats. And if you’re already at it, you could also get your hands dirty and optimize the size of your font a bit more. (Before optimization, my fonts were usually the biggest chunk of my site, of course especially for text-only posts.) To do this, you can use the awesome tool &lt;code&gt;glyphhanger&lt;&#x2F;code&gt;. (You can &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zachleat&#x2F;glyphhanger&quot;&gt;install it via &lt;code&gt;npm&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;. It’s quite heavyweight since it uses &lt;code&gt;puppeteer&lt;&#x2F;code&gt;, but it excels at its job.) &lt;&#x2F;p&gt;
 &lt;p&gt;Then, you can easily convert the &lt;code&gt;.tff&lt;&#x2F;code&gt; to a &lt;code&gt;.woff&lt;&#x2F;code&gt; and &lt;code&gt;.woff2&lt;&#x2F;code&gt; file with &lt;code&gt;glyphhanger --formats=woff,woff2 &amp;lt;input file&amp;gt;&lt;&#x2F;code&gt;. But that still leaves files that contain quite a lot of unneeded information - namely unnecessary symbols (or more precisely glyphs). For example, the myriad of accents used in Eastern Europe and other weird Unicode ranges that you’ll probably never use are still in there. You can easily get rid of those by &lt;em&gt;subsetting&lt;&#x2F;em&gt; your fonts with &lt;code&gt;glyphhanger&lt;&#x2F;code&gt;. If you only need “normal” Latin characters, &lt;code&gt;glyphhanger --LATIN --formats=woff,woff2 --css &amp;lt;input file&amp;gt;&lt;&#x2F;code&gt; will both subset the fonts appropriately and also generate a &lt;code&gt;@font-face&lt;&#x2F;code&gt; CSS declaration that’s ready to use. &lt;&#x2F;p&gt;
@@ -303,8 +303,8 @@ Google Fonts offers you to include the fonts directly from their CDN, which only
 		<title>Theming support for the Polyring widget</title>
 		<published>2021-04-24T00:00:00+00:00</published>
 		<updated>2021-04-24T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/04/24/polyring-widget-theming/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/04/24/polyring-widget-theming/</id>
+		<link href="https://xyquadrat.ch/2021/04/24/polyring-widget-theming/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/04/24/polyring-widget-theming/</id>
 		<content type="html">&lt;blockquote&gt;
 &lt;p&gt;Honestly that’s not a fully satisfactory solution; it’d be better to have a single parametrized widget that one could easily adapt to any design with a few simple arguments.&lt;&#x2F;p&gt;
 &lt;&#x2F;blockquote&gt;
@@ -333,18 +333,18 @@ Google Fonts offers you to include the fonts directly from their CDN, which only
 		<title>Polyring - Building a webring in 2021</title>
 		<published>2021-04-19T00:00:00+00:00</published>
 		<updated>2021-04-19T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2021/04/19/building-polyring/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2021/04/19/building-polyring/</id>
-		<content type="html">&lt;h1 id=&quot;a-webring-in-the-21th-century&quot;&gt;A webring? In the 21th century?&lt;&#x2F;h1&gt;
+		<link href="https://xyquadrat.ch/2021/04/19/building-polyring/" type="text/html"/>
+		<id>https://xyquadrat.ch/2021/04/19/building-polyring/</id>
+		<content type="html">&lt;h2 id=&quot;a-webring-in-the-21th-century&quot;&gt;A webring? In the 21th century?&lt;&#x2F;h2&gt;
 &lt;p&gt;A few weeks ago, I launched &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&quot;&gt;Polyring&lt;&#x2F;a&gt;, a webring for ETH Zurich members.&lt;&#x2F;p&gt;
 &lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;polyring_screenshot.png&quot; alt=&quot;Screenshot of the Polyring website&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
 &lt;p&gt;The concept of a webring might sound strange in the year 2021; after all, webrings are supposedly a relict from past times where Google et al didn’t yet exist and where the main way of marketing a website was the word of mouth. At the time Yahoo! WebRing was discontinued on April 15, 2001, search engines were already so good that nobody in their right mind would use a linked list of websites to find what they were searching for.&lt;&#x2F;p&gt;
 &lt;p&gt;… Right? Well, not quite. Today it is incredibly easy to find facts and figures about nearly anything at the blink of an eye - but there is one big caveat: you must know what you are searching for. And that is sometimes astonishingly difficult.&lt;br &#x2F;&gt;
 Link aggregators like Reddit (though much of that spirit has been lost) or Hacker News are the main way of unguided content discovery. Webrings differentiate themselves from such aggregators by putting persons before pure content. What might seem like a disadvantage at first turns out to be a secret superpower of webrings, as you discover interesting articles and projects from interesting people that might have never shown up in your feeds otherwise.&lt;&#x2F;p&gt;
 &lt;p&gt;Alas, let me stop the rambling about &lt;em&gt;why&lt;&#x2F;em&gt; I started a webring (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.sonniesedge.net&#x2F;articles&#x2F;webrings&quot;&gt;this blog post by Charlie Owen&lt;&#x2F;a&gt; might also be part of the reason) and instead tell you &lt;em&gt;how&lt;&#x2F;em&gt; I tackled the technical part of the project.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;open-source-to-the-rescue&quot;&gt;Open source to the rescue&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;open-source-to-the-rescue&quot;&gt;Open source to the rescue&lt;&#x2F;h2&gt;
 &lt;p&gt;Without putting much time into researching the already existing options I found &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;maxboeck&#x2F;webring&quot;&gt;this delightful “Webring Starter Kit” by Max Böck&lt;&#x2F;a&gt;. Suppressing my NIH &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; syndrome, I started customizing the setup to my liking (it didn’t take that many changes). I removed a few parts I deemed irrelevant, agonized over a logo together with a colleague from ETH and finally published the site.&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;technical-details-for-those-who-want-them&quot;&gt;Technical details for those who want them&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;technical-details-for-those-who-want-them&quot;&gt;Technical details for those who want them&lt;&#x2F;h2&gt;
 &lt;p&gt;The Starter Kit mentioned above is based on Eleventy, a static site generator. Despite me never having used it before, it was pretty intuitive and I was able to get up and running quickly, which made me drop my plans to switch the site to Jekyll (which this very blog you are reading runs on) for consistency reason. &lt;&#x2F;p&gt;
 &lt;h4 id=&quot;the-widget&quot;&gt;The widget&lt;&#x2F;h4&gt;
 &lt;webring-banner&gt;
@@ -358,7 +358,7 @@ Link aggregators like Reddit (though much of that spirit has been lost) or Hacke
 &lt;p&gt;Interested ETH members can add themselves to the ring by making a Pull Request on GitHub (&lt;em&gt;insert ramblings about GitHub instead of a truly FOSS platform here&lt;&#x2F;em&gt;). On merging, a webhook is triggered to inform my trusty little Raspberry Pi that he’s got to re-build the site. (Since the Pi is deliberately not accessible via SSH from outside my LAN, deploying with GitHub Actions + SSH wasn’t an option. I still use GitHub Actions to check pre-merge that the build succeeds, though.) The handling of the webhook on the Pi is handled by &lt;code&gt;webhook&lt;&#x2F;code&gt; (definitely a confident name), &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;adnanh&#x2F;webhook&quot;&gt;a lightweight Go program&lt;&#x2F;a&gt; that then calls a simple shell script which updates the repo, builds the site and puts it into the correct folder. As usual with working CD&#x2F;CI, it feels like magic to push a change via git and have it reflected on the live site within seconds.&lt;&#x2F;p&gt;
 &lt;h4 id=&quot;the-widget-revisited&quot;&gt;The widget, revisited&lt;&#x2F;h4&gt;
 &lt;p&gt;Originally, I had one single light-themed widget and said “just build your own if you don’t like it”. Well, that caused people to make a fully static widget, which meant that their member count and possibly their links would cease to be correct after a new site joined Polyring. I therefore started offering an alternative dark mode widget. Honestly that’s not a fully satisfactory solution; it’d be better to have a single parametrized widget that one could easily adapt to any design with a few simple arguments. Luca (gewlar) is working on this, so maybe it’ll become reality within the next few days already!&lt;&#x2F;p&gt;
-&lt;h1 id=&quot;members-anyone&quot;&gt;Members, anyone?&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;members-anyone&quot;&gt;Members, anyone?&lt;&#x2F;h2&gt;
 &lt;p&gt;When I launched the project, it was just me and Oliver Saravanja being part of the (quite empty) ring. Since then, we’ve grown quite a bit, and have now reached 12 members. All our current members are studying Computer Science at ETH, so we’re not quite as diverse as I’d want it to be yet, but at least that means there were less technical problems ;)&lt;&#x2F;p&gt;
 &lt;p&gt;If you have any questions or suggestions, send me a mail at &lt;a href=&quot;mailto:mail@xyquadrat.ch&quot;&gt;mail@xyquadrat.ch&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
 &lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
@@ -370,8 +370,8 @@ Link aggregators like Reddit (though much of that spirit has been lost) or Hacke
 		<title>Computing the RSA private key for small inputs</title>
 		<published>2020-12-30T00:00:00+00:00</published>
 		<updated>2020-12-30T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2020/12/30/rsa-secret-key/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2020/12/30/rsa-secret-key/</id>
+		<link href="https://xyquadrat.ch/2020/12/30/rsa-secret-key/" type="text/html"/>
+		<id>https://xyquadrat.ch/2020/12/30/rsa-secret-key/</id>
 		<content type="html">&lt;p&gt;Whilst RSA is considered secure if we use sufficiently large primes as an input, for very small primes, it is trivial to reverse the process and finde the private key if we are only given the public one. Let’s consider the example:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;The RSA key of Alice is $(n,e) = (55, 3)$. Compute her secret key $d$ . (HS18, 2d, adapted)&lt;&#x2F;p&gt;
@@ -386,8 +386,8 @@ Link aggregators like Reddit (though much of that spirit has been lost) or Hacke
 		<title>Efficiently calculate terms modulo a polynomial</title>
 		<published>2020-12-27T00:00:00+00:00</published>
 		<updated>2020-12-27T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2020/12/27/modulo-polynomials/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2020/12/27/modulo-polynomials/</id>
+		<link href="https://xyquadrat.ch/2020/12/27/modulo-polynomials/" type="text/html"/>
+		<id>https://xyquadrat.ch/2020/12/27/modulo-polynomials/</id>
 		<content type="html">&lt;p&gt;If we have an algebra that is modulo some polynomial, say $\mathbb{Z}_5 [x]_{x^2 + 1}$, it often is the case that we perform some operation in this algebra and afterwards have to take our result modulo said polynomial, so modulo $x^2 + 1$ for example.&lt;&#x2F;p&gt;
 &lt;p&gt;In this case, a simple trick can be very helpful. Remember that by the definition of modulo, &lt;&#x2F;p&gt;
 &lt;p&gt;$$x^2 + 1 \equiv 0 \mod x^2 + 1$$&lt;&#x2F;p&gt;
@@ -402,8 +402,8 @@ Link aggregators like Reddit (though much of that spirit has been lost) or Hacke
 		<title>Check if a poset is a lattice</title>
 		<published>2020-12-23T00:00:00+00:00</published>
 		<updated>2020-12-23T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2020/12/23/lattice-posets/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2020/12/23/lattice-posets/</id>
+		<link href="https://xyquadrat.ch/2020/12/23/lattice-posets/" type="text/html"/>
+		<id>https://xyquadrat.ch/2020/12/23/lattice-posets/</id>
 		<content type="html">&lt;p&gt;Continuing with Discrete Mathematics (because I am too lazy to create nice graphics for Linear Algebra right now), we shall examine the following rather simple problem:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Prove or disprove: $(\lbrace 1,3,6,9,12\rbrace, \mid)$ is a lattice. (l06, 4c)&lt;&#x2F;p&gt;
@@ -425,8 +425,8 @@ Thus, the lowest upper bound of $3$ and $6$, so the join, is $6$. As you may rec
 		<title>Categorize algebras by type</title>
 		<published>2020-12-22T00:00:00+00:00</published>
 		<updated>2020-12-22T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2020/12/22/algebra-type/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2020/12/22/algebra-type/</id>
+		<link href="https://xyquadrat.ch/2020/12/22/algebra-type/" type="text/html"/>
+		<id>https://xyquadrat.ch/2020/12/22/algebra-type/</id>
 		<content type="html">&lt;p&gt;Today, we’ll investigate the following exercise:&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Decide whether the given algebra is a ring, a field, or an integral domain (check all that apply). (FS18, 4b)&lt;&#x2F;p&gt;
@@ -444,8 +444,8 @@ Thus, the lowest upper bound of $3$ and $6$, so the join, is $6$. As you may rec
 		<title>Find easy isomorphic groups</title>
 		<published>2020-12-21T00:00:00+00:00</published>
 		<updated>2020-12-21T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2020/12/21/isomorphic-groups/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2020/12/21/isomorphic-groups/</id>
+		<link href="https://xyquadrat.ch/2020/12/21/isomorphic-groups/" type="text/html"/>
+		<id>https://xyquadrat.ch/2020/12/21/isomorphic-groups/</id>
 		<content type="html">&lt;p&gt;Take a look at the following question: &lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Find a group isomorphic to $\langle \mathbb{Z}_{12}; + \rangle$ other than $\mathbb{Z}_{12}$. (FS19, 3a)&lt;&#x2F;p&gt;
@@ -460,8 +460,8 @@ Thus, the lowest upper bound of $3$ and $6$, so the join, is $6$. As you may rec
 		<title>When is a polynomial ring a field?</title>
 		<published>2020-12-19T00:00:00+00:00</published>
 		<updated>2020-12-19T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2020/12/19/is-polynomial-ring-field/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2020/12/19/is-polynomial-ring-field/</id>
+		<link href="https://xyquadrat.ch/2020/12/19/is-polynomial-ring-field/" type="text/html"/>
+		<id>https://xyquadrat.ch/2020/12/19/is-polynomial-ring-field/</id>
 		<content type="html">&lt;p&gt;Consider the question&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Is $A = \mathbb{Z}_{5}[x]_{x^2+4}$ a field? Prove your answer.&lt;&#x2F;p&gt;
@@ -485,8 +485,8 @@ Clearly, $x^2 + 4$ over $\mathbb{Z}_{5}[x]_{x^2+4}$ does have roots and is there
 		<title>How to find zerodivisors in finite commutative rings</title>
 		<published>2020-12-15T00:00:00+00:00</published>
 		<updated>2020-12-15T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2020/12/15/zerodivisors-in-rings/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2020/12/15/zerodivisors-in-rings/</id>
+		<link href="https://xyquadrat.ch/2020/12/15/zerodivisors-in-rings/" type="text/html"/>
+		<id>https://xyquadrat.ch/2020/12/15/zerodivisors-in-rings/</id>
 		<content type="html">&lt;p&gt;Given a question similar to&lt;&#x2F;p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Find all zerodivisors in the ring $\mathbb{Z}_{25}.$&lt;&#x2F;p&gt;
@@ -500,8 +500,8 @@ Clearly, $x^2 + 4$ over $\mathbb{Z}_{5}[x]_{x^2+4}$ does have roots and is there
 		<title>Why the Shoelace Formula works</title>
 		<published>2020-08-04T00:00:00+00:00</published>
 		<updated>2020-08-04T00:00:00+00:00</updated>
-		<link href="https://staging.xyquadrat.ch/2020/08/04/shoelace-formula/" type="text/html"/>
-		<id>https://staging.xyquadrat.ch/2020/08/04/shoelace-formula/</id>
+		<link href="https://xyquadrat.ch/2020/08/04/shoelace-formula/" type="text/html"/>
+		<id>https://xyquadrat.ch/2020/08/04/shoelace-formula/</id>
 		<content type="html">&lt;p&gt;The formula most people would be thinking of if they are asked to compute the area of a triangle would probably be $A = \frac{1}{2}bh $.
 While this formula is indeed very useful, there are situations where calculating the base and the height of a triangle is non-trivial. It would be quite convenient to have a formula that would compute the area of a triangle purely based on coordinates, wouldn’t it? 
 Of course, much smarter people have already found such a formula in the 18th century (in fact, they found a formula that allows you to find the area for any polygon, not just triangles): $A = {\frac {1}{2}}{\big |}(x_{A}-x_{C})(y_{B}-y_{A})-(x_{A}-x_{B})(y_{C}-y_{A}){\big |}$&lt;&#x2F;p&gt;

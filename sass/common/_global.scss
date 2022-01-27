@@ -1,10 +1,7 @@
-.contributors .content,
+.content,
 .blog .content,
 .page .content,
-.error404 .content,
-.docs.list .content,
-.tutorial.list .content,
-.showcase.list .content {
+.error404 .content {
   padding-top: 1rem;
   padding-bottom: 3rem;
 }
@@ -14,17 +11,12 @@ h2,
 h3,
 h4,
 h5,
-h6,
-.h1,
-.h2,
-.h3,
-.h4,
-.h5,
-.h6 {
+h6 {
   margin: 2rem 0 1rem;
+  line-height: 1.2;
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 768px) {
   body {
     font-size: $font-size-md;
     padding-top: 4rem !important;
@@ -35,13 +27,7 @@ h6,
   h3,
   h4,
   h5,
-  h6,
-  .h1,
-  .h2,
-  .h3,
-  .h4,
-  .h5,
-  .h6 {
+  h6 {
     margin-bottom: 1.125rem;
   }
 }
@@ -76,15 +62,6 @@ a.btn:focus {
   padding-bottom: 1rem;
 }
 
-/*
-.section svg {
-  display: inline-block;
-  width: 2rem;
-  height: 2rem;
-  vertical-align: text-top;
-}
-*/
-
 body {
   padding-top: 3.5625rem;
 }
@@ -93,7 +70,7 @@ body {
   order: 2;
 }
 
-@include media-breakpoint-up(lg) {
+@media (min-width: 992px) {
   .sidebar-filler {
     order: 0;
   }
@@ -109,31 +86,9 @@ body {
   }
 }
 
-@include media-breakpoint-up(xl) {
+@media (min-width: 1200px) {
   .sidebar-filler {
     flex: 0 1 320px;
-  }
-}
-
-.docs-links {
-  padding-bottom: 5rem;
-}
-
-@include media-breakpoint-up(lg) {
-  @supports ((position: -webkit-sticky) or (position: sticky)) {
-    .docs-links {
-      max-height: calc(100vh - 4rem);
-      overflow-y: scroll;
-    }
-  }
-}
-
-@include media-breakpoint-up(lg) {
-  .docs-links {
-    display: block;
-    width: auto;
-    margin-right: -1.5rem;
-    padding-bottom: 4rem;
   }
 }
 
@@ -151,12 +106,7 @@ body {
   }
 }
 
-.docs-content {
-  padding-bottom: 3rem;
-  order: 1;
-}
-
-.docs-navigation, .blog-navigation {
+.blog-navigation {
   margin-top: 2rem;
   margin-bottom: 0;
   padding-top: 2rem;
@@ -166,12 +116,8 @@ body {
   }
 }
 
-.docs-navigation {
-  border-top: 1px solid $gray-200;
-}
-
-@include media-breakpoint-up(lg) {
-  .docs-navigation, .blog-navigation {
+@media (min-width: 992px) {
+  .blog-navigation {
     margin-bottom: -1rem;
 
     a {
@@ -192,38 +138,6 @@ body {
 
 ::selection {
   background: rgba(212, 53, 159, 0.2);
-}
-
-.bg-dots {
-  background-image: radial-gradient($gray-300 15%, transparent 15%);
-  background-position: 0 0;
-  background-size: 1rem 1rem;
-  -webkit-mask: linear-gradient(to top, #fff, transparent);
-  mask: linear-gradient(to top, #fff, transparent);
-  width: 100%;
-  height: 9rem;
-  margin-top: -10rem;
-  z-index: -1;
-}
-
-.bg-dots-md {
-  margin-top: -11rem;
-}
-
-.bg-dots-lg {
-  margin-top: -12rem;
-}
-
-// https://fossheim.io/writing/posts/css-text-gradient/
-.gradient-text {
-  background-color: $primary;
-  background-image: linear-gradient(90deg, $primary, $blue-300 50%, $cyan);
-  background-size: 100%;
-  background-repeat: repeat;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
 }
 
 .katex {

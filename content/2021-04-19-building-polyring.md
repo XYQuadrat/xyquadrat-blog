@@ -3,7 +3,7 @@ template = "blog/page.html"
 title = "Polyring - Building a webring in 2021"
 +++
 
-# A webring? In the 21th century?
+## A webring? In the 21th century?
 
 A few weeks ago, I launched [Polyring](https://xyquadrat.ch/polyring), a webring for ETH Zurich members.  
 
@@ -16,11 +16,11 @@ Link aggregators like Reddit (though much of that spirit has been lost) or Hacke
 
 Alas, let me stop the rambling about _why_ I started a webring ([this blog post by Charlie Owen](https://www.sonniesedge.net/articles/webrings) might also be part of the reason) and instead tell you _how_ I tackled the technical part of the project.
 
-# Open source to the rescue
+## Open source to the rescue
 
 Without putting much time into researching the already existing options I found [this delightful "Webring Starter Kit" by Max Böck](https://github.com/maxboeck/webring). Suppressing my NIH [^1] syndrome, I started customizing the setup to my liking (it didn't take that many changes). I removed a few parts I deemed irrelevant, agonized over a logo together with a colleague from ETH and finally published the site.
 
-# Technical details for those who want them
+## Technical details for those who want them
 
 The Starter Kit mentioned above is based on Eleventy, a static site generator. Despite me never having used it before, it was pretty intuitive and I was able to get up and running quickly, which made me drop my plans to switch the site to Jekyll (which this very blog you are reading runs on) for consistency reason. 
 
@@ -42,7 +42,7 @@ Interested ETH members can add themselves to the ring by making a Pull Request o
 
 Originally, I had one single light-themed widget and said "just build your own if you don't like it". Well, that caused people to make a fully static widget, which meant that their member count and possibly their links would cease to be correct after a new site joined Polyring. I therefore started offering an alternative dark mode widget. Honestly that's not a fully satisfactory solution; it'd be better to have a single parametrized widget that one could easily adapt to any design with a few simple arguments. Luca (gewlar) is working on this, so maybe it'll become reality within the next few days already!
 
-# Members, anyone?
+## Members, anyone?
 
 When I launched the project, it was just me and Oliver Saravanja being part of the (quite empty) ring. Since then, we've grown quite a bit, and have now reached 12 members. All our current members are studying Computer Science at ETH, so we're not quite as diverse as I'd want it to be yet, but at least that means there were less technical problems ;)
 

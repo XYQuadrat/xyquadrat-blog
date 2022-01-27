@@ -9,14 +9,14 @@ A good font choice is essential to a good-looking website. xyquadrat.ch surely w
 
 It... really doesn't fit.
 
-# Actually, it's pretty easy.
+## Actually, it's pretty easy.
 
 So let's assume that you decided to find a nice font for your website; something that fits your style of content and is well readable. This is luckily no longer that much of a challenge - [Google Fonts](https://fonts.google.com) and similar sites have hundreds of different fonts that look great and are free for you to use. In my case, the font I settled on was [Merriweather](https://fonts.google.com/specimen/Merriweather).  
 Google Fonts offers you to include the fonts directly from their CDN, which only requires you to copy-paste the appropriate code into your HTML or CSS (depending on the method you are using). If you do this, then you're done, there's not much to optimize, and you can safely close this tab now.
 
 But maybe that's not what you want to do. At least it was not what I wanted to do; my general credo is: if I can self-host something, I'll self-host it. Also, if you self-host your fonts, you don't need exceptions in your CORS headers. The tidyness of these headers is something (however irrational that may be) I really like.
 
-# Selfhosting it is, then.
+## Selfhosting it is, then.
 
 To self-host the fonts, you'll first want to download the fonts locally. For some weird reason, the standard format for fonts downloaded from Google Fonts is `.ttf`. TTF might be a fine format for local fonts you'd use in a word processor; it surely [isn't well-suited for the web](https://stackoverflow.com/questions/36105194/are-eot-ttf-and-svg-still-necessary-in-the-font-face-declaration/36110385#36110385) though. You should use WOFF2 (and, if you expect to have IE 9 - 11 traffic, WOFF as a fallback) instead. These are basically the compressed versions of TTF, and they are strictly superior to TTF for the web.
 

@@ -16,7 +16,7 @@
   margin-left: 1.25rem;
 }
 
-@include media-breakpoint-up(md) {
+@media (min-width: 992px) {
   #mode {
     margin-right: 0.5rem;
   }
@@ -54,12 +54,7 @@ body.dark .toggle-dark {
   display: none;
 }
 
-@include media-breakpoint-up(md) {
-  .doks-clipboard {
-    position: relative;
-    float: right;
-  }
-
+@media (min-width: 768px) {
   .btn-clipboard {
     position: absolute;
     top: 1rem;
