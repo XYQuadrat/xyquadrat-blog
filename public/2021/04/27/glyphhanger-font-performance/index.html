@@ -1,0 +1,94 @@
+<!doctype html><html lang=en-US><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport><link as=font href=https://staging.xyquadrat.ch/fonts/vendor/jost/jost-v4-latin-regular.woff2 rel=preload type=font/woff2><link as=font href=https://staging.xyquadrat.ch/fonts/vendor/jost/jost-v4-latin-700.woff2 rel=preload type=font/woff2><link href=https://staging.xyquadrat.ch/main.css rel=stylesheet><meta content="index, follow" name=robots><meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name=googlebot><meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name=bingbot><title>Optimizing font file size with glyphhanger | xyquadrat.ch</title><meta content="Blog about software, ETH and life" name=description><link href=https://staging.xyquadrat.ch/2021/04/27/glyphhanger-font-performance/ rel=canonical><script type=application/ld+json>
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://staging.xyquadrat.ch/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "2021",
+            "item": "https://staging.xyquadrat.ch/2021/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "04",
+            "item": "https://staging.xyquadrat.ch/2021/04/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "27",
+            "item": "https://staging.xyquadrat.ch/2021/04/27/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  5 ,
+            "name": "Glyphhanger Font Performance",
+            "item": "https://staging.xyquadrat.ch/2021/04/27/glyphhanger-font-performance/"
+          },
+        
+      
+    
+  }
+</script><meta content=#fff name=theme-color><link href=https://staging.xyquadrat.ch/apple-touch-icon.png rel=apple-touch-icon sizes=180x180><link href=https://staging.xyquadrat.ch/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://staging.xyquadrat.ch/favicon-16x16.png rel=icon sizes=16x16 type=image/png><link href=https://staging.xyquadrat.ch/site.webmanifest rel=manifest><body class="blog single"><div class="header-bar fixed-top"></div><header class="navbar fixed-top navbar-expand-md navbar-light"><div class=container><input class="menu-btn order-0" id=menu-btn type=checkbox><label class="menu-icon d-md-none" for=menu-btn><span class=navicon></span></label><a class="navbar-brand order-1 order-md-0 me-auto" href=https://staging.xyquadrat.ch><img height=48px src=/mono_icon.svg></a><button aria-label="Toggle mode" class="btn btn-link order-2 order-md-4" id=mode type=button><span class=toggle-dark><svg class="feather feather-moon" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span> <span class=toggle-light><svg class="feather feather-sun" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><circle cx=12 cy=12 r=5></circle><line x1=12 x2=12 y1=1 y2=3></line><line x1=12 x2=12 y1=21 y2=23></line><line x1=4.22 x2=5.64 y1=4.22 y2=5.64></line><line x1=18.36 x2=19.78 y1=18.36 y2=19.78></line><line x1=1 x2=3 y1=12 y2=12></line><line x1=21 x2=23 y1=12 y2=12></line><line x1=4.22 x2=5.64 y1=19.78 y2=18.36></line><line x1=18.36 x2=19.78 y1=5.64 y2=4.22></line></svg></span></button><ul class="navbar-nav fork-me order-3 order-md-5"><li class=nav-item><a class=nav-link href=https://github.com/XYQuadrat><svg class="feather feather-github" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a></ul><div class="collapse navbar-collapse order-4 order-md-1"><ul class="navbar-nav main-nav me-auto order-5 order-md-2"><li class=nav-item><a class=nav-link href=https://staging.xyquadrat.ch/#blog>Blog</a><li class=nav-item><a class=nav-link href=https://staging.xyquadrat.ch/and/>A&D</a></ul><div class="break order-6 d-md-none"></div></div></div></header><div class="wrap container" role=document><div class=content><div class="row justify-content-center"><div class="col-md-12 col-lg-10 col-xl-8"><article><div class=blog-header><h1>Optimizing font file size with glyphhanger</h1><p><small>27. April 2021  ‐ <strong>4 min read</strong></small><p></div><p>A good font choice is essential to a good-looking website. xyquadrat.ch surely wouldn’t look even remotely trustworthy if I used Comic Sans, would it?<p><img alt="Screenshot of xyquadrat.ch with Comic Sans" src=/img/polyring_comic_sans.png><p>It… really doesn’t fit.<h1 id=actually-it-s-pretty-easy>Actually, it’s pretty easy.</h1><p>So let’s assume that you decided to find a nice font for your website; something that fits your style of content and is well readable. This is luckily no longer that much of a challenge - <a href=https://fonts.google.com rel=noopener target=_blank>Google Fonts</a> and similar sites have hundreds of different fonts that look great and are free for you to use. In my case, the font I settled on was <a href=https://fonts.google.com/specimen/Merriweather rel=noopener target=_blank>Merriweather</a>.<br> Google Fonts offers you to include the fonts directly from their CDN, which only requires you to copy-paste the appropriate code into your HTML or CSS (depending on the method you are using). If you do this, then you’re done, there’s not much to optimize, and you can safely close this tab now.<p>But maybe that’s not what you want to do. At least it was not what I wanted to do; my general credo is: if I can self-host something, I’ll self-host it. Also, if you self-host your fonts, you don’t need exceptions in your CORS headers. The tidyness of these headers is something (however irrational that may be) I really like.<h1 id=selfhosting-it-is-then>Selfhosting it is, then.</h1><p>To self-host the fonts, you’ll first want to download the fonts locally. For some weird reason, the standard format for fonts downloaded from Google Fonts is <code>.ttf</code>. TTF might be a fine format for local fonts you’d use in a word processor; it surely <a href=https://stackoverflow.com/questions/36105194/are-eot-ttf-and-svg-still-necessary-in-the-font-face-declaration/36110385#36110385 rel=noopener target=_blank>isn’t well-suited for the web</a> though. You should use WOFF2 (and, if you expect to have IE 9 - 11 traffic, WOFF as a fallback) instead. These are basically the compressed versions of TTF, and they are strictly superior to TTF for the web.<p>So you’ll have to convert the <code>.ttf</code> to the appropriate formats. And if you’re already at it, you could also get your hands dirty and optimize the size of your font a bit more. (Before optimization, my fonts were usually the biggest chunk of my site, of course especially for text-only posts.) To do this, you can use the awesome tool <code>glyphhanger</code>. (You can <a href=https://github.com/zachleat/glyphhanger rel=noopener target=_blank>install it via <code>npm</code></a>. It’s quite heavyweight since it uses <code>puppeteer</code>, but it excels at its job.)<p>Then, you can easily convert the <code>.tff</code> to a <code>.woff</code> and <code>.woff2</code> file with <code>glyphhanger --formats=woff,woff2 &LTinput file></code>. But that still leaves files that contain quite a lot of unneeded information - namely unnecessary symbols (or more precisely glyphs). For example, the myriad of accents used in Eastern Europe and other weird Unicode ranges that you’ll probably never use are still in there. You can easily get rid of those by <em>subsetting</em> your fonts with <code>glyphhanger</code>. If you only need “normal” Latin characters, <code>glyphhanger --LATIN --formats=woff,woff2 --css &LTinput file></code> will both subset the fonts appropriately and also generate a <code>@font-face</code> CSS declaration that’s ready to use.<p>Personally, I managed to reduce the data transferred for my fonts from <strong>180KB</strong> to <strong>70KB</strong> - certainly a nice improvement that Google PageSpeed Insights also liked. There is one significant downside with this approach: If you selfhost your fonts, the browser cannot use a cached version of the font. With the very common web fonts such as Lato, Open Sans or Roboto, this might lead to a net increase in bandwith usage. Since few sites use Merriweather as their font, this is much less of a concern for my setup, and thus I’ll continue to selfhost my fonts, for better or worse.</article></div></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a href=https://www.getzola.org/>Zola</a></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline><li class=list-inline-item>Proudly part of the <a href=https://polyring.ch>Polyring blogging network.</a></ul></div></div></div></footer><script defer src=https://staging.xyquadrat.ch/js/main.js></script>

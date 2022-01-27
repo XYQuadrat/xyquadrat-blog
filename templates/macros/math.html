@@ -1,0 +1,8 @@
+{% macro math() %}
+  {% if page.extra.math or section.extra.math or config.extra.math %}
+      <link rel="stylesheet" href="/katex/katex.min.css" crossorigin="anonymous">
+      <script defer src="/katex/katex.min.js" crossorigin="anonymous"></script>
+      <script defer src="/katex/auto-render.min.js" crossorigin="anonymous"></script>
+      <script defer src="/katex/render-onload.js" crossorigin="anonymous"></script>
+  {% endif %}
+{% endmacro %}

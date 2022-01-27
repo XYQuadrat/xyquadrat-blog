@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+	<title>xyquadrat.ch</title>
+	<subtitle>Blog about software, ETH and life</subtitle>
+	<link href="https://staging.xyquadrat.ch/atom.xml" rel="self" type="application/atom+xml"/>
+  <link href="https://staging.xyquadrat.ch"/>
+	<generator uri="https://www.getzola.org/">Zola</generator>
+	<updated>2021-12-23T00:00:00+00:00</updated>
+	<id>https://staging.xyquadrat.ch/atom.xml</id>
+	<entry xml:lang="en">
+		<title>ETH D-INFK Ersti Exam FAQ</title>
+		<published>2021-12-23T00:00:00+00:00</published>
+		<updated>2021-12-23T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/12/23/eth-exam-faq/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/12/23/eth-exam-faq/</id>
+		<content type="html">&lt;p&gt;Note: This is not an official resource. The content here is tailored for the semester HS21 and might not be up-to-date for other years. Also, lots of the points raised here are common sense, but maybe it still helps someone.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;in-which-subjects-am-i-allowed-to-bring-cheatsheets&quot;&gt;In which subjects am I allowed to bring cheatsheets?&lt;&#x2F;h3&gt;
+&lt;p&gt;You may bring a handwritten (that is, either on paper or digitally with a tablet) cheatsheet of 6 pages in Discrete Mathematics and 12 pages in Linear Algebra. For Algorithms &amp;amp; Datastructures and Introduction to Programming, no cheatsheet is allowed.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;i-haven-t-started-writing-my-cheatsheets-yet-am-i-in-trouble&quot;&gt;I haven’t started writing my cheatsheets yet. Am I in trouble?&lt;&#x2F;h3&gt;
+&lt;p&gt;If you’re reading this before New Year’s Eve, no. Writing the cheatsheets takes quite a lot of time, especially in Discrete Mathematics. But since it can also serve as a repetition, you should be fine - the majority of students only starts writing cheatsheets in Lernphase. Don’t begin writing just the week before the exams though!&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;can-i-copy-another-cheatsheet-and-save-some-time&quot;&gt;Can I copy another cheatsheet and save some time?&lt;&#x2F;h3&gt;
+&lt;p&gt;In Discrete Mathematics the requirement is explicitly “selbstverfasst”, whereas in Linear Algebra there is no such requiremen. Honestly, it’s basically impossible for the examiners to control that. Still, the main value you get from a cheatsheet is not looking up lemmas during the test, but being forced to condense your knowledge of the subject onto a limited amount of paper. As such, copying a cheatsheet won’t be very effective.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;the-eprog-and-a-d-exams-are-incredibly-long-on-mystudies-why&quot;&gt;The eProg and A&amp;amp;D exams are incredibly long on myStudies. Why?&lt;&#x2F;h3&gt;
+&lt;p&gt;These exams will most likely have to be conducted in two separate groups. The first group will write the exam, then have to go another room and wait there for a while, whilst the second group starts to take the exam. This is due to the large number of registered students, and the limited capacity of computers available for examination at ETH.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;how-much-should-i-study-per-day-in-lernphase&quot;&gt;How much should I study per day in Lernphase?&lt;&#x2F;h3&gt;
+&lt;p&gt;An exact number of hours is hard to give, since the level of knowledge of students varies widely. Instead, the author prefers to give an upper bound: He believes that studying more than 6 hours a day is a bad idea; for the following reasons:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;The Lernphase is quite long. Overworking yourself will likely lead to a burnout.&lt;&#x2F;li&gt;
+&lt;li&gt;It is much more effective to distribute your study time over multiple days than to cram more on a single day.&lt;&#x2F;li&gt;
+&lt;li&gt;Very few students can learn in a concentrated, focused way for 6h (that means no distractions, no daydreaming, etc.). If you are such a student, you really don’t need any of my advice.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;do-i-need-to-study-every-day&quot;&gt;Do I need to study every day?&lt;&#x2F;h3&gt;
+&lt;p&gt;&lt;strong&gt;No.&lt;&#x2F;strong&gt; Quite the opposite - do not study every day, take a day per week off! Try to relax as much as possible on that day, so that you can recharge your batteries and be ready for another week of studying.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;should-i-rewatch-all-lectures&quot;&gt;Should I rewatch all lectures?&lt;&#x2F;h3&gt;
+&lt;p&gt;That’s a bad idea. It will take up a lot of time and you will probably not benefit that much.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;okay-what-should-i-do-then-instead&quot;&gt;Okay, what should I do then instead?&lt;&#x2F;h3&gt;
+&lt;p&gt;(This is only one of multiple possible approaches.) Focus on solving old exams. You can find lots of them on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;exams.vis.ethz.ch&quot;&gt;exams.vis.ethz.ch&lt;&#x2F;a&gt;. When you realize you can’t solve an exam task because you just don’t understand the topic, reread the script and&#x2F;or rewatch the relevant lecture. In addition, try re-solving the exercises from that topic.&lt;&#x2F;p&gt;
+&lt;p&gt;If you’re stuck, ask for help, in the respective Discord channel, in your study group if you have one or mail your TA. On the other hand, if you feel comfortable in a subject, try answering these questions. Being able to explain content to others means you really understood it.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;what-should-i-do-on-the-day-of-the-exam&quot;&gt;What should I do on the day of the exam?&lt;&#x2F;h3&gt;
+&lt;p&gt;Relax. You won’t suddenly learn everything you didn’t have time to understand on the day of the exam. Go to sleep early the day before; being well rested is crucial for delivering your best possible performance. Make sure you have all necessary things with you:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;pens (not just one, in case a pen breaks)&lt;&#x2F;li&gt;
+&lt;li&gt;your Legi&lt;&#x2F;li&gt;
+&lt;li&gt;the cheatsheet (if applicable)&lt;&#x2F;li&gt;
+&lt;li&gt;water&lt;&#x2F;li&gt;
+&lt;li&gt;some small snacks&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;At the risk of stating the obvious: Be there early enough.&lt;&#x2F;p&gt;
+&lt;h3 id=&quot;where-can-i-find-summaries-from-other-people&quot;&gt;Where can I find summaries from other people?&lt;&#x2F;h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;rwgs.ch&quot;&gt;rwgs.ch (all subjects)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;azurios.gitlab.io&#x2F;page&#x2F;summaries&#x2F;&quot;&gt;azurios.gitlab.io&#x2F;page&#x2F;summaries (A&amp;amp;D, eProg)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;n.ethz.ch&#x2F;%7Edcamenisch&#x2F;&quot;&gt;n.ethz.ch&#x2F;~dcamenisch (all subjects)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;soelmicheletti&#x2F;ETH-Summaries&quot;&gt;github.com&#x2F;soelmicheletti&#x2F;ETH-Summaries (A&amp;amp;D)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;XYQuadrat&#x2F;eth-cheatsheets&#x2F;releases&quot;&gt;github.com&#x2F;xyquadrat&#x2F;eth-cheatsheets (A&amp;amp;D graph terminology)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;polybox.ethz.ch&#x2F;index.php&#x2F;s&#x2F;QhWTuF2oIEq3eY3?path=%2F1.%20Semestre&quot;&gt;polybox by n.cavallini (italian summaries: DM, LinAlg)&lt;&#x2F;a&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h3 id=&quot;will-i-pass&quot;&gt;Will I pass?&lt;&#x2F;h3&gt;
+&lt;p&gt;I don’t know, but I hope so! The Basisprüfung at ETH is tough, and Computer Science isn’t the easiest study program either. With that in mind, let me remind you of two things:&lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;If you made it until here, you already accomplished a lot. Of course this is easy to say as someone that passed, but it really is true. Be proud that you didn’t already quit.&lt;&#x2F;li&gt;
+&lt;li&gt;Your BP grade does not define you as a person. First, after you completed your studies and start working somewhere, nobody cares about your Basisprüfung anymore (much earlier than that already, probably). Second, &lt;em&gt;you are not your grades&lt;&#x2F;em&gt;.&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;h3 id=&quot;i-feel-really-overwhelmed-or-i-am-in-a-bad-spot-mentally-what-to-do&quot;&gt;I feel really overwhelmed or I am in a bad spot mentally. What to do?&lt;&#x2F;h3&gt;
+&lt;p&gt;It’s super important that you get help. You don’t have to and shouldn’t go through a difficult time alone. ETH offers various ways to support you. One great option is the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.nightline.ch&quot;&gt;Nightline&lt;&#x2F;a&gt;. You can call or chat with them most of the time throughout the week, and it’s fully anonymous. They aren’t professionals though. If you feel professional help is needed, do not hesitate to contact the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.pbs.uzh.ch&#x2F;de.html&quot;&gt;Psychologische Beratungsstelle&lt;&#x2F;a&gt;. There are also further options listed on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ethz.ch&#x2F;studierende&#x2F;de&#x2F;beratung&#x2F;studium-und-gesundheit&#x2F;kontakte-gesundheit.html&quot;&gt;this page&lt;&#x2F;a&gt;. Again, please take care of yourself and do not wait for too long until you seek external help &amp;amp; advice.&lt;&#x2F;p&gt;
+&lt;p&gt;(This paragraph was taken from the &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;infk-faq.html&quot;&gt;Erstis FAQ&lt;&#x2F;a&gt;.)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Good luck with your exams!&lt;&#x2F;strong&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>My experience as a Teaching Assistant at ETH</title>
+		<published>2021-12-17T00:00:00+00:00</published>
+		<updated>2021-12-17T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/12/17/teaching-assistant-experiences/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/12/17/teaching-assistant-experiences/</id>
+		<content type="html">&lt;p&gt;This semester I’ve been teaching the course “Algorithms &amp;amp; Datastructures” at ETH for the first time as a Teaching Assistant. That means that every week, I’d lead an exercise session with about 25 people where I would explain the exercises, recap some theory and highlight common pitfalls. In addition, I would correct and grade bonus exercises. Here’s what I learnt, how I liked it, and what I’d do differently if I did it again (which I might, who knows!).&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;classroom-teaching&quot;&gt;Classroom teaching&lt;&#x2F;h1&gt;
+&lt;p&gt;Teaching is fun! I already thought beforehand that standing in front of a group of students and trying to get my point across would be something I like; especially given that I’ve been playing with the thought of becoming a part-time teacher at high school level after ETH for a while. And now, after a semester of actually teaching, I can conclude that I indeed do enjoy giving lessons, and that the “aha”-moments of my students had made the challenges of explaining well worth it.&lt;&#x2F;p&gt;
+&lt;p&gt;I also have seen how it’s critical to strike the balance between preparing every detail of your lesson and improvising everything. Sometimes it’s possible to walk into the room having barely looked at the exercises and hold a good, (hopefully) helpful two hour lesson nearly without any preparation. But then again that can easily come back and bite you; I distinctly remember a moment where a student was asking me to explain a more challenging exercise, I said “Yeah, sure”, started doing it and got lost halfway through. No one paid attention anymore, and I had to regretfully end the lesson not having explained the exercise.&lt;&#x2F;p&gt;
+&lt;p&gt;At the same time, the semester confirmed what I had already thought to be true earlier on: to be a good Teaching Assistant, it’s not necessary to know &lt;em&gt;everything&lt;&#x2F;em&gt;. It’s fine to not have an answer immediately, and it’s also fine to be wrong (at least occasionally).&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;correcting-exercises&quot;&gt;Correcting exercises&lt;&#x2F;h1&gt;
+&lt;p&gt;Ugh. I don’t like correcting stuff. Of course I know that it’s required, and that a good correction can be very helpful. But the hours I spent every week on wading through proofs that ranged from basically perfect to me barely understanding the idea after multiple perusals weren’t exactly enjoyable.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;and_unreadable_solution.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Ah yes. My students were the best, absolutely, but sometimes a slightly cleaner solution wouldn’t have hurt.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;a-note-on-kahoots&quot;&gt;A note on Kahoots&lt;&#x2F;h1&gt;
+&lt;p&gt;In 2021, seemingly no lecture or exercise session can avoid using the omnipresent quiz platform &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;kahoot.com&quot;&gt;Kahoot&lt;&#x2F;a&gt;. Now see, I get it. It’s fun to compete and win, and it’s great to activate all students instead of only hearing from the select few that are brave enough to raise their hand. But honestly, I really don’t like Kahoot. First, they aggressively try to upsell you on a hundred different subscriptions, and they at one point just forbid me to host a quiz for more than 10 players, requiring me to pretend to be a K-12 teacher. (Oh, and don’t get me started on them recommending &lt;em&gt;wonderful&lt;&#x2F;em&gt; “Elsa in Frozen 2” quizzes to me.) But more importantly, I think that &lt;strong&gt;Kahoots are not a good didactic tool&lt;&#x2F;strong&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;The simple reason for that is the fact that the best way to win a quiz is not by thinking thoroughly about your answer but to click as fast as possible once you have a decent guess. That’s neither how the exams nor real life works. As such, you can easily win a Kahoot even if others have more correct answers in total, and that makes Kahoots unrepresentative of actual student performance, which is &lt;em&gt;exactly&lt;&#x2F;em&gt; what you as a teacher want to know.&lt;&#x2F;p&gt;
+&lt;p&gt;Anyways. Rant over.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;organizational-matters&quot;&gt;Organizational matters&lt;&#x2F;h1&gt;
+&lt;p&gt;Eh, fine. I would have appreciated knowing which exercises will come next in advance, so that I could tell students what I want see in their approach. Oh, and it turns out that an actual grading scheme that includes how one should grade common errors would be very helpful. But I get that this requires a lot of work, so I don’t think it’s unreasonable not to do that.&lt;&#x2F;p&gt;
+&lt;p&gt;Ah, and I always got paid on time (in contrast to other subjects where this can take multiple months… Parallel Programming, I’m looking at you).&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;what-i-would-change&quot;&gt;What I would change&lt;&#x2F;h1&gt;
+&lt;p&gt;I’m not certain it’s sensible to always discuss all bonus exercises. We were explicitly told by the Head TA to do so and to also discuss most non-bonus exercises, but due to the large gap of skill (some people solved the exercises without any problems and are bored when explaining, whereas others didn’t even try and thus don’t benefit either) I think it might make more sense to focus more on theory recaps.&lt;&#x2F;p&gt;
+&lt;p&gt;I’d like to have some sort of more direct channel of communication with my students. It’d be great to have students tell me in advance what they haven’t understood yet, because then I can actually prepare these topics.&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, I believe there are still a lot of potential synergies among us TAs that we could use to lower our work load and improve our lessons - sharing notes, additional resources, explanations on solutions, etc. (Ah, you can find some of my stuff on &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;and&quot;&gt;xyquadrat.ch&#x2F;and&lt;&#x2F;a&gt;, by the way.)&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;closing-thoughts&quot;&gt;Closing thoughts&lt;&#x2F;h1&gt;
+&lt;p&gt;Teaching, even if in a small setting like in my case, is very fulfilling. It’s great to see students understand something because you were able to get your point across. A great TA can make a course easy, whilst a bad one can rob you of all your motivation to study. Whilst I might not have been the best or even a great TA, given that I still had about as many people in my session at the end of the semester as in the beginning, I think I’m also not that bad. And that’s pretty cool, honestly.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Running an appropriately sophisticated Minecraft server in 2021</title>
+		<published>2021-12-13T00:00:00+00:00</published>
+		<updated>2021-12-13T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/12/13/running-vanilla-minecraft-in-2021/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/12/13/running-vanilla-minecraft-in-2021/</id>
+		<content type="html">&lt;p&gt;Even more than a decade after its release, Minecraft continues to be popular and receives regular updates.
+A healthy modding community (if we conveniently ignore debates about Forge versus Fabric) produces a steady stream of huge modpacks that use Minecraft merely as a game engine to build their own experiences on top. But sometimes, all you want is to play good old Vanilla Minecraft, go farm some diamonds and be happy if you manage to build a house that looks better than a dirt block.&lt;&#x2F;p&gt;
+&lt;p&gt;From the perspective of a server admin, things have changed in the last years, though much of the improvements that have been made have never reached a large 
+number of servers. I want to give a concise overview of what the best options (in my view) for various aspects of running a server in 2021 are.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;minecraft_screenshot.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;hardware&quot;&gt;Hardware&lt;&#x2F;h1&gt;
+&lt;p&gt;No hardware, no server. Realistically speaking, you’ll want to have something with the at very least 1GB of RAM. Even that will not be a very pleasant experience if you have more than 2-3 players. At 4GB+ we’re starting to get into the reasonable territory, with about 8GB being a good choice for up to about 20 players and a modest set of plugins. More than that doesn’t hurt, of course. In terms of CPU power, single threaded performance matters more than additional cores, but as a rule of thumb: anything that can run Minecraft decently as a client can also run it as a server.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;operating-system&quot;&gt;Operating System&lt;&#x2F;h1&gt;
+&lt;p&gt;Just use some flavor of Linux. Ubuntu Server Edition or Debian are solid choices. I would not recommend using graphical desktop environments (unnecessary loss of performance) or Windows &#x2F; MacOS - these really aren’t meant to be server operating systems, and their server variants are on life support at best.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;server-implementation&quot;&gt;Server implementation&lt;&#x2F;h1&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;paper-logo.svg&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Originally, you would be using the offically provided server binary from Mojang, but these days are long gone. Spigot with their extensive plugin support was a great choice for a long time, but by now most new setups have moved on to &lt;strong&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;papermc.io&#x2F;&quot;&gt;Paper&lt;&#x2F;a&gt;&lt;&#x2F;strong&gt;, a fork with better performance and plugin compatibility. &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;velocitypowered.com&#x2F;&quot;&gt;There&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;PatinaMC&#x2F;Patina&quot;&gt;are&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pufferfish-gg&#x2F;Pufferfish&quot;&gt;numerous&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;airplane.gg&#x2F;&quot;&gt;other&lt;&#x2F;a&gt; &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;YatopiaMC&#x2F;Yatopia&quot;&gt;forks&lt;&#x2F;a&gt;, in fact there are so many of them that &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;forks.smhsmh.club&#x2F;img.png#v=1&quot;&gt;someone created a Forkception image listing only a select few of them&lt;&#x2F;a&gt; to show how messy the landscape is. Really the only other significant fork&#x2F;project I’d consider apart from Paper is &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;purpurmc.org&#x2F;&quot;&gt;Purpur&lt;&#x2F;a&gt; which has a million config tweaks (including some that make every mob rideable…) - but given that I personally don’t need those, I stick with Paper. Most forks either have a tiny community, include patches that break plugins &#x2F; expected behavior or have a questionable code quality.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;plugins&quot;&gt;Plugins&lt;&#x2F;h1&gt;
+&lt;p&gt;In principle, just running a Paper server without anything is already enough, and some will be happy with such a setup. But most server populations demand &lt;em&gt;some&lt;&#x2F;em&gt; amount of plugins, for example because &lt;del&gt;they aren’t good enough at the game to survive a night on Hard&lt;&#x2F;del&gt; they don’t want to require everyone to sleep to skip the night, or because they want permissions to &lt;code&gt;&#x2F;tp&lt;&#x2F;code&gt; but you’d (rightfully) prefer not to give everyone OP rights. Personally, I like to roll with these four plugins:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;essentialsx.net&#x2F;&quot;&gt;EssentialsX&lt;&#x2F;a&gt; has a nice selection of “a bit of everything”, including warps and convenience features such as &lt;code&gt;&#x2F;otp&lt;&#x2F;code&gt; that teleports you to offline players.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;luckperms.net&#x2F;&quot;&gt;LuckPerms&lt;&#x2F;a&gt; is the permissions plugin of my choice. Maybe make a &lt;code&gt;trusted&lt;&#x2F;code&gt; group that has access to teleporting and then some &lt;code&gt;moderators&lt;&#x2F;code&gt; that can change their gamemode? Whatever permissions you want to hand out, LuckPerms probably covers them. (Tip: You can find the EssentialsX permission list &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;essinfo.xeya.me&#x2F;permissions.html&quot;&gt;on this handy site&lt;&#x2F;a&gt;.)&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;mrgeneralq&#x2F;sleep-most&quot;&gt;sleep-most&lt;&#x2F;a&gt; is a simple but very customizable sleep skipping plugin. It does one thing, and it does it well.&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.spigotmc.org&#x2F;resources&#x2F;vault.34315&#x2F;&quot;&gt;Vault&lt;&#x2F;a&gt; is just an API for Permissions &#x2F; Chat &#x2F; Economy, but some features of EssentialsX need it.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;tweaking-performance&quot;&gt;Tweaking performance&lt;&#x2F;h1&gt;
+&lt;p&gt;Just Paper on a reasonably fast server should already provide a good experience for your players. But there are lots of improvements you can make to enhance performance. There’s an &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;YouHaveTrouble&#x2F;minecraft-optimization&quot;&gt;excellent extensive guide on optimization&lt;&#x2F;a&gt; by YouHaveTrouble. To save you some reading, here are the 3 most important things to change:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Use the Java startup flags by Aikar (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;blog.airplane.gg&#x2F;aikar-flags&#x2F;&quot;&gt;here’s a handy generator&lt;&#x2F;a&gt;). Quite a bit of testing has went into these flags, and they are widely accepted to be the gold standard (until ZGC, a comparatively new garbage collector, becomes mature enough).&lt;&#x2F;li&gt;
+&lt;li&gt;Pregenerate your chunks. &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;pop4959&#x2F;Chunky&quot;&gt;Chunky&lt;&#x2F;a&gt; makes this very easy. This helps a ton in my experience, especially when there are multiple players exploring the world.&lt;&#x2F;li&gt;
+&lt;li&gt;If you run a redstone-heavy server, you’ll benefit a lot by setting &lt;code&gt;use-faster-eigencraft-redstone: true&lt;&#x2F;code&gt; in your &lt;code&gt;paper.yml&lt;&#x2F;code&gt; which enables an alternative implementation of the redstone logic that is much more performant.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;miscellaneous-things&quot;&gt;Miscellaneous things&lt;&#x2F;h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;tmux&lt;&#x2F;code&gt; is helpful because otherwise the server will stop when disconnecting over SSH.&lt;&#x2F;li&gt;
+&lt;li&gt;Consider using a whitelist or WorldGuard to protect your server against griefing.&lt;&#x2F;li&gt;
+&lt;li&gt;Ask your players what they want. Unless you’re a dictator.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;h1 id=&quot;backups&quot;&gt;Backups&lt;&#x2F;h1&gt;
+&lt;p&gt;See, it’s kind of a mistake to put this at the very bottom. Backups are important. When your server crashes and the world save is corrupted, your players won’t like hearing that the life-sized recreation of Atlantis that they’ve been working on for weeks is irrevocably lost. There is a myriad of options for backing up stuff, from simple Bash scripts that make a &lt;code&gt;.zip&lt;&#x2F;code&gt; file to enterprise-grade redundant systems. I personally really like &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;torsion.org&#x2F;borgmatic&#x2F;&quot;&gt;&lt;code&gt;borgmatic&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;, which is a friendly interface to &lt;code&gt;borgbackup&lt;&#x2F;code&gt;. Throw their systemd unit file in the right folder, set the timer to once per day when everyone is sleeping, and you’re good to go.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;future-areas-of-work&quot;&gt;Future areas of work&lt;&#x2F;h1&gt;
+&lt;p&gt;Two big things are missing here:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;Autorestarting your server after a crash or power outage&lt;&#x2F;li&gt;
+&lt;li&gt;Monitoring and alerting (preferably selfhosted)&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;I’ll be back with another blog post once I got those set up the way I like it.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Reading files in Zig for Advent of Code</title>
+		<published>2021-12-01T00:00:00+00:00</published>
+		<updated>2021-12-01T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/12/01/reading-files-in-zig/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/12/01/reading-files-in-zig/</id>
+		<content type="html">&lt;p&gt;&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ziglang.org&quot;&gt;Zig&lt;&#x2F;a&gt; is a lovely low-level language I’ve recently learned about, and what better way is there to learn a new language than to use it to solve &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;adventofcode.com&quot;&gt;Advent of Code&lt;&#x2F;a&gt; problems. Alas, I set out on solving the technically very easy first task, managing to complete it in less than 15 minutes.&lt;&#x2F;p&gt;
+&lt;p&gt;Or so I thought. Whilst I did have a rough idea of Zig’s syntax, and I had no problem writing loops or functions, I conveniently overlooked the issue of getting the input into my program. For reference, Day 1 had a list of integers as input; nothing difficult to parse per se. But my unfamiliarity with Zig led to serious problems when I tried to read said list of integers into an array.&lt;&#x2F;p&gt;
+&lt;p&gt;I’ve tried various solutions, some of which seem deprecated whilst others should in theory work but I must have made mistakes whilst implementing them (I got lots of type mismatch errors), because it took me 45 minutes of trying before a helpful tip from a colleague that also decided to do AoC in Zig finally got me to a working snippet of code. (Once I had the input parsed, the two tasks were indeed easy and I managed to solve both of them within a few minutes.) To possibly spare someone else this frustrating process, the actual working code is as follows:&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;zig&quot; style=&quot;background-color:#2b303b;color:#c0c5ce;&quot; class=&quot;language-zig &quot;&gt;&lt;code class=&quot;language-zig&quot; data-lang=&quot;zig&quot;&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;const&lt;&#x2F;span&gt;&lt;span&gt; std = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;@import&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;std&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;const&lt;&#x2F;span&gt;&lt;span&gt; data = &lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;@embedFile&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;&#x2F;path&#x2F;to&#x2F;file&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;pub fn &lt;&#x2F;span&gt;&lt;span style=&quot;color:#8fa1b3;&quot;&gt;main&lt;&#x2F;span&gt;&lt;span&gt;() !&lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;void &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;var&lt;&#x2F;span&gt;&lt;span&gt; lines = std.mem.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;tokenize&lt;&#x2F;span&gt;&lt;span&gt;(u8, data, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#96b5b4;&quot;&gt;\n&lt;&#x2F;span&gt;&lt;span style=&quot;color:#a3be8c;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;while&lt;&#x2F;span&gt;&lt;span&gt;(lines.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;next&lt;&#x2F;span&gt;&lt;span&gt;()) |line| {
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;var &lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;x &lt;&#x2F;span&gt;&lt;span&gt;: &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;i64 &lt;&#x2F;span&gt;&lt;span&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#b48ead;&quot;&gt;try&lt;&#x2F;span&gt;&lt;span&gt; std.fmt.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bf616a;&quot;&gt;parseInt&lt;&#x2F;span&gt;&lt;span&gt;(i64, line, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#d08770;&quot;&gt;10&lt;&#x2F;span&gt;&lt;span&gt;);
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#65737e;&quot;&gt;&#x2F;&#x2F; do something with x, e.g. append to an ArrayList
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Remark: This solution embeds the contents of the file into the actual binary. This is not an issue at all for Advent of Code, but may very well not be the desired behavior for general file I&#x2F;O.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Getting PHP to work in subfolders with nginx</title>
+		<published>2021-10-21T00:00:00+00:00</published>
+		<updated>2021-10-21T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/10/21/nginx-php-subfolder/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/10/21/nginx-php-subfolder/</id>
+		<content type="html">&lt;p&gt;If you have &lt;code&gt;nginx&lt;&#x2F;code&gt; as your reverse proxy of choice (like I do) and you for one reason or the other have to run PHP code on your website, you might have a configuration in your nginx config file like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;location ~ \.php$ {
+&lt;&#x2F;span&gt;&lt;span&gt;    include &#x2F;etc&#x2F;nginx&#x2F;snippets&#x2F;fastcgi-php.conf;
+&lt;&#x2F;span&gt;&lt;span&gt;    # or php7.x if you use old versions of PHP
+&lt;&#x2F;span&gt;&lt;span&gt;    fastcgi_pass unix:&#x2F;run&#x2F;php&#x2F;php8.0-fpm.sock; 
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;which works nice and dandy as long as your PHP code is not in a subfolder. But that occurs fairly often, and when it happens, the .php file won’t get passed to &lt;code&gt;php-fpm&lt;&#x2F;code&gt; and thus only displays as a text file. Not nice. To correct this, you can just have another similar block nested inside the subfolder config block, like this:&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;location ~ &#x2F;subfolder&#x2F; {
+&lt;&#x2F;span&gt;&lt;span&gt;    root &#x2F;folderroot;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span&gt;    location ~ \.php$ {
+&lt;&#x2F;span&gt;&lt;span&gt;        include &#x2F;etc&#x2F;nginx&#x2F;snippets&#x2F;fastcgi-php.conf;
+&lt;&#x2F;span&gt;&lt;span&gt;        fastcgi_param SCRIPT_FILENAME $request_filename;
+&lt;&#x2F;span&gt;&lt;span&gt;        # or php7.x if you use old versions of PHP
+&lt;&#x2F;span&gt;&lt;span&gt;        fastcgi_pass unix:&#x2F;run&#x2F;php&#x2F;php8.0-fpm.sock;
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;and that should make PHP work in these subfolders too, because &lt;code&gt;php-fpm&lt;&#x2F;code&gt; will correctly pick up those requests. How delightful (or not, depending on your stance towards PHP).&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Announcing the Polyring Blogging Challenge</title>
+		<published>2021-09-19T00:00:00+00:00</published>
+		<updated>2021-09-19T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/09/19/announcing-polyring-challenge/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/09/19/announcing-polyring-challenge/</id>
+		<content type="html">&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;polyring_banner.png&quot; alt=&quot;Polyring banner&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Fellow Polyring members: Do you have a blog, but you only have two or three posts? Do you, like me, write something only once every month or so? Would you like to blog more, but just haven’t gotten around to it? Then maybe you should join the new Polyring Blogging Challenge! Throughout the coming semester at ETH, your challenge is to make at least &lt;strong&gt;10&lt;&#x2F;strong&gt; blog posts in the &lt;strong&gt;14&lt;&#x2F;strong&gt; weeks of the semester. And, of course, if you do so, you get a fancy prize.&lt;&#x2F;p&gt;
+&lt;p&gt;The rules are simple:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;You must be a member of Polyring to participate. (You can join at &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;polyring.ch&quot;&gt;polyring.ch&lt;&#x2F;a&gt;, if you haven’t yet.)&lt;&#x2F;li&gt;
+&lt;li&gt;You have to make at least 10 blog posts until 24.12.2021, 23:59.&lt;&#x2F;li&gt;
+&lt;li&gt;Particularily high quality posts such as &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;lukas-moeller.ch&#x2F;blog&#x2F;a-small-intro-to-ts&quot;&gt;this introduction to TypeScript by Lukas Möller&lt;&#x2F;a&gt; count as 3 blog posts. That means that 1 high quality post per month nearly gets you there, too. I decide what falls into this category.&lt;&#x2F;li&gt;
+&lt;li&gt;“Hello world”-esque posts do not count.&lt;&#x2F;li&gt;
+&lt;li&gt;If you complete the challenge, you’ll get an exclusive sticker (design not finalized yet) and a &lt;em&gt;very&lt;&#x2F;em&gt; exquisite bar of chocolate (Choba Choba Spicy Strawberry, if you wanna know). Details on how that’ll be distributed will follow later.&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;You can blog about anything, really. Tell the world what you are learning at ETH, show off your pet projects, ramble about technology and society… There are no limitations.&lt;&#x2F;p&gt;
+&lt;p&gt;I hope that this will cultivate lots of great content, and will be a fun experience for everyone that participates.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Solving a simple linearizability problem</title>
+		<published>2021-07-06T00:00:00+00:00</published>
+		<updated>2021-07-06T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/07/06/linearizable/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/07/06/linearizable/</id>
+		<content type="html">&lt;p&gt;Let us tackle the following problem: &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Give a two-thread history that is sequentially consistent, but not linearizable. Use a single atomic register &lt;code&gt;r&lt;&#x2F;code&gt; that initially contains the value zero and supports the operations &lt;code&gt;read()&lt;&#x2F;code&gt; and &lt;code&gt;write()&lt;&#x2F;code&gt;. (HS20)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;To be able to solve this, we must recall what it means for a history to be &lt;em&gt;sequentially consistent&lt;&#x2F;em&gt; and what it means to be &lt;em&gt;linearizable&lt;&#x2F;em&gt;. &lt;&#x2F;p&gt;
+&lt;ol&gt;
+&lt;li&gt;A history H is &lt;em&gt;sequentially consistent&lt;&#x2F;em&gt; if it can be extended to a history G that is equivalent to a legal sequential history S by &lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;appending zero or more responses to pending invocations that took effect and &lt;&#x2F;li&gt;
+&lt;li&gt;discarding zero or more pending invocations that did not take effect&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol start=&quot;2&quot;&gt;
+&lt;li&gt;A history H is &lt;em&gt;linearizable&lt;&#x2F;em&gt; if it can be extended to a history G that is equivalent to a legal sequential history S with $\to_G \subset \to_S$ by:&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;ul&gt;
+&lt;li&gt;appending zero or more responses to pending invocations that took effect and &lt;&#x2F;li&gt;
+&lt;li&gt;discarding zero or more pending invocations that did not take effect&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;These two definitions are very similar. The additional constraint that linearizability brings to the table is that $\to_G \subset \to_S$, which means that we cannot reorder operations done by different threads. For sequential consistency, we can reorder operations &lt;em&gt;by different threads&lt;&#x2F;em&gt;, but &lt;strong&gt;not&lt;&#x2F;strong&gt; those in the same thread (so program order has to be respected).&lt;&#x2F;p&gt;
+&lt;p&gt;Alright. We thus want to find a history where we have to reorder stuff for it to be equivalent to a legal sequential history. This way, we keep sequential consistency, but we don’t have linearizability.&lt;&#x2F;p&gt;
+&lt;p&gt;A possible solution could be&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;A: r.write(1)
+&lt;&#x2F;span&gt;&lt;span&gt;A: void
+&lt;&#x2F;span&gt;&lt;span&gt;B: r.write(2)
+&lt;&#x2F;span&gt;&lt;span&gt;B: void
+&lt;&#x2F;span&gt;&lt;span&gt;A: r.read()
+&lt;&#x2F;span&gt;&lt;span&gt;A: 1
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;since we can reorder this to&lt;&#x2F;p&gt;
+&lt;pre style=&quot;background-color:#2b303b;color:#c0c5ce;&quot;&gt;&lt;code&gt;&lt;span&gt;B: r.write(2)
+&lt;&#x2F;span&gt;&lt;span&gt;B: void
+&lt;&#x2F;span&gt;&lt;span&gt;A: r.write(1)
+&lt;&#x2F;span&gt;&lt;span&gt;A: void
+&lt;&#x2F;span&gt;&lt;span&gt;A: r.read()
+&lt;&#x2F;span&gt;&lt;span&gt;A: 1
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;which is then a legal sequential history. Because we have to reorder invocations across threads to make this work, the history is &lt;em&gt;not&lt;&#x2F;em&gt; linearizable, but it &lt;em&gt;is&lt;&#x2F;em&gt; sequentially consistent, just like the exercise demands.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>On finishing blog posts</title>
+		<published>2021-05-25T00:00:00+00:00</published>
+		<updated>2021-05-25T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/05/25/on-finishing-blog-posts/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/05/25/on-finishing-blog-posts/</id>
+		<content type="html">&lt;p&gt;As of today, the 25th of May 2021, I have published 13 blog posts (assuming you include this one). Another post I published about 2 years ago got lost in the abyss of the internet when I switched from Ghost, a blogging software, to my current Jekyll setup. Finally, I’ve written a text on bug reporting in open source software that doesn’t seem to be reachable either anymore; whether or not that counts is up for debate.&lt;&#x2F;p&gt;
+&lt;p&gt;But regardless what blog posts you include or exclude, a big part of my writing is missing in this enumeration. The majority of posts I compose never get released online. They linger locally, sometimes for days, weeks or months, until I open them up again, only to find that their quality is not sufficient. Whenever that happens, I purge the file and I’ve never restored one from the trash yet. That also has its reasons. Let me explain.&lt;&#x2F;p&gt;
+&lt;p&gt;In general, I’d say I am not too bad at writing, both in English and German. I might not be the next Goethe or Shakespeare, but I can express myself and my ideas reasonably well, and that without doing too many grammar mistakes in the process. Given that blogging in general does neither demand long texts, nor does it impose artificial limitations (like in school essays) onto you, I &lt;em&gt;should&lt;&#x2F;em&gt; be able to transfer my overall writing skills to blogging without much hassle. Sadly, the emphasis here lies on &lt;em&gt;should&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;If I draft, quickly rewrite and publish a post in a single session, I don’t encounter any problems. Problematically enough, many topics cannot be fully completed in one pass. And here is where it gets complicated. Whenever I reopen one of my started-but-not-finished posts, my perfectionism kicks in and tells me just how abysmal the quality of my writing was, or rather is. (To be fair, it really isn’t as great as it could be.) Adding on top that I then start to see what would help lift the post to the next level, be it images &#x2F; code examples &#x2F; interactive content, makes me feel as if it would be a heap of work I’d have to complete before even thinking about publishing such a text. Not being able to cope with these demands I’d set myself, I then throw away my work and start anew, hoping to complete my current idea quickly as to avoid a viscious circle.&lt;&#x2F;p&gt;
+&lt;p&gt;This not only leads to a lower overall quality of my blog (as it turns out, redacting texts definitely would help improve the level), but also results in many topics that I started, but never concluded: from temperature phenomenons, political manifestos, and the mean value theorem to certain web performance optimizations and tiny details about my &lt;code&gt;nginx&lt;&#x2F;code&gt; setup, I’ve written and deleted a lot of prose.&lt;&#x2F;p&gt;
+&lt;p&gt;And by now, I am stuck. I must resist the urge to delete and instead improve; I have to persist through the more boring parts of blogging if I aspire to publish good content. We’ll see how that works out - I’m not overly optimistic yet. For sure I am planning to blog more again (probably about Analysis and probabilistic algorithms) once my study phase starts and I have more flexibility in my daily schedule. Until then.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Optimizing font file size with glyphhanger</title>
+		<published>2021-04-27T00:00:00+00:00</published>
+		<updated>2021-04-27T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/04/27/glyphhanger-font-performance/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/04/27/glyphhanger-font-performance/</id>
+		<content type="html">&lt;p&gt;A good font choice is essential to a good-looking website. xyquadrat.ch surely wouldn’t look even remotely trustworthy if I used Comic Sans, would it?&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;polyring_comic_sans.png&quot; alt=&quot;Screenshot of xyquadrat.ch with Comic Sans&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;It… really doesn’t fit.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;actually-it-s-pretty-easy&quot;&gt;Actually, it’s pretty easy.&lt;&#x2F;h1&gt;
+&lt;p&gt;So let’s assume that you decided to find a nice font for your website; something that fits your style of content and is well readable. This is luckily no longer that much of a challenge - &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;fonts.google.com&quot;&gt;Google Fonts&lt;&#x2F;a&gt; and similar sites have hundreds of different fonts that look great and are free for you to use. In my case, the font I settled on was &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;fonts.google.com&#x2F;specimen&#x2F;Merriweather&quot;&gt;Merriweather&lt;&#x2F;a&gt;.&lt;br &#x2F;&gt;
+Google Fonts offers you to include the fonts directly from their CDN, which only requires you to copy-paste the appropriate code into your HTML or CSS (depending on the method you are using). If you do this, then you’re done, there’s not much to optimize, and you can safely close this tab now.&lt;&#x2F;p&gt;
+&lt;p&gt;But maybe that’s not what you want to do. At least it was not what I wanted to do; my general credo is: if I can self-host something, I’ll self-host it. Also, if you self-host your fonts, you don’t need exceptions in your CORS headers. The tidyness of these headers is something (however irrational that may be) I really like.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;selfhosting-it-is-then&quot;&gt;Selfhosting it is, then.&lt;&#x2F;h1&gt;
+&lt;p&gt;To self-host the fonts, you’ll first want to download the fonts locally. For some weird reason, the standard format for fonts downloaded from Google Fonts is &lt;code&gt;.ttf&lt;&#x2F;code&gt;. TTF might be a fine format for local fonts you’d use in a word processor; it surely &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;stackoverflow.com&#x2F;questions&#x2F;36105194&#x2F;are-eot-ttf-and-svg-still-necessary-in-the-font-face-declaration&#x2F;36110385#36110385&quot;&gt;isn’t well-suited for the web&lt;&#x2F;a&gt; though. You should use WOFF2 (and, if you expect to have IE 9 - 11 traffic, WOFF as a fallback) instead. These are basically the compressed versions of TTF, and they are strictly superior to TTF for the web.&lt;&#x2F;p&gt;
+&lt;p&gt;So you’ll have to convert the &lt;code&gt;.ttf&lt;&#x2F;code&gt; to the appropriate formats. And if you’re already at it, you could also get your hands dirty and optimize the size of your font a bit more. (Before optimization, my fonts were usually the biggest chunk of my site, of course especially for text-only posts.) To do this, you can use the awesome tool &lt;code&gt;glyphhanger&lt;&#x2F;code&gt;. (You can &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;zachleat&#x2F;glyphhanger&quot;&gt;install it via &lt;code&gt;npm&lt;&#x2F;code&gt;&lt;&#x2F;a&gt;. It’s quite heavyweight since it uses &lt;code&gt;puppeteer&lt;&#x2F;code&gt;, but it excels at its job.) &lt;&#x2F;p&gt;
+&lt;p&gt;Then, you can easily convert the &lt;code&gt;.tff&lt;&#x2F;code&gt; to a &lt;code&gt;.woff&lt;&#x2F;code&gt; and &lt;code&gt;.woff2&lt;&#x2F;code&gt; file with &lt;code&gt;glyphhanger --formats=woff,woff2 &amp;lt;input file&amp;gt;&lt;&#x2F;code&gt;. But that still leaves files that contain quite a lot of unneeded information - namely unnecessary symbols (or more precisely glyphs). For example, the myriad of accents used in Eastern Europe and other weird Unicode ranges that you’ll probably never use are still in there. You can easily get rid of those by &lt;em&gt;subsetting&lt;&#x2F;em&gt; your fonts with &lt;code&gt;glyphhanger&lt;&#x2F;code&gt;. If you only need “normal” Latin characters, &lt;code&gt;glyphhanger --LATIN --formats=woff,woff2 --css &amp;lt;input file&amp;gt;&lt;&#x2F;code&gt; will both subset the fonts appropriately and also generate a &lt;code&gt;@font-face&lt;&#x2F;code&gt; CSS declaration that’s ready to use. &lt;&#x2F;p&gt;
+&lt;p&gt;Personally, I managed to reduce the data transferred for my fonts from &lt;strong&gt;180KB&lt;&#x2F;strong&gt; to &lt;strong&gt;70KB&lt;&#x2F;strong&gt; - certainly a nice improvement that Google PageSpeed Insights also liked. There is one significant downside with this approach: If you selfhost your fonts, the browser cannot use a cached version of the font. With the very common web fonts such as Lato, Open Sans or Roboto, this might lead to a net increase in bandwith usage. Since few sites use Merriweather as their font, this is much less of a concern for my setup, and thus I’ll continue to selfhost my fonts, for better or worse.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Theming support for the Polyring widget</title>
+		<published>2021-04-24T00:00:00+00:00</published>
+		<updated>2021-04-24T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/04/24/polyring-widget-theming/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/04/24/polyring-widget-theming/</id>
+		<content type="html">&lt;blockquote&gt;
+&lt;p&gt;Honestly that’s not a fully satisfactory solution; it’d be better to have a single parametrized widget that one could easily adapt to any design with a few simple arguments.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;That’s what I wrote in [my post a few days back about building Polyring]({% post_url 2021-04-19-building-polyring %}) in regards to the widget members of the webring can embed in their page. I also mentioned that &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;ateon.ch&#x2F;&quot;&gt;Luca (gewlar)&lt;&#x2F;a&gt; was working on improving the situation. Only a day later, he already &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;XYQuadrat&#x2F;polyring&#x2F;pull&#x2F;11&quot;&gt;sent a pull request&lt;&#x2F;a&gt; which did exactly that.&lt;&#x2F;p&gt;
+&lt;p&gt;The clever solution allows you to pass a &lt;code&gt;theme&lt;&#x2F;code&gt; parameter to the webcomponent. You can either use one of the “official” themes by passing &lt;code&gt;theme=&amp;quot;default&amp;quot;&lt;&#x2F;code&gt; or &lt;code&gt;theme=&amp;quot;dark&amp;quot;&lt;&#x2F;code&gt; to the widget, or mix it up with your own style by passing a link to a .json file: &lt;code&gt;theme=&amp;quot;&amp;lt;link-to-json&amp;gt;&amp;quot;&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;There are six variables for members to modify:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;--background-color&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;--outer-border-color&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;--inner-border-color&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;--href-color&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;--href-color-active&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;li&gt;&lt;code&gt;--text-color&lt;&#x2F;code&gt;&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;p&gt;These should be rather self-explanatory; you can &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&#x2F;assets&#x2F;themes&#x2F;default.json&quot;&gt;look up the default theme JSON&lt;&#x2F;a&gt; to see the simple structure your file should have. A neat feature Luca also implemented is that the logo will adjust its color accordingly.&lt;&#x2F;p&gt;
+&lt;webring-banner theme=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&#x2F;assets&#x2F;themes&#x2F;ugly.json&quot;&gt;
+    &lt;p&gt;Member of the &lt;a href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&quot;&gt;Polyring&lt;&#x2F;a&gt; webring&lt;&#x2F;p&gt;
+&lt;&#x2F;webring-banner&gt;
+&lt;script async src=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&#x2F;embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;&#x2F;script&gt;
+&lt;p&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;…but try not to make the banner too ugly. I can’t stop you from doing it, though.&lt;&#x2F;p&gt;
+&lt;p&gt;Big thanks to Luca for getting this done so quickly; if you’re a Polyring member, then go and use it! (And if you aren’t a member yet but want to become one, &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&#x2F;&quot;&gt;check out the instructions for doing so.&lt;&#x2F;a&gt;)&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Polyring - Building a webring in 2021</title>
+		<published>2021-04-19T00:00:00+00:00</published>
+		<updated>2021-04-19T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2021/04/19/building-polyring/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2021/04/19/building-polyring/</id>
+		<content type="html">&lt;h1 id=&quot;a-webring-in-the-21th-century&quot;&gt;A webring? In the 21th century?&lt;&#x2F;h1&gt;
+&lt;p&gt;A few weeks ago, I launched &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&quot;&gt;Polyring&lt;&#x2F;a&gt;, a webring for ETH Zurich members.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;polyring_screenshot.png&quot; alt=&quot;Screenshot of the Polyring website&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The concept of a webring might sound strange in the year 2021; after all, webrings are supposedly a relict from past times where Google et al didn’t yet exist and where the main way of marketing a website was the word of mouth. At the time Yahoo! WebRing was discontinued on April 15, 2001, search engines were already so good that nobody in their right mind would use a linked list of websites to find what they were searching for.&lt;&#x2F;p&gt;
+&lt;p&gt;… Right? Well, not quite. Today it is incredibly easy to find facts and figures about nearly anything at the blink of an eye - but there is one big caveat: you must know what you are searching for. And that is sometimes astonishingly difficult.&lt;br &#x2F;&gt;
+Link aggregators like Reddit (though much of that spirit has been lost) or Hacker News are the main way of unguided content discovery. Webrings differentiate themselves from such aggregators by putting persons before pure content. What might seem like a disadvantage at first turns out to be a secret superpower of webrings, as you discover interesting articles and projects from interesting people that might have never shown up in your feeds otherwise.&lt;&#x2F;p&gt;
+&lt;p&gt;Alas, let me stop the rambling about &lt;em&gt;why&lt;&#x2F;em&gt; I started a webring (&lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.sonniesedge.net&#x2F;articles&#x2F;webrings&quot;&gt;this blog post by Charlie Owen&lt;&#x2F;a&gt; might also be part of the reason) and instead tell you &lt;em&gt;how&lt;&#x2F;em&gt; I tackled the technical part of the project.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;open-source-to-the-rescue&quot;&gt;Open source to the rescue&lt;&#x2F;h1&gt;
+&lt;p&gt;Without putting much time into researching the already existing options I found &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;maxboeck&#x2F;webring&quot;&gt;this delightful “Webring Starter Kit” by Max Böck&lt;&#x2F;a&gt;. Suppressing my NIH &lt;sup class=&quot;footnote-reference&quot;&gt;&lt;a href=&quot;#1&quot;&gt;1&lt;&#x2F;a&gt;&lt;&#x2F;sup&gt; syndrome, I started customizing the setup to my liking (it didn’t take that many changes). I removed a few parts I deemed irrelevant, agonized over a logo together with a colleague from ETH and finally published the site.&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;technical-details-for-those-who-want-them&quot;&gt;Technical details for those who want them&lt;&#x2F;h1&gt;
+&lt;p&gt;The Starter Kit mentioned above is based on Eleventy, a static site generator. Despite me never having used it before, it was pretty intuitive and I was able to get up and running quickly, which made me drop my plans to switch the site to Jekyll (which this very blog you are reading runs on) for consistency reason. &lt;&#x2F;p&gt;
+&lt;h4 id=&quot;the-widget&quot;&gt;The widget&lt;&#x2F;h4&gt;
+&lt;webring-banner&gt;
+    &lt;p&gt;Member of the &lt;a href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&quot;&gt;Polyring&lt;&#x2F;a&gt; webring&lt;&#x2F;p&gt;
+&lt;&#x2F;webring-banner&gt;
+&lt;script async src=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;polyring&#x2F;embed.js&quot; charset=&quot;utf-8&quot;&gt;&lt;&#x2F;script&gt;
+&lt;p&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;This nice widget you can embed on your own site if you are a part of the ring is a &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;developer.mozilla.org&#x2F;en-US&#x2F;docs&#x2F;Web&#x2F;Web_Components&quot;&gt;Web Component&lt;&#x2F;a&gt; that only requires a few simple lines of code to be added to the site. On a site load, the widget retrieves the JSON that contains the data about the members of Polyring. It also hooks up the “Previous” and “Next” links accordingly so that the ring truly is a linked list™. &lt;&#x2F;p&gt;
+&lt;p&gt;Given that the JSON file is very slim and the custom &lt;code&gt;webring-banner&lt;&#x2F;code&gt; element is also only 5KB this should be very performant even with a bad connection. We’re actually working on further cutting down the size of the element through minification, but that’s not as easy as it might sound since the inline CSS and HTML markup is confusing most minifiers.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;updates-deployment&quot;&gt;Updates &#x2F; deployment&lt;&#x2F;h4&gt;
+&lt;p&gt;Interested ETH members can add themselves to the ring by making a Pull Request on GitHub (&lt;em&gt;insert ramblings about GitHub instead of a truly FOSS platform here&lt;&#x2F;em&gt;). On merging, a webhook is triggered to inform my trusty little Raspberry Pi that he’s got to re-build the site. (Since the Pi is deliberately not accessible via SSH from outside my LAN, deploying with GitHub Actions + SSH wasn’t an option. I still use GitHub Actions to check pre-merge that the build succeeds, though.) The handling of the webhook on the Pi is handled by &lt;code&gt;webhook&lt;&#x2F;code&gt; (definitely a confident name), &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;github.com&#x2F;adnanh&#x2F;webhook&quot;&gt;a lightweight Go program&lt;&#x2F;a&gt; that then calls a simple shell script which updates the repo, builds the site and puts it into the correct folder. As usual with working CD&#x2F;CI, it feels like magic to push a change via git and have it reflected on the live site within seconds.&lt;&#x2F;p&gt;
+&lt;h4 id=&quot;the-widget-revisited&quot;&gt;The widget, revisited&lt;&#x2F;h4&gt;
+&lt;p&gt;Originally, I had one single light-themed widget and said “just build your own if you don’t like it”. Well, that caused people to make a fully static widget, which meant that their member count and possibly their links would cease to be correct after a new site joined Polyring. I therefore started offering an alternative dark mode widget. Honestly that’s not a fully satisfactory solution; it’d be better to have a single parametrized widget that one could easily adapt to any design with a few simple arguments. Luca (gewlar) is working on this, so maybe it’ll become reality within the next few days already!&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;members-anyone&quot;&gt;Members, anyone?&lt;&#x2F;h1&gt;
+&lt;p&gt;When I launched the project, it was just me and Oliver Saravanja being part of the (quite empty) ring. Since then, we’ve grown quite a bit, and have now reached 12 members. All our current members are studying Computer Science at ETH, so we’re not quite as diverse as I’d want it to be yet, but at least that means there were less technical problems ;)&lt;&#x2F;p&gt;
+&lt;p&gt;If you have any questions or suggestions, send me a mail at &lt;a href=&quot;mailto:mail@xyquadrat.ch&quot;&gt;mail@xyquadrat.ch&lt;&#x2F;a&gt;.&lt;&#x2F;p&gt;
+&lt;div class=&quot;footnote-definition&quot; id=&quot;1&quot;&gt;&lt;sup class=&quot;footnote-definition-label&quot;&gt;1&lt;&#x2F;sup&gt;
+&lt;p&gt;Not Invented Here. Wanting to do everything on your own because “I know how to do this much better”.&lt;&#x2F;p&gt;
+&lt;&#x2F;div&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Computing the RSA private key for small inputs</title>
+		<published>2020-12-30T00:00:00+00:00</published>
+		<updated>2020-12-30T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2020/12/30/rsa-secret-key/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2020/12/30/rsa-secret-key/</id>
+		<content type="html">&lt;p&gt;Whilst RSA is considered secure if we use sufficiently large primes as an input, for very small primes, it is trivial to reverse the process and finde the private key if we are only given the public one. Let’s consider the example:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The RSA key of Alice is $(n,e) = (55, 3)$. Compute her secret key $d$ . (HS18, 2d, adapted)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Normally, $n$ would be very big (hundreds-of-digits-big) making it very difficult to find the factors $n = p \cdot q$. In this case though, $n = 55$ means that we can easily find $p, q$. Without much effort, you should be able to see that $p = 5, q = 11$ is the solution (or $p = 11, q = 5$ of course).&lt;&#x2F;p&gt;
+&lt;p&gt;Now, $d$ is defined as $ed \equiv_{(p-1)(q-1)} 1$. Filling in the values we now know, that results in $3 \cdot d \equiv_{40} 1$. (This is the same as finding the inverse of $e$ in $\mathbb{Z}^*_{(p-1)(q-1)}$). We can solve that by looking at multiples of $40$ plus $1$. If one of these is a multiple of $3$, we have found $d$. With a bit of trial &amp;amp; error, you should get $(2 \cdot 40) + 1 = 3 \cdot \mathbf{27}$. Thus, $27$ is a solution for the equation, so $d = 27$.&lt;&#x2F;p&gt;
+&lt;p&gt;And that’s how you crack RSA in 3 easy steps. &#x2F;s&lt;&#x2F;p&gt;
+&lt;p&gt;(You could now also try the original exercise from HS18 where $(n,e) = (77,7)$).&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Efficiently calculate terms modulo a polynomial</title>
+		<published>2020-12-27T00:00:00+00:00</published>
+		<updated>2020-12-27T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2020/12/27/modulo-polynomials/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2020/12/27/modulo-polynomials/</id>
+		<content type="html">&lt;p&gt;If we have an algebra that is modulo some polynomial, say $\mathbb{Z}_5 [x]_{x^2 + 1}$, it often is the case that we perform some operation in this algebra and afterwards have to take our result modulo said polynomial, so modulo $x^2 + 1$ for example.&lt;&#x2F;p&gt;
+&lt;p&gt;In this case, a simple trick can be very helpful. Remember that by the definition of modulo, &lt;&#x2F;p&gt;
+&lt;p&gt;$$x^2 + 1 \equiv 0 \mod x^2 + 1$$&lt;&#x2F;p&gt;
+&lt;p&gt;(Of course you’d adapt the polynomial accordingly to the one you are given.) Then, we can simply say&lt;&#x2F;p&gt;
+&lt;p&gt;$$x^2 \equiv -1 \mod x^2 + 1$$&lt;&#x2F;p&gt;
+&lt;p&gt;Now, in our example, $-1 = 4$ since we are working in $\mathbb{Z}_5$. Thus&lt;&#x2F;p&gt;
+&lt;p&gt;$$x^2 \equiv 4 \mod x^2 + 1$$&lt;&#x2F;p&gt;
+&lt;p&gt;And that’s it already. Now we can reap the benefits of this simple transformation: If we have a polynomial like $2x^2 + 3x + 1$ that you want to take modulo $x^2 + 1$, you can simply substitute $x^2$ with $4$, turning this into $2 \cdot 4 + 3x + 1 = 3x + 9 = 3x + 4$. Especially if you have to do such modulo operations a few times, that’s much quicker and needs less notation than using long division.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Check if a poset is a lattice</title>
+		<published>2020-12-23T00:00:00+00:00</published>
+		<updated>2020-12-23T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2020/12/23/lattice-posets/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2020/12/23/lattice-posets/</id>
+		<content type="html">&lt;p&gt;Continuing with Discrete Mathematics (because I am too lazy to create nice graphics for Linear Algebra right now), we shall examine the following rather simple problem:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Prove or disprove: $(\lbrace 1,3,6,9,12\rbrace, \mid)$ is a lattice. (l06, 4c)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Let’s quickly recall what it means for a poset to be a lattice:
+A poset in which every pair of elements has a meet (= greatest lower bound) and a join (= least upper bound) is called a lattice.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;lattice.png&quot; alt=&quot;Hasse diagram of the poset&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;A visualization of the poset as a Hasse diagram would look like the image above. Now, as an example, let us try and pick any pair of elements, say $3$ and $6$. Then, the upper bounds of this pair are all elements $x$ such that $x \ge 3$ and $x \ge 6$. As one can easily find out by looking at the image, the upper bounds of $3$ and $6$ in this poset are $6$ and $12$. 
+Thus, the lowest upper bound of $3$ and $6$, so the join, is $6$. As you may recall, an alternative notation for the join is $3 \lor 6 = 6$. The same applies dually for greatest lower bounds.&lt;&#x2F;p&gt;
+&lt;p&gt;Now, the question remains if every pair of elements has such a join and a meet. In this example, we can clearly see that both $\lbrace 6, 9 \rbrace$ and $\lbrace 9, 12$ have no common upper bound. Therefore, we can already conclude that this poset is not a lattice. More generally, if a finite poset does not have a least and a greatest element, it cannot be a lattice as visible in this figure: &lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;lattice_greatest_least.png&quot; alt=&quot;Visual proof why a lattice needs to have a least and greatest element&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;The opposite implication is (sadly, I guess) not true though: Just because a poset has a least and a greatest element does not mean that is must be a lattice. Can you find a counterexample for this case?&lt;&#x2F;p&gt;
+&lt;p&gt;Therefore, we must manually check all pairs to be sure that we indeed have a lattice. Since the cardinality of the poset in these exercises is usually quite small, this doesn’t take long, especially if you quickly sketch the Hasse diagram.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Practice:&lt;&#x2F;strong&gt; Is $(\lbrace 1, 2, 3, 4, 6, 12 \rbrace ; \mid)$ a lattice?&lt;&#x2F;p&gt;
+&lt;p&gt;Tomorrow, I hope to finally publish a Linear Algebra post, with some nice graphics regarding basis transforms, &lt;em&gt;dictum meum pactum&lt;&#x2F;em&gt;.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Categorize algebras by type</title>
+		<published>2020-12-22T00:00:00+00:00</published>
+		<updated>2020-12-22T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2020/12/22/algebra-type/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2020/12/22/algebra-type/</id>
+		<content type="html">&lt;p&gt;Today, we’ll investigate the following exercise:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Decide whether the given algebra is a ring, a field, or an integral domain (check all that apply). (FS18, 4b)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;algebras.png&quot; alt=&quot;List of algebras to categorize&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;Let us examine those algebras one by one.&lt;&#x2F;p&gt;
+&lt;p&gt;$\mathbb{Z}_3 \times \mathbb{Z}_3$ is a direct product of two rings (because all $\mathbb{Z}_m$ are commutative rings). The direct product of two rings is a ring. (You could show this by checking that all the axioms hold.) $\mathbb{Z}_3 \times \mathbb{Z}_3$ isn’t an integral domain though - the counterexample $(0,1) * (1, 0) = (0,0)$ shows that there exists a zerodivisor. Since a field is always an integral domain (Theorem 5.24), this algebra cannot be a field as it isn’t an integral domain.&lt;&#x2F;p&gt;
+&lt;p&gt;$\mathbb{Z}_2 [x]_{x^2+x+1}$ is a field (see &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;xyquadrat.ch&#x2F;2020&#x2F;12&#x2F;19&#x2F;is-polynomial-ring-field.html&quot;&gt;this earlier blog post&lt;&#x2F;a&gt; to find out how to prove that). That also makes it a ring, since a field is merely a “special case” of a ring and an integral domain as stated by Theorem 5.24.&lt;&#x2F;p&gt;
+&lt;p&gt;$\text{GF}(128)$ certainly is a field (GF stands for Galois-Field after all). Therefore it is also a ring and an integral domain (same reasoning as above).&lt;&#x2F;p&gt;
+&lt;p&gt;Finally, $\mathbb{Z}[x]$ is a ring since $\mathbb{Z}$ is a commutative ring and for any ring $R$, $R[x]$ is also a ring (Theorem 5.21). Additionally, the same reasoning applies for $\mathbb{Z}[x]$ being an integral domain: $Z$ is an integral domain, and by Lemma 5.22 i), if $D$ is an integral domain, then so is $D[x]$. It is not a field though, since e.g. $5x$ does not have an inverse and is therefore not a unit.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;algebras_solved.png&quot; alt=&quot;List of algebras: Solution&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Find easy isomorphic groups</title>
+		<published>2020-12-21T00:00:00+00:00</published>
+		<updated>2020-12-21T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2020/12/21/isomorphic-groups/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2020/12/21/isomorphic-groups/</id>
+		<content type="html">&lt;p&gt;Take a look at the following question: &lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Find a group isomorphic to $\langle \mathbb{Z}_{12}; + \rangle$ other than $\mathbb{Z}_{12}$. (FS19, 3a)&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Let us investigate how we can provide a fast and simple answer here. The important theorem to have in mind here is &lt;em&gt;“A cyclic group of order n is isomorphic to $\langle \mathbb{Z}_n; \oplus \rangle$”&lt;&#x2F;em&gt; (Theorem 5.7)&lt;&#x2F;p&gt;
+&lt;p&gt;In our specific example, this means that we have to find a cyclic group of order $12$. As &lt;a rel=&quot;noopener&quot; target=&quot;_blank&quot; href=&quot;https:&#x2F;&#x2F;www.wolframalpha.com&#x2F;input&#x2F;?i=groups+of+order+12&quot;&gt;WolframAlpha will tell you&lt;&#x2F;a&gt;, there are quite a few such groups, but the easiest type are direct products of smaller groups (so $\mathbb{Z}_{n} \times \mathbb{Z}_{m}$). Since $\mathbb{Z}_n \times \mathbb{Z}_m$ has order $\text{lcm}(n,m)$, we need to find $n, m$ such that $\text{lcm}(n,m) = 12$ which is the same as $n \cdot m = 12$ if $\gcd(n,m) = 1$. For $12$, this would be $3 \cdot 4 = 12$.&lt;&#x2F;p&gt;
+&lt;p&gt;Hence a simple solution to this question would be $\mathbb{Z}_{3} \times \mathbb{Z}_{4}$. (If you want to be more formal, also include the associated operation, so $\langle \mathbb{Z}_{3}; \oplus \rangle \times \langle \mathbb{Z}_{4}; \oplus \rangle$)&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;strong&gt;Practice:&lt;&#x2F;strong&gt; If you understood this, it should now be easy for you find a group isomorphic to $\langle \mathbb{Z}_{20}; + \rangle$ other than $\mathbb{Z}_{20}$.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>When is a polynomial ring a field?</title>
+		<published>2020-12-19T00:00:00+00:00</published>
+		<updated>2020-12-19T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2020/12/19/is-polynomial-ring-field/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2020/12/19/is-polynomial-ring-field/</id>
+		<content type="html">&lt;p&gt;Consider the question&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Is $A = \mathbb{Z}_{5}[x]_{x^2+4}$ a field? Prove your answer.&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;What do we do? First, let us try to understand what exactly we have here.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;polynomial_ring.png&quot; alt=&quot;Polynomial ring explanation&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;So elements of this ring would be $x+3$, $1$ or $4x + 1$. Now, we can use &lt;strong&gt;Theorem 5.36&lt;&#x2F;strong&gt;, which tells us that the ring $F[x]_{m(x)}$ is a field if and only if $m(x)$ is irreducible. This in general isn’t that easy - if the degree of $m(x)$ is high, this would take quite some manual work (namely using long division to test all possible polynomials with $\le \text{degree}&#x2F;2$).&lt;&#x2F;p&gt;
+&lt;p&gt;Luckily, we are usually asked to show this with $m(x)$ having degree 2 or 3. In this case, we can use &lt;strong&gt;Corollary 5.29&lt;&#x2F;strong&gt; (A polynomial $m(x)$ of degree 2 or 3 over a field $F$ is irreducible if and only if it has no root). Hence, we can plug in all possible $a \in F$ into $m(x)$. If $m(a)$ then evaluates to $0$, that means we have found a root, $m(x)$ is not irreducible and $F[x]_{m(x)}$ is &lt;em&gt;not&lt;&#x2F;em&gt; a field. Otherwise, we can conclude that $F[x]_{m(x)}$ indeed is a field.&lt;&#x2F;p&gt;
+&lt;p&gt;Let’s now apply this to our initial exercise: We insert all possible values $a \in \mathbb{Z}_5$ into $x^{2} + 4$ and see if this term evaluates to $0$.&lt;&#x2F;p&gt;
+&lt;p&gt;$$m(0) = 0^2 + 4 = 4 \newline
+m(1) = 1^2 + 4 = \textcolor{red}{0} \newline
+m(2) = 2^2 + 4 = 3 \newline
+m(3) = 3^2 + 4 = 3 \newline
+m(4) = 4^2 + 4 = \textcolor{red}{0}$$&lt;&#x2F;p&gt;
+&lt;p&gt;(Of course you can also stop as soon as you have found a $0$.)&lt;br &#x2F;&gt;
+Clearly, $x^2 + 4$ over $\mathbb{Z}_{5}[x]_{x^2+4}$ does have roots and is therefore not irreducible. We can see that $x^2 + 4 = (x - 1)(x - 4) = (x+4)(x+1)$ by using &lt;strong&gt;Lemma 5.28&lt;&#x2F;strong&gt;. Finally, we can conclude that $\mathbb{Z}_5[x]_{x^2 + 4}$ is &lt;em&gt;not&lt;&#x2F;em&gt; a field.&lt;&#x2F;p&gt;
+&lt;p&gt;For practice, you could now try to prove or disprove that $\mathbb{Z}_5[x]_{x^2 + 2}$ is a field.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>How to find zerodivisors in finite commutative rings</title>
+		<published>2020-12-15T00:00:00+00:00</published>
+		<updated>2020-12-15T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2020/12/15/zerodivisors-in-rings/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2020/12/15/zerodivisors-in-rings/</id>
+		<content type="html">&lt;p&gt;Given a question similar to&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Find all zerodivisors in the ring $\mathbb{Z}_{25}.$&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;How do we solve this task efficiently? First, we can recall that in a finite commutative ring all elements are either units or zerodivisors. Now, an element $a$ of the ring is a unit if and only if $\gcd(a,m) = 1$ (in the previously mentioned example, $m$ would be 25).&lt;&#x2F;p&gt;
+&lt;p&gt;Therefore all elements $a$ where $\gcd(a,m) \ne 1$ are zerodivisors. Phrased differently, this means that all elements that are &lt;strong&gt;not&lt;&#x2F;strong&gt; relatively prime to $m$ are zerodivisors of $\mathbb{Z}_m$.&lt;&#x2F;p&gt;
+&lt;p&gt;Applying this to our example from the start, we want to find all the elements in the ring $\mathbb{Z}_{25}$ that are not relatively prime to $25$. Since $25 = 5 \times 5$, those elements are exactly the multiples of $5$, so the solution is $$\lbrace 5, 10, 15, 20 \rbrace$$. ($25 = 0$ and $0$ is never a zerodivisor by definition).&lt;&#x2F;p&gt;
+</content>
+	</entry>
+	<entry xml:lang="en">
+		<title>Why the Shoelace Formula works</title>
+		<published>2020-08-04T00:00:00+00:00</published>
+		<updated>2020-08-04T00:00:00+00:00</updated>
+		<link href="https://staging.xyquadrat.ch/2020/08/04/shoelace-formula/" type="text/html"/>
+		<id>https://staging.xyquadrat.ch/2020/08/04/shoelace-formula/</id>
+		<content type="html">&lt;p&gt;The formula most people would be thinking of if they are asked to compute the area of a triangle would probably be $A = \frac{1}{2}bh $.
+While this formula is indeed very useful, there are situations where calculating the base and the height of a triangle is non-trivial. It would be quite convenient to have a formula that would compute the area of a triangle purely based on coordinates, wouldn’t it? 
+Of course, much smarter people have already found such a formula in the 18th century (in fact, they found a formula that allows you to find the area for any polygon, not just triangles): $A = {\frac {1}{2}}{\big |}(x_{A}-x_{C})(y_{B}-y_{A})-(x_{A}-x_{B})(y_{C}-y_{A}){\big |}$&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;img src=&quot;&#x2F;img&#x2F;shoelace_formula.png&quot; alt=&quot;&quot; &#x2F;&gt;&lt;&#x2F;p&gt;
+&lt;p&gt;But why does this formula work? To explain this, we’ll build on another way to compute the area, namely using vectors: 
+$A = \frac{1}{2}|\vec{AB} \times \vec{AC} |$. 
+(This formula uses a nice property of the cross product. You can find explanations for it all over the internet.) 
+$\vec{AB} = \begin{pmatrix} x_B - x_ A \\ y_B - y_A \end{pmatrix}$
+, and similarly $\vec{AC} = \begin{pmatrix} x_C - x_A \\ y_C - y_A \end{pmatrix}$. 
+Now, we can apply the cross product. As the cross product only works in three dimensions, we’ll add a z-coordinate and set it to 0: &lt;&#x2F;p&gt;
+&lt;p&gt;$$ \begin{pmatrix} x_B - x_A \\ y_B - y_A \\ 0 \end{pmatrix} \times \begin{pmatrix} x_C - x_A \\ y_C - y_A \\ 0 \end{pmatrix} = \begin{pmatrix} 0 \\ 0 \\ (x_B - x_A)(y_C - y_A) - (x_C - x_A)(y_B - y_A) \end{pmatrix} $$&lt;&#x2F;p&gt;
+&lt;p&gt;The first two components are zero and can therefore be ignored. So, let’s put the z-component back into the original formula: $A = \frac{1}{2} \vert (x_B - x_A)(y_C - y_A) - (x_C - x_A)(y_B - y_A)\ \vert$.&lt;&#x2F;p&gt;
+&lt;p&gt;What remains now is already very similar to the shoelace formula for triangles - only a little bit of transformation is needed now:&lt;&#x2F;p&gt;
+&lt;p&gt;$$ A = \frac{1}{2} | \textcolor{red}{-} (\textcolor{red}{-} x_B \textcolor{red}{+}  x_A)(y_C - y_A) \textcolor{red}{+} (\textcolor{red}{-} x_C \textcolor{red}{+}  x_A)(y_B - y_A)| \newline = {\frac {1}{2}}{\big |}(x_{A}-x_{C})(y_{B}-y_{A})-(x_{A}-x_{B})(y_{C}-y_{A}){\big |} $$&lt;&#x2F;p&gt;
+&lt;p&gt;We negate the content of the first parentheses of both terms but also add a minus in front - this means that we have not changed the outcome, but only the notation. Now, our term is identical to the shoelace formula!&lt;&#x2F;p&gt;
+&lt;p&gt;This formula can be super useful, especially for optimization problems where two out of three coordinates are given.&lt;&#x2F;p&gt;
+</content>
+	</entry>
+</feed>

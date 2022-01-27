@@ -1,0 +1,91 @@
+<!doctype html><html lang=en-US><head><meta charset=utf-8><meta content="ie=edge" http-equiv=x-ua-compatible><meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport><link as=font href=https://staging.xyquadrat.ch/fonts/vendor/jost/jost-v4-latin-regular.woff2 rel=preload type=font/woff2><link as=font href=https://staging.xyquadrat.ch/fonts/vendor/jost/jost-v4-latin-700.woff2 rel=preload type=font/woff2><link href=https://staging.xyquadrat.ch/main.css rel=stylesheet><meta content="index, follow" name=robots><meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name=googlebot><meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name=bingbot><title>Polyring - Building a webring in 2021 | xyquadrat.ch</title><meta content="Blog about software, ETH and life" name=description><link href=https://staging.xyquadrat.ch/2021/04/19/building-polyring/ rel=canonical><script type=application/ld+json>
+  {
+    "@context": "http://schema.org",
+    "@type": "BreadcrumbList",
+    
+      
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          {
+            "@type": "ListItem",
+            "position":  1 ,
+            "name": "Home",
+            "item": "https://staging.xyquadrat.ch/"
+          },
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  2 ,
+            "name": "2021",
+            "item": "https://staging.xyquadrat.ch/2021/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  3 ,
+            "name": "04",
+            "item": "https://staging.xyquadrat.ch/2021/04/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  4 ,
+            "name": "19",
+            "item": "https://staging.xyquadrat.ch/2021/04/19/"
+          },
+        
+      
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+          
+          
+          {
+            "@type": "ListItem",
+            "position":  5 ,
+            "name": "Building Polyring",
+            "item": "https://staging.xyquadrat.ch/2021/04/19/building-polyring/"
+          },
+        
+      
+    
+  }
+</script><meta content=#fff name=theme-color><link href=https://staging.xyquadrat.ch/apple-touch-icon.png rel=apple-touch-icon sizes=180x180><link href=https://staging.xyquadrat.ch/favicon-32x32.png rel=icon sizes=32x32 type=image/png><link href=https://staging.xyquadrat.ch/favicon-16x16.png rel=icon sizes=16x16 type=image/png><link href=https://staging.xyquadrat.ch/site.webmanifest rel=manifest><body class="blog single"><div class="header-bar fixed-top"></div><header class="navbar fixed-top navbar-expand-md navbar-light"><div class=container><input class="menu-btn order-0" id=menu-btn type=checkbox><label class="menu-icon d-md-none" for=menu-btn><span class=navicon></span></label><a class="navbar-brand order-1 order-md-0 me-auto" href=https://staging.xyquadrat.ch><img height=48px src=/mono_icon.svg></a><button aria-label="Toggle mode" class="btn btn-link order-2 order-md-4" id=mode type=button><span class=toggle-dark><svg class="feather feather-moon" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg></span> <span class=toggle-light><svg class="feather feather-sun" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><circle cx=12 cy=12 r=5></circle><line x1=12 x2=12 y1=1 y2=3></line><line x1=12 x2=12 y1=21 y2=23></line><line x1=4.22 x2=5.64 y1=4.22 y2=5.64></line><line x1=18.36 x2=19.78 y1=18.36 y2=19.78></line><line x1=1 x2=3 y1=12 y2=12></line><line x1=21 x2=23 y1=12 y2=12></line><line x1=4.22 x2=5.64 y1=19.78 y2=18.36></line><line x1=18.36 x2=19.78 y1=5.64 y2=4.22></line></svg></span></button><ul class="navbar-nav fork-me order-3 order-md-5"><li class=nav-item><a class=nav-link href=https://github.com/XYQuadrat><svg class="feather feather-github" viewbox="0 0 24 24" fill=none height=20 stroke=currentColor stroke-linecap=round stroke-linejoin=round stroke-width=2 width=20 xmlns=http://www.w3.org/2000/svg><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg><span class="ms-2 visually-hidden">GitHub</span></a></ul><div class="collapse navbar-collapse order-4 order-md-1"><ul class="navbar-nav main-nav me-auto order-5 order-md-2"><li class=nav-item><a class=nav-link href=https://staging.xyquadrat.ch/#blog>Blog</a><li class=nav-item><a class=nav-link href=https://staging.xyquadrat.ch/and/>A&D</a></ul><div class="break order-6 d-md-none"></div></div></div></header><div class="wrap container" role=document><div class=content><div class="row justify-content-center"><div class="col-md-12 col-lg-10 col-xl-8"><article><div class=blog-header><h1>Polyring - Building a webring in 2021</h1><p><small>19. April 2021  ‐ <strong>5 min read</strong></small><p></div><h1 id=a-webring-in-the-21th-century>A webring? In the 21th century?</h1><p>A few weeks ago, I launched <a href=https://xyquadrat.ch/polyring rel=noopener target=_blank>Polyring</a>, a webring for ETH Zurich members.<p><img alt="Screenshot of the Polyring website" src=/img/polyring_screenshot.png><p>The concept of a webring might sound strange in the year 2021; after all, webrings are supposedly a relict from past times where Google et al didn’t yet exist and where the main way of marketing a website was the word of mouth. At the time Yahoo! WebRing was discontinued on April 15, 2001, search engines were already so good that nobody in their right mind would use a linked list of websites to find what they were searching for.<p>… Right? Well, not quite. Today it is incredibly easy to find facts and figures about nearly anything at the blink of an eye - but there is one big caveat: you must know what you are searching for. And that is sometimes astonishingly difficult.<br> Link aggregators like Reddit (though much of that spirit has been lost) or Hacker News are the main way of unguided content discovery. Webrings differentiate themselves from such aggregators by putting persons before pure content. What might seem like a disadvantage at first turns out to be a secret superpower of webrings, as you discover interesting articles and projects from interesting people that might have never shown up in your feeds otherwise.<p>Alas, let me stop the rambling about <em>why</em> I started a webring (<a href=https://www.sonniesedge.net/articles/webrings rel=noopener target=_blank>this blog post by Charlie Owen</a> might also be part of the reason) and instead tell you <em>how</em> I tackled the technical part of the project.<h1 id=open-source-to-the-rescue>Open source to the rescue</h1><p>Without putting much time into researching the already existing options I found <a href=https://github.com/maxboeck/webring rel=noopener target=_blank>this delightful “Webring Starter Kit” by Max Böck</a>. Suppressing my NIH <sup class=footnote-reference><a href=#1>1</a></sup> syndrome, I started customizing the setup to my liking (it didn’t take that many changes). I removed a few parts I deemed irrelevant, agonized over a logo together with a colleague from ETH and finally published the site.<h1 id=technical-details-for-those-who-want-them>Technical details for those who want them</h1><p>The Starter Kit mentioned above is based on Eleventy, a static site generator. Despite me never having used it before, it was pretty intuitive and I was able to get up and running quickly, which made me drop my plans to switch the site to Jekyll (which this very blog you are reading runs on) for consistency reason.<h4 id=the-widget>The widget</h4><webring-banner> <p>Member of the <a href=https://xyquadrat.ch/polyring>Polyring</a> webring</p> </webring-banner><script async charset=utf-8 src=https://xyquadrat.ch/polyring/embed.js></script><p><p>This nice widget you can embed on your own site if you are a part of the ring is a <a href=https://developer.mozilla.org/en-US/docs/Web/Web_Components rel=noopener target=_blank>Web Component</a> that only requires a few simple lines of code to be added to the site. On a site load, the widget retrieves the JSON that contains the data about the members of Polyring. It also hooks up the “Previous” and “Next” links accordingly so that the ring truly is a linked list™.<p>Given that the JSON file is very slim and the custom <code>webring-banner</code> element is also only 5KB this should be very performant even with a bad connection. We’re actually working on further cutting down the size of the element through minification, but that’s not as easy as it might sound since the inline CSS and HTML markup is confusing most minifiers.<h4 id=updates-deployment>Updates / deployment</h4><p>Interested ETH members can add themselves to the ring by making a Pull Request on GitHub (<em>insert ramblings about GitHub instead of a truly FOSS platform here</em>). On merging, a webhook is triggered to inform my trusty little Raspberry Pi that he’s got to re-build the site. (Since the Pi is deliberately not accessible via SSH from outside my LAN, deploying with GitHub Actions + SSH wasn’t an option. I still use GitHub Actions to check pre-merge that the build succeeds, though.) The handling of the webhook on the Pi is handled by <code>webhook</code> (definitely a confident name), <a href=https://github.com/adnanh/webhook rel=noopener target=_blank>a lightweight Go program</a> that then calls a simple shell script which updates the repo, builds the site and puts it into the correct folder. As usual with working CD/CI, it feels like magic to push a change via git and have it reflected on the live site within seconds.<h4 id=the-widget-revisited>The widget, revisited</h4><p>Originally, I had one single light-themed widget and said “just build your own if you don’t like it”. Well, that caused people to make a fully static widget, which meant that their member count and possibly their links would cease to be correct after a new site joined Polyring. I therefore started offering an alternative dark mode widget. Honestly that’s not a fully satisfactory solution; it’d be better to have a single parametrized widget that one could easily adapt to any design with a few simple arguments. Luca (gewlar) is working on this, so maybe it’ll become reality within the next few days already!<h1 id=members-anyone>Members, anyone?</h1><p>When I launched the project, it was just me and Oliver Saravanja being part of the (quite empty) ring. Since then, we’ve grown quite a bit, and have now reached 12 members. All our current members are studying Computer Science at ETH, so we’re not quite as diverse as I’d want it to be yet, but at least that means there were less technical problems ;)<p>If you have any questions or suggestions, send me a mail at <a href=mailto:mail@xyquadrat.ch>mail@xyquadrat.ch</a>.<div class=footnote-definition id=1><sup class=footnote-definition-label>1</sup><p>Not Invented Here. Wanting to do everything on your own because “I know how to do this much better”.</div></article></div></div></div></div><footer class="footer text-muted"><div class=container><div class=row><div class="col-lg-8 order-last order-lg-first"><ul class=list-inline><li class=list-inline-item>Powered by <a href=https://www.getzola.org/>Zola</a></ul></div><div class="col-lg-8 order-first order-lg-last text-lg-end"><ul class=list-inline><li class=list-inline-item>Proudly part of the <a href=https://polyring.ch>Polyring blogging network.</a></ul></div></div></div></footer><script defer src=https://staging.xyquadrat.ch/js/main.js></script>
