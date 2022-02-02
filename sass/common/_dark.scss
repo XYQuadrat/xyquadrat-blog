@@ -65,8 +65,7 @@ body.dark .navbar-light .navbar-nav .nav-link {
   color: $navbar-dark-color;
 }
 
-body.dark .navbar-light .navbar-nav .nav-link:hover,
-body.dark .navbar-light .navbar-nav .nav-link:focus {
+body.dark .navbar-light .navbar-nav .nav-link:is(:hover,:focus) {
   color: $navbar-dark-hover-color;
 }
 
@@ -111,8 +110,7 @@ body.dark .page-links h3.sidebar-link a {
   color: $body-color-dark;
 }
 
-body.dark .navbar-light .navbar-text a:hover,
-body.dark .navbar-light .navbar-text a:focus {
+body.dark .navbar-light .navbar-text a:is(:hover, :focus) {
   color: $navbar-dark-active-color;
 }
 
@@ -270,8 +268,7 @@ body.dark .copy-status:hover::after {
   color: $link-color-dark;
 }
 
-body.dark .copy-status:focus::after,
-body.dark .copy-status:active::after {
+body.dark .copy-status:is(:focus, :active)::after {
   content: "Copied";
   display: block;
   color: $link-color-dark;

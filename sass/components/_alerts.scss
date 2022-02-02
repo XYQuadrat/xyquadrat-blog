@@ -57,7 +57,6 @@
   color: $white;
 }
 
-.alert .alert-link:hover,
-.alert .alert-link:focus {
+.alert .alert-link:is(:hover, :focus) {
   text-decoration: none;
 }

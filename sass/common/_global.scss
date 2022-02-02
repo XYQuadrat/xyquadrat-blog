@@ -37,13 +37,11 @@ h6 {
   font-size: calc(1.875rem + 1.5vw);
 }
 
-a:hover,
-a:focus {
+a:is(:hover, :focus) {
   text-decoration: underline;
 }
 
-a.btn:hover,
-a.btn:focus {
+a.btn:is(:hover, :focus) {
   text-decoration: none;
 }
 
@@ -126,8 +124,7 @@ body {
   }
 }
 
-.navbar a:hover,
-.navbar a:focus {
+.navbar a:is(:hover, :focus) {
   text-decoration: none;
 }
 

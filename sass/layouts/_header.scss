@@ -11,8 +11,7 @@
 }
 
 .navbar-light .navbar-brand,
-.navbar-light .navbar-brand:hover,
-.navbar-light .navbar-brand:active {
+.navbar-light .navbar-brand:is(:hover, :active) {
   color: $body-color;
 }
 
@@ -210,8 +209,7 @@
     padding-bottom: .3125rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover, 
-.navbar-light .navbar-nav .nav-link:focus {
+.navbar-light .navbar-nav .nav-link:is(:hover, :focus) {
     color: #0d6efd;
 }
 
