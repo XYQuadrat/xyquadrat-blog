@@ -6,7 +6,6 @@
 @import "common/global";
 @import "common/dark";
 
-// @import "components/syntax";
 @import "components/code";
 // @import "components/alerts";
 @import "components/buttons";
@@ -14,7 +13,6 @@
 @import "components/footnote";
 // @import "components/forms";
 @import "components/images";
-// @import "components/search";
 // @import "components/tables";
 @import "layouts/footer";
 @import "layouts/header";
@@ -23,7 +21,4 @@
 @import "layouts/sidebar";
 
 /* @import custom styles */
-@import "custom.scss";
-
-
 @import "rewrite.scss"
