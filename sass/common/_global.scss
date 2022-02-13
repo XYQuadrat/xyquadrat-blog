@@ -64,6 +64,18 @@ body {
   padding-top: 3.5625rem;
 }
 
+// smooth scrolling with offset
+html {
+  scroll-behavior: smooth;
+}
+
+:target:before {
+  content: "";
+  display: block;
+  height: 75px;
+  margin: -75px 0 0;
+}
+
 .sidebar-filler {
   order: 2;
 }
