@@ -5,6 +5,14 @@ title = "Algorithmen & Datenstrukturen - Ressourcen"
 
 Implementierung der meisten kursrelevanten Algorithmen: [github.com/XYQuadrat/and-algorithms](https://github.com/XYQuadrat/and-algorithms)
 
+## Kahoots
+
+* [Midterm Kahoot](https://create.kahoot.it/share/a-d-midterm-kahoot/1739182e-79a4-4720-9dcf-41e55e426e24)  
+* [Kahoot Woche 8 (Graphentheorie Einführung)](https://create.kahoot.it/share/a-d-woche-8/8f312e5c-3748-4061-a6cf-54303dc3800e)  
+* [Kahoot Woche 10](https://create.kahoot.it/share/a-d-woche-10/cc6ac333-5918-4e44-b403-06f9eafd0331)  
+* [Term Recap Kahoot 1](https://create.kahoot.it/share/a-d-nearly-the-grand-finale/a4410969-ce87-4a22-8187-d273ec414733) 
+* [Term Recap Kahoot 2](https://create.kahoot.it/share/a-d-actually-the-grand-finale/491dc7ee-edf9-47f3-9975-9df059d09eee)
+
 ## Woche 1
 
 Themen: Einführung, Induktion, Asymptotisches Wachstum
@@ -38,11 +46,3 @@ Websiten, um DP zu üben:
 ## Woche 9
 * [AVL-Tree-Visualisierung](https://www.cs.usfca.edu/~galles/visualization/AVLtree.html)
 * [Graph Terminology Cheatsheet](https://github.com/XYQuadrat/eth-cheatsheets/releases)
-
-## Kahoots
-
-* [Midterm Kahoot](https://create.kahoot.it/share/a-d-midterm-kahoot/1739182e-79a4-4720-9dcf-41e55e426e24)  
-* [Kahoot Woche 8 (Graphentheorie Einführung)](https://create.kahoot.it/share/a-d-woche-8/8f312e5c-3748-4061-a6cf-54303dc3800e)  
-* [Kahoot Woche 10](https://create.kahoot.it/share/a-d-woche-10/cc6ac333-5918-4e44-b403-06f9eafd0331)  
-* [Term Recap Kahoot 1](https://create.kahoot.it/share/a-d-nearly-the-grand-finale/a4410969-ce87-4a22-8187-d273ec414733) 
-* [Term Recap Kahoot 2](https://create.kahoot.it/share/a-d-actually-the-grand-finale/491dc7ee-edf9-47f3-9975-9df059d09eee)
