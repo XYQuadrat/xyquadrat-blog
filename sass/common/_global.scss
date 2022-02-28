@@ -32,9 +32,28 @@ h6 {
   }
 }
 
-.home h1 {
-  /* font-size: calc(1.375rem + 1.5vw); */
-  font-size: calc(1.875rem + 1.5vw);
+small {
+  font-size: clamp(0.8rem, unquote('0.27vw + 0.73rem'), 0.95rem);
+}
+
+p { 
+  font-size: clamp(1rem, unquote('0.34vw + 0.91rem'), 1.19rem);
+}
+
+h4 { 
+  font-size: clamp(1.25rem, unquote('0.43vw + 1.14rem'), 1.48rem);
+}
+
+h3 {
+  font-size: clamp(1.56rem, unquote('0.53vw + 1.43rem'), 1.86rem);
+}
+
+h2 {
+  font-size: clamp(1.95rem, unquote('0.67vw + 1.79rem'), 2.32rem);
+}
+
+h1 {
+  font-size: clamp(2.44rem, unquote('0.83vw + 2.23rem'), 2.9rem);
 }
 
 a:is(:hover, :focus) {
