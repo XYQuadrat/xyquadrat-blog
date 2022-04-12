@@ -73,6 +73,10 @@ body.dark .navbar-light .navbar-nav .nav-link.disabled {
   // color: $navbar-dark-disabled-color;
 }
 
+body.dark .card:hover {
+  background-color: lighten($color: #212529, $amount: 5%) !important;
+}
+
 body.dark .navbar-light .navbar-nav .show > .nav-link,
 body.dark .navbar-light .navbar-nav .active > .nav-link,
 body.dark .navbar-light .navbar-nav .nav-link.show,
