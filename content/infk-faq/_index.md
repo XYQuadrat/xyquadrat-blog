@@ -145,7 +145,7 @@ Search for the courses in the right category and see what you like. It's always 
 
 ### How do courses get graded?
 The most basic way should be written on VVZ.
-It should usually say someething like "Sessionsprüfung", "Semesterendprüfung" or "benotete Semesterleistung" - the latter can mean anything from Midterms to writing essays a few times and doing other stuff. Sometimes they write it more explicitly but otherwise it's best to ask someone that took the course.
+It should usually say something like "Sessionsprüfung", "Semesterendprüfung" or "benotete Semesterleistung" - the latter can mean anything from Midterms to writing essays a few times and doing other stuff. Sometimes they write it more explicitly but otherwise it's best to ask someone that took the course, check the course website if available or ask the professor directly. In addition, the professors usually will explain how grading is done in the first two weeks of the semester where you are still able to remove your course enrollment.
 
 ### Where can I see what course is part of what Category?
 If you are unsure which category a course belongs to, check under "Angeboten in". If you theoretically can't take a course but really want to, asking Denise Spicher is the way to go. For example you can take some master courses as Ergänzung, but that will have to be accepted by the study administration. 
