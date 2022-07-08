@@ -19,7 +19,7 @@ You may bring a handwritten (that is, either on paper or digitally with a tablet
 If you're reading this before New Year's Eve, no. Writing the cheatsheets takes quite a lot of time, especially in Discrete Mathematics. But since it can also serve as a repetition, you should be fine - the majority of students only starts writing cheatsheets in Lernphase. Don't begin writing just the week before the exams though!
 
 ### Can I copy another cheatsheet and save some time?
-In Discrete Mathematics the requirement is explicitly "selbstverfasst", whereas in Linear Algebra there is no such requiremen. Honestly, it's basically impossible for the examiners to control that. Still, the main value you get from a cheatsheet is not looking up lemmas during the test, but being forced to condense your knowledge of the subject onto a limited amount of paper. As such, copying a cheatsheet won't be very effective.
+In Discrete Mathematics the requirement is explicitly "selbstverfasst", whereas in Linear Algebra there is no such requirement. Honestly, it's basically impossible for the examiners to control that. Still, the main value you get from a cheatsheet is not looking up lemmas during the test, but being forced to condense your knowledge of the subject onto a limited amount of paper. As such, copying a cheatsheet won't be very effective.
 
 ### The eProg and A&D exams are incredibly long on myStudies. Why?
 
