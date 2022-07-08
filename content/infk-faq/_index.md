@@ -1,6 +1,10 @@
 +++
-layout = "blog/page.html"
 title = "Computer Science @ ETH - Erstis FAQ"
+date = 2022-07-06
+updated = 2022-07-06
+
+[extra]
+toc = true
 +++
 
 ### Do I need to visit the exercise sessions?
@@ -80,3 +84,79 @@ It's super important that you get help. You don't have to and shouldn't go throu
 ### Should I join Polyring?
 
 If you have a blog, definitely! Polyring is a webring / community of blogs from ETH members. It will boost the visibility of your blog posts and might also encourage you to blog more. You can find more information about it at [https://polyring.ch](https://polyring.ch). The author of this FAQ may or may not be the creator of Polyring, which could indicate some bias.
+
+
+
+# After Basisprüfung
+
+Congratulations on making it this far. You should be proud of what you've accomplished!
+
+### How do I best plan my remaining bachelor?
+[This spreadsheet is very useful.](https://docs.google.com/spreadsheets/d/1SvVyaDaUeci1di4C1Z98w9pTXPFLlkdwPgNryHG7Fko/)
+
+### What course is about what?
+#### Basisjahrfächer / First Year Courses
+These are the courses that are usually done in the first year. They're split into two block exams. If you're reading this, you probably passed them.
+From now on, all other courses have to be passed individually.
+
+#### Grundlagenfächer / Basic Courses
+These are the courses that are usually done in the second year. You need to take all at some at some point during your Bachelor but you only have to pass seven out of the eight. If you don't pass all, you need to take an additional core subject instead.
+
+#### Kernfächer / Core Subjects
+These are the courses that are usually done in the third year. You need to take at least four of them. You can also take more.
+
+#### GESS (Geistes-, Sozial- und Staatswissenschaften)
+These courses are meant to give insights into other sciences or even to learn new languages.
+There's a huge selection of courses with various formats (presentations, end of semester exams, session exam, papers, ...).
+Some language courses count too but the number of credits from such courses is limited to 3.
+They are usually done in the second and third year and tend to need less effort than other courses.
+
+#### Seminar
+Seminars are courses where you have to read papers and present one of them. These courses usually only have around 25 spots so make sure to be fast if you want a spot.
+
+#### Ergänzungsfächer / Minor courses
+These courses are often courses from other departments which can also be relevant for CS students. Some of them are bachelor's courses. Some of them are master's courses. You can also take other (master) courses that are not on the list but they need to be accepted by the study administration. 
+
+#### Wahlfächer / Electives
+These courses are CS courses which are not in any of the other categories. You don't have to take any of them but you can take some of them instead of taking more Kernfächer or if you just see something interesting of course.
+
+#### Bachelor Thesis
+You need to have passed at least 5 Grundlagenfächer to start writing your thesis, so it's usually done in the third year. The duration for completing the thesis is usually limited by 6 months.
+
+### Which courses should I take when?
+Nothing restricts you from taking anything a specific point.
+The department recommends
+- Grundlagen: 4th and 5th
+- Kernfächer:  5th and 6th
+- Wahlfächer: 4th - 6th
+- Ergänzung: 3rd - 6th
+- GESS: 3rd - 6th
+- Seminar: 3rd - 6th
+
+You can also complete your degree in more or less semesters. The former is quite common and gives you the opportunity to plan your semesters a bit more flexibly and might make your studies less stressful. Note that the degree certificate does not mention the duration of your studies which means that your degree looks equivalent to one done in 6 semesters (maybe just with better grades?).
+
+Other things to mention:
+- Some take "Introduction to Machine Learning" already in the 4th semester, because for your thesis it is nice to have known that already (more than 80% of thesis have ML in them) and to shovel free your last semester i.e. to do less ECTS and have more time for the thesis.
+- Wahlfächer are mostly just replacements for Kernfächer
+- Seminar spots will be gone quickly after enrollment opens - so doing it in the 6th semester can be a bit risky in the sense that it's problematic if you don't get a spot.
+
+### How do I know what course to pick?
+Search for the courses in the right category and see what you like. It's always a good idea is to find someone who took that course already or knows more about it. There's also [a database with reviews from courses](https://n.ethz.ch/~lteufelbe/coursereview/) built by a few fellow students which you can consult.
+
+### How do courses get graded?
+The most basic way should be written on VVZ.
+It should usually say someething like "Sessionsprüfung", "Semesterendprüfung" or "benotete Semesterleistung" - the latter can mean anything from Midterms to writing essays a few times and doing other stuff. Sometimes they write it more explicitly but otherwise it's best to ask someone that took the course.
+
+### Where can I see what course is part of what Category?
+If you are unsure which category a course belongs to, check under "Angeboten in". If you theoretically can't take a course but really want to, asking Denise Spicher is the way to go. For example you can take some master courses as Ergänzung, but that will have to be accepted by the study administration. 
+
+### How to find courses?
+Go to VVZ and select Bachelorstudium → Informatik → Informatik Bachelor → [Category].
+
+### When do I have to start worrying about master?
+Sometime at the end of your last Bachelor semester, as you need to decide on Major and Minors.
+
+### Is the pain and worrying finally over?
+Yesn't. There will be hard subjects later on too (NumCS says hello!). And ETH can still exmatriculate you - but the passing rate of the remaining semesters is much higher. 
+To be precise: 
+You need to pass 7 out 8 Grundlagenfächer. So if you fail two of them twice, you will not be able to get your Bachelor. Theoretically this is similar with other categories too but you have way more subjects that you can pass, so this shouldn't be a problem in any way.
