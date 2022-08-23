@@ -94,7 +94,7 @@ Congratulations on making it this far. You should be proud of what you've accomp
 ### How do I best plan my remaining bachelor?
 [This spreadsheet is very useful.](https://docs.google.com/spreadsheets/d/1SvVyaDaUeci1di4C1Z98w9pTXPFLlkdwPgNryHG7Fko/)
 
-### What course is about what?
+### What categories are about what?
 #### Basisjahrfächer / First Year Courses
 These are the courses that are usually done in the first year. They're split into two block exams. If you're reading this, you probably passed them.
 From now on, all other courses have to be passed individually.
@@ -126,7 +126,7 @@ You need to have passed at least 5 Grundlagenfächer to start writing your thesi
 ### Which courses should I take when?
 Nothing restricts you from taking anything a specific point.
 The department recommends
-- Grundlagen: 4th and 5th
+- Grundlagen: 3rd and 4th
 - Kernfächer:  5th and 6th
 - Wahlfächer: 4th - 6th
 - Ergänzung: 3rd - 6th
@@ -137,7 +137,7 @@ You can also complete your degree in more or less semesters. The former is quite
 
 Other things to mention:
 - Some take "Introduction to Machine Learning" already in the 4th semester, because for your thesis it is nice to have known that already (more than 80% of thesis have ML in them) and to shovel free your last semester i.e. to do less ECTS and have more time for the thesis.
-- Wahlfächer are mostly just replacements for Kernfächer
+- Wahlfächer are mostly just replacements for Kernfächer.
 - Seminar spots will be gone quickly after enrollment opens - so doing it in the 6th semester can be a bit risky in the sense that it's problematic if you don't get a spot.
 
 ### How do I know what course to pick?
@@ -147,7 +147,7 @@ Search for the courses in the right category and see what you like. It's always 
 The most basic way should be written on VVZ.
 It should usually say something like "Sessionsprüfung", "Semesterendprüfung" or "benotete Semesterleistung" - the latter can mean anything from Midterms to writing essays a few times and doing other stuff. Sometimes they write it more explicitly but otherwise it's best to ask someone that took the course, check the course website if available or ask the professor directly. In addition, the professors usually will explain how grading is done in the first two weeks of the semester where you are still able to remove your course enrollment.
 
-### Where can I see what course is part of what Category?
+### Where can I see what course is part of what category?
 If you are unsure which category a course belongs to, check under "Angeboten in". If you theoretically can't take a course but really want to, asking Denise Spicher is the way to go. For example you can take some master courses as Ergänzung, but that will have to be accepted by the study administration. 
 
 ### How to find courses?
