@@ -2,25 +2,15 @@
 .blog .card {
   margin-top: 2rem;
   margin-bottom: 2rem;
-  transition: transform 0.3s;
+  transition: background-color 0.3s ease-in-out;
 }
 
 .home .card:hover,
 .blog .card:hover {
-  //TODO: change background color
   background-color: #e9ecef;
 }
 
 .home .card-body,
 .blog .card-body {
   padding: 0 2rem 1rem;
-}
-
-.blog-header {
-  text-align: center;
-  margin-bottom: 2rem;
-}
-
-.blog-footer {
-  text-align: center;
 }

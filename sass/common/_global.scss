@@ -1,7 +1,10 @@
+*, ::before, ::after {
+    box-sizing: border-box;
+}
+
 .content,
 .blog .content,
-.page .content,
-.error404 .content {
+.page .content {
   padding-top: 1rem;
   padding-bottom: 3rem;
 }
@@ -56,6 +59,11 @@ h1 {
   font-size: clamp(2.44rem, unquote('0.83vw + 2.23rem'), 2.9rem);
 }
 
+a {
+  color: $link-color;
+  text-decoration: none;
+}
+
 a:is(:hover, :focus) {
   text-decoration: underline;
 }
@@ -69,11 +77,6 @@ a.btn:is(:hover, :focus) {
   padding-bottom: 5rem;
 }
 
-.section-md {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
-}
-
 .section-sm {
   padding-top: 1rem;
   padding-bottom: 1rem;
@@ -81,6 +84,9 @@ a.btn:is(:hover, :focus) {
 
 body {
   padding-top: 3.5625rem;
+  font-family: $font-family-sans-serif;
+  line-height: 1.6em;
+  margin: 0;
 }
 
 // smooth scrolling with offset
@@ -118,20 +124,6 @@ html {
 @media (min-width: 1200px) {
   .sidebar-filler {
     flex: 0 1 320px;
-  }
-}
-
-.toc {
-  order: 2;
-}
-
-@supports ((position:-webkit-sticky) or (position:sticky)) {
-  .toc {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 4rem;
-    height: calc(100vh - 4rem);
-    overflow-y: auto;
   }
 }
 

@@ -1,6 +1,17 @@
 .toc {
   scrollbar-width: thin;
   scrollbar-color: $white $white;
+  order: 2;
+}
+
+@supports ((position:-webkit-sticky) or (position:sticky)) {
+  .toc {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 4rem;
+    height: calc(100vh - 4rem);
+    overflow-y: auto;
+  }
 }
 
 .toc::-webkit-scrollbar {
@@ -68,18 +79,4 @@
 .page-links a:hover {
   text-decoration: none;
   color: $link-color;
-}
-
-.page-links h3.sidebar-link {
-  text-transform: none;
-  font-size: $font-size-md;
-  font-weight: normal;
-}
-
-.page-links h3.sidebar-link a {
-  color: $body-color;
-}
-
-.page-links h3.sidebar-link a:hover {
-  text-decoration: underline;
 }
