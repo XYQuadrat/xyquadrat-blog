@@ -101,12 +101,6 @@ body.dark .border-top {
   border-top: 1px solid $border-dark !important;
 }
 
-@media (min-width: 992px) {
-  body.dark .sidebar-filler {
-    border-right: 1px solid $border-dark;
-  }
-}
-
 body.dark pre code::-webkit-scrollbar-thumb {
   background: $border-dark;
 }
