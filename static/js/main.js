@@ -8,13 +8,14 @@ document.getElementById('mode').addEventListener('click', () => {
     localStorage.setItem('theme', 'dark');
 
     if (polyringBanner != null) {
-      polyringBanner.setAttribute("theme", "dark");
+      polyringBanner.setAttribute("theme", "blog-dark.json");
+      polyringBanner.removeAttribute("style");
     }
   } else {
     localStorage.setItem('theme', 'light');
 
     if (polyringBanner != null) {
-      polyringBanner.removeAttribute("theme");
+      polyringBanner.setAttribute("theme", "blog-light.json");
       polyringBanner.removeAttribute("style");
     }
   }
@@ -26,6 +27,10 @@ if (localStorage.getItem('theme') === 'dark' ||
   document.body.classList.add('dark');
 
   if (polyringBanner != null) {
-    polyringBanner.setAttribute("theme", "dark");
+    polyringBanner.setAttribute("theme", "blog-dark.json");
+  }
+} else {
+  if (polyringBanner != null) {
+    polyringBanner.setAttribute("theme", "blog-light.json");
   }
 }

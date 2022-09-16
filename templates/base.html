@@ -27,6 +27,10 @@
 </head>
 {% block body %}{% set page_class="home" %}{% endblock body %}
 <body class="{{ page_class }}">
+  <script>
+    const theme = localStorage.getItem('theme') || 'light';
+    document.body.className = theme;
+  </script>
   {% block header %}
     {{ macros_header::header(current_section="/") }}
   {% endblock header %}
