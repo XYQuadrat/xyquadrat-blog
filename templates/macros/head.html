@@ -112,8 +112,6 @@
       "url": "{{ page_path | safe }}",
       "name": "{{ title }}",
       "sameAs": [
-        {% if config.extra.schema.twitter %}"{{ config.extra.schema.twitter | safe }}",{% endif %}
-        {% if config.extra.schema.linked_in %}"{{ config.extra.schema.linked_in | safe }}",{% endif %}
         {% if config.extra.schema.github %}"{{ config.extra.schema.github | safe }}"{% endif %}
       ]
     }
@@ -121,57 +119,4 @@
   {% endif %}
 {% endif %}
 
-{% set url_prefix = get_url(path="/") | split(pat="://") | first %}
-{% set url_main = get_url(path="/") | split(pat="://") | last %}
-{% set url_item = url_prefix ~ "://" ~ url_main ~ "/" %}
-<script type="application/ld+json">
-  {
-    "@context": "http://schema.org",
-    "@type": "BreadcrumbList",
-    {% if page_path == "/" %}
-    {
-      "@type": "ListItem",
-      "position":  1 ,
-      "name": "Home",
-      "item": "{{ url_item | safe }}"
-    },
-    {% else %}
-      {% set paths = page_path | trim_start_matches(pat="/") | trim_end_matches(pat="/") | split(pat="/") %}
-      {% for val in paths %}
-        {% set name_array = val | split(pat="-") %}
-        {% set_global str = "" %}
-        {% for val in name_array %}
-        {% set cap_val = val | capitalize %}
-        {% set_global str = str ~ cap_val ~ " " %}
-        {% endfor %}
-        {% set name = str | trim_end_matches(pat=" ") | title %}
-        {% if not index %}
-          {
-            "@type": "ListItem",
-            "position":  1 ,
-            "name": "Home",
-            "item": "{{ url_item | safe }}"
-          },
-          {% set_global index = 2 %}
-          {% set_global url_item = url_item ~ val ~ "/" %}
-          {
-            "@type": "ListItem",
-            "position":  {{ index }} ,
-            "name": "{{ name }}",
-            "item": "{{ url_item | safe }}"
-          },
-        {% else %}
-          {% set_global index = index + 1 %}
-          {% set_global url_item = url_item ~ val ~ "/" %}
-          {
-            "@type": "ListItem",
-            "position":  {{ index }} ,
-            "name": "{{ name }}",
-            "item": "{{ url_item | safe }}"
-          },
-        {% endif %}
-      {% endfor %}
-    {% endif %}
-  }
-</script>
 {% endmacro %}

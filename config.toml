@@ -4,6 +4,8 @@ base_url = "https://xyquadrat.ch"
 title = "xyquadrat.ch"
 description = "Blog about software, ETH and life"
 
+default_language = "en"
+
 ## Whether to automatically compile all Sass files in the sass directory
 compile_sass = true
 
@@ -22,6 +24,7 @@ feed_limit = 20
 highlight_code = true
 
 external_links_target_blank = true
+
 smart_punctuation = true
 
 [extra]

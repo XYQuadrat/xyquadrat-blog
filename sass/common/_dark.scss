@@ -190,7 +190,7 @@ body.dark .logo-dark {
 }
 
 body.dark .text-muted {
-  color: darken($body-color-dark, 7.5%) !important;
+  color: darken($body-color-dark, 7.5%);
 }
 
 body.dark .figure-caption {

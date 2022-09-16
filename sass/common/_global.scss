@@ -169,3 +169,19 @@ article {
     margin: 3rem 0;
   }
 }
+
+.center-content {
+  display: grid;
+  place-content: center;
+}
+
+blockquote {
+    margin: 0 0 1rem;
+    border-left: 3px solid #dee2e6;
+    padding-left: 1rem;
+}
+
+img, svg {
+    width: 100%;
+    vertical-align: middle;
+}
