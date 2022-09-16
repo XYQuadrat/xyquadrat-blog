@@ -4,7 +4,7 @@
 
 $body-bg-dark: $gray-900;
 $body-overlay-dark: darken($body-bg-dark, 2.5%);
-$border-dark: darken($body-bg-dark, 2.5%);
+$border-dark: lighten($body-bg-dark, 5%);
 $body-color-dark: $gray-300;
 $dots-dark: darken($body-color-dark, 50%);
 
@@ -169,7 +169,7 @@ body.dark .page-links li:not(:first-child) {
 
 body.dark .card {
   background: $body-bg-dark;
-  border: 1px solid $border-dark;
+  border: 1px solid $body-color-dark;
 }
 
 body.dark .navbar .menu-icon .navicon {
