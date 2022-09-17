@@ -190,3 +190,7 @@ body.dark .text-muted {
 body.dark .figure-caption {
   color: $body-color-dark;
 }
+
+body.dark .info {
+  background-color: darken(#212529,3.75%);
+}
