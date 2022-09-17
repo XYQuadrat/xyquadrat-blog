@@ -1,0 +1,4 @@
+<div class="message" {% if class %}class="{{class}}"{% endif %}>
+    <b>{{ title }} </b>
+    {{ body | markdown | safe }}
+</div>
