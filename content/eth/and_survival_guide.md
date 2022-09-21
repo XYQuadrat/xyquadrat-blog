@@ -32,8 +32,8 @@ Say you want your computer to search the word “trivial” in a dictionary. The
 1. **Linear Search.** You could have the computer go through the list one by one and check each word if it equals “trivial”. If the list contains 50’000 words, this will in the worst case (where the last word is “trivial” or the word is not in the list) require the computer to check all 50’000 words.
 2. **Binary Search.** Have the computer pick the word in the middle of the list. There are three cases:
 	1. If the word is “trivial”, we are finished.
-	2. If the word comes before “trivial” alphabetically, drop the first half of the list.
-	3. If the word comes after “trivial” alphabetically, drop the second half of the list.
+	2. If the word comes before “trivial” alphabetically, we only look at the second half of the list.
+	3. If the word comes after “trivial” alphabetically, we only look at the first half of the list.
 	Then, do the same again with the remaining list until you either find the word or the list is empty.
 	
 	You may know this technique from “Guess the Number” games. 
@@ -154,7 +154,10 @@ A function $g(n)$ is in $\mathcal{O}(f(n))$ if $$
 $$so if the functions $g(n), f(n)$ differ by only a constant factor for very large $n$.
 {% end %}
 
-The general idea is that we only keep the parts of the term that are largest for a very large $n$.
+The general idea is that we only keep the parts of the term that are largest for a very large $n$. This gives us a sort of "hierarchy" (not official):
+$$
+\mathcal{O}(1) \le \mathcal{O}(\log n) \le \mathcal{O}(\sqrt{n}) \newline \le \mathcal{O}(n) \le \mathcal{O}(n \log n) \le \mathcal{O}(n^2) \newline \le \mathcal{O}(2^n) \le \mathcal{O}(n!)
+$$
 
 ## Exercises
 In the exercise series, you will have to prove that certain functions grow faster than others (which is equivalent to showing that $g(n) \le \mathcal{O}(f(n))$).
