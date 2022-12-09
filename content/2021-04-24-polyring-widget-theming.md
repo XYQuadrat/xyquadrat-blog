@@ -5,7 +5,7 @@ title =  "Theming support for the Polyring widget"
 
 > Honestly that's not a fully satisfactory solution; it'd be better to have a single parametrized widget that one could easily adapt to any design with a few simple arguments.
 
-That's what I wrote in [my post a few days back about building Polyring]({% post_url 2021-04-19-building-polyring %}) in regards to the widget members of the webring can embed in their page. I also mentioned that [Luca (gewlar)](https://ateon.ch/) was working on improving the situation. Only a day later, he already [sent a pull request](https://github.com/XYQuadrat/polyring/pull/11) which did exactly that.
+That's what I wrote in [my post a few days back about building Polyring](@/2021-04-19-building-polyring.md) in regards to the widget members of the webring can embed in their page. I also mentioned that [Luca (gewlar)](https://ateon.ch/) was working on improving the situation. Only a day later, he already [sent a pull request](https://github.com/XYQuadrat/polyring/pull/11) which did exactly that.
 
 The clever solution allows you to pass a `theme` parameter to the webcomponent. You can either use one of the "official" themes by passing `theme="default"` or `theme="dark"` to the widget, or mix it up with your own style by passing a link to a .json file: `theme="<link-to-json>"`.
 
