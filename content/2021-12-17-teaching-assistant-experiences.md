@@ -44,7 +44,7 @@ I'm not certain it's sensible to always discuss all bonus exercises. We were exp
 
 I'd like to have some sort of more direct channel of communication with my students. It'd be great to have students tell me in advance what they haven't understood yet, because then I can actually prepare these topics.
 
-Finally, I believe there are still a lot of potential synergies among us TAs that we could use to lower our work load and improve our lessons - sharing notes, additional resources, explanations on solutions, etc. (Ah, you can find some of my stuff on [xyquadrat.ch/and](https://xyquadrat.ch/and), by the way.)
+Finally, I believe there are still a lot of potential synergies among us TAs that we could use to lower our work load and improve our lessons - sharing notes, additional resources, explanations on solutions, etc. (Ah, you can find some of my stuff on [xyquadrat.ch/eth/and](https://xyquadrat.ch/eth/and), by the way.)
 
 ## Closing thoughts
 
