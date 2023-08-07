@@ -6,7 +6,7 @@ title = "Check if a poset is a lattice"
 math = true
 +++
 
-Continuing with Discrete Mathematics (because I am too lazy to create nice graphics for Linear Algebra right now), we shall examine the following rather simple problem:
+Continuing with Discrete Mathematics, we shall examine the following rather simple problem:
 
 > Prove or disprove: $(\lbrace 1,3,6,9,12\rbrace, \mid)$ is a lattice. (l06, 4c)
 
@@ -27,5 +27,3 @@ The opposite implication is (sadly, I guess) not true though: Just because a pos
 Therefore, we must manually check all pairs to be sure that we indeed have a lattice. Since the cardinality of the poset in these exercises is usually quite small, this doesn't take long, especially if you quickly sketch the Hasse diagram.
 
 **Practice:** Is $(\lbrace 1, 2, 3, 4, 6, 12 \rbrace ; \mid)$ a lattice?
-
-Tomorrow, I hope to finally publish a Linear Algebra post, with some nice graphics regarding basis transforms, _dictum meum pactum_.
