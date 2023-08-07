@@ -194,3 +194,7 @@ body.dark .figure-caption {
 body.dark .info {
   background-color: darken(#212529,3.75%);
 }
+
+body.dark .invert {
+  filter: grayscale(50%) invert(100%) brightness(95%) hue-rotate(180deg);;
+}

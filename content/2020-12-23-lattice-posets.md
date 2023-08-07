@@ -13,14 +13,16 @@ Continuing with Discrete Mathematics, we shall examine the following rather simp
 Let's quickly recall what it means for a poset to be a lattice:
 A poset in which every pair of elements has a meet (= greatest lower bound) and a join (= least upper bound) is called a lattice.
 
-![Hasse diagram of the poset](/img/lattice.svg)
+{{ dark_mode_image(path="/img/lattice.svg")}}
+<!-- ![Hasse diagram of the poset](/img/lattice.svg) -->
 
 A visualization of the poset as a Hasse diagram would look like the image above. Now, as an example, let us try and pick any pair of elements, say $3$ and $6$. Then, the upper bounds of this pair are all elements $x$ such that $x \ge 3$ and $x \ge 6$. As one can easily find out by looking at the image, the upper bounds of $3$ and $6$ in this poset are $6$ and $12$. 
 Thus, the lowest upper bound of $3$ and $6$, so the join, is $6$. As you may recall, an alternative notation for the join is $3 \lor 6 = 6$. The same applies dually for greatest lower bounds.
 
 Now, the question remains if every pair of elements has such a join and a meet. In this example, we can clearly see that both $\lbrace 6, 9 \rbrace$ and $\lbrace 9, 12 \rbrace$ have no common upper bound. Therefore, we can already conclude that this poset is not a lattice. More generally, if a finite poset does not have a least and a greatest element, it cannot be a lattice as visible in this figure: 
 
-![Visual proof why a lattice needs to have a least and greatest element](/img/lattice_greatest_least.png)
+{{ dark_mode_image(path="/img/lattice_greatest_least.png")}}
+<!-- ![Visual proof why a lattice needs to have a least and greatest element](/img/lattice_greatest_least.png) -->
 
 The opposite implication is (sadly, I guess) not true though: Just because a poset has a least and a greatest element does not mean that is must be a lattice. Can you find a counterexample for this case?
 
