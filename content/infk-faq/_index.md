@@ -65,10 +65,6 @@ For those that don't know, GESS stands for "Geistes-, Sozial-, und Staatswissens
 * TooGoodToGo - Want cheap good food? This is an app where you can buy leftovers from restaurants at a very reduced price.
 * PubliBike - Rent bikes temporarily for a low price. [ETH also offers a special deal](https://ethz.ch/studierende/de/campus/transport-mobilitaet/velo.html) that gives you a year-long subscription for 70CHF where you can use the bikes to ride up to 30 minutes for free.
 
-Currently (August 2022), there is neither a certificate requirement nor contact tracing at ETH. Previously, the following apps were useful:
-* Covid Certificate - You can save & show your covid certificate here.
-* SwissCovid - The Swiss Covid contact tracing app.
-
 ### I saw ETH also has a few apps. What are those for?
 
 * EduApp - Used for clicker questions during lectures and to ask questions in some courses. Also includes a campus map and a not very helpful schedule.
@@ -138,7 +134,7 @@ The department recommends
 You can also complete your degree in more or less semesters. The former is quite common and gives you the opportunity to plan your semesters a bit more flexibly and might make your studies less stressful. Note that the degree certificate does not mention the duration of your studies which means that your degree looks equivalent to one done in 6 semesters (maybe just with better grades?).
 
 Other things to mention:
-- Some take "Introduction to Machine Learning" already in the 4th semester, because for your thesis it is nice to have known that already (more than 80% of thesis have ML in them) and to shovel free your last semester i.e. to do less ECTS and have more time for the thesis.
+- Some take "Introduction to Machine Learning" already in the 4th semester, because for your thesis it is nice to have knowledge of these topics already (according to a dubious source, more than 80% of thesis are somewhat ML-related).
 - Wahlfächer are mostly just replacements for Kernfächer.
 - Seminar spots will be gone quickly after enrollment opens - so doing it in the 6th semester can be a bit risky in the sense that it's problematic if you don't get a spot.
 
