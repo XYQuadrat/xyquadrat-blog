@@ -1,3 +1,5 @@
 {% macro javascript() %}
 <script src="{{ get_url(path="js/main.js") | safe }}" defer></script>
+<script src="{{ get_url(path="js/htmx.min.js") | safe }}" defer></script>
+<script src="{{ get_url(path="js/preload.js") | safe }}" defer></script>
 {% endmacro %}

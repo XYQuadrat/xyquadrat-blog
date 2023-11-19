@@ -26,7 +26,7 @@
 {% block math %}{{ macros_math::math() }}{% endblock math %}
 </head>
 {% block body %}{% set page_class="home" %}{% endblock body %}
-<body class="{{ page_class }}">
+<body hx-ext="preload" class="{{ page_class }}">
   <script>
     const theme = localStorage.getItem('theme') || 'light';
     document.body.className = theme;

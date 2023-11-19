@@ -1,7 +1,7 @@
 {% macro navigation(paginator) %}
-<div class="blog-navigation d-flex justify-content-between">
+<div class="blog-navigation d-flex justify-content-between" hx-boost="true">
 	{% if paginator.previous %}
-	<a href="{{ paginator.previous | safe }}">
+	<a href="{{ paginator.previous | safe }}" prelaod>
 		<div class="card my-1">
 			<div class="card-body py-2">
 				← Newer
@@ -10,7 +10,7 @@
 	</a>
 	{% endif %}
 	{% if paginator.next %}
-	<a class="ms-auto" href="{{ paginator.next | safe }}">
+	<a class="ms-auto" href="{{ paginator.next | safe }}" preload>
 		<div class="card my-1">
 			<div class="card-body py-2">
 				Older →

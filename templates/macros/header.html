@@ -22,12 +22,12 @@
 				</li>
 		</ul>
 		<div class="collapse navbar-collapse order-4 order-md-1">
-			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
+			<ul class="navbar-nav main-nav me-auto order-5 order-md-2" hx-boost="true">
 				<li class="nav-item">
-					<a class="nav-link" href="{{ get_url(path="#blog", trailing_slash=false) | safe }}">Blog</a>
+					<a class="nav-link" href="{{ get_url(path="#blog", trailing_slash=false) | safe }}" preload>Blog</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="{{ get_url(path="eth", trailing_slash=true) | safe }}">ETH</a>
+					<a class="nav-link" href="{{ get_url(path="eth", trailing_slash=true) | safe }}" preload>ETH</a>
 				</li>
 			</ul>
 			<div class="break order-6 d-md-none"></div>
