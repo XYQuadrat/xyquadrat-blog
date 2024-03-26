@@ -5,8 +5,6 @@ when:
 steps:
   - name: build
     image: ghcr.io/getzola/zola:v0.18.0
-    commands:
-      - zola build 
-      - cp -TR public /tmp/output
+    entrypoint: ["zola", "build", "--output-dir /tmp/output", "--force"]
     volumes:
       - /srv/blog:/tmp/output
