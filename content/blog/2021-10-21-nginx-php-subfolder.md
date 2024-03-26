@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Getting PHP to work in subfolders with nginx"
+aliases = ["2021/10/21/nginx-php-subfolder.html"]
 +++
 
 If you have `nginx` as your reverse proxy of choice (like I do) and you for one reason or the other have to run PHP code on your website, you might have a configuration in your nginx config file like this:

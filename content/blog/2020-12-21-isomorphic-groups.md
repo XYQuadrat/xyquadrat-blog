@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title =  "Find easy isomorphic groups"
+aliases = ["2020/12/21/isomorphic-groups.html"]
 
 [extra] 
 math = true

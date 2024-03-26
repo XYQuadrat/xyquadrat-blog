@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title = "How to find zerodivisors in finite commutative rings"
+aliases = ["2020/12/15/zerodivisors-in-rings.html"]
 
 [extra] 
 math = true

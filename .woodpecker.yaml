@@ -1,0 +1,12 @@
+when:
+  - event: push
+    branch: master
+
+steps:
+  - name: build
+    image: ghcr.io/getzola/zola:v0.18.0
+    commands:
+      - zola build 
+      - cp -TR public /tmp/output
+    volumes:
+      - /srv/blog:/tmp/output

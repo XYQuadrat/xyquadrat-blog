@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title =  "Computing the RSA private key for small inputs"
+aliases = ["2020/12/30/rsa-secret-key.html"]
 
 [extra] 
 math = true

@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title =  "When is a polynomial ring a field?"
+aliases = ["2020/12/19/is-polynomial-ring-field.html"]
 
 [extra] 
 math = true

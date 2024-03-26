@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title =  "Efficiently calculate terms modulo a polynomial"
+aliases = ["2020/12/27/modulo-polynomials.html"]
 
 [extra] 
 math = true

@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Optimizing font file size with glyphhanger"
+aliases = ["2021/04/27/glyphhanger-font-performance.html"]
 +++
 
 A good font choice is essential to a good-looking website. xyquadrat.ch surely wouldn't look even remotely trustworthy if I used Comic Sans, would it?

@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Running an appropriately sophisticated Minecraft server in 2021"
+aliases = ["2021/12/13/running-vanilla-minecraft-in-2021.html"]
 +++
 
 Even more than a decade after its release, Minecraft continues to be popular and receives regular updates.

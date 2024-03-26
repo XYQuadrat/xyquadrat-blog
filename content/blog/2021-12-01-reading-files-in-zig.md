@@ -1,6 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Reading files in Zig for Advent of Code"
+aliases = ["2021/12/01/reading-files-in-zig.html"]
 +++
 
 [Zig](https://ziglang.org) is a lovely low-level language I've recently learned about, and what better way is there to learn a new language than to use it to solve [Advent of Code](https://adventofcode.com) problems. Alas, I set out on solving the technically very easy first task, managing to complete it in less than 15 minutes.
