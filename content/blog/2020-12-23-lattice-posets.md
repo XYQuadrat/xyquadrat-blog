@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Check if a poset is a lattice"
-aliases = ["2020/12/23/lattice-posets.html"]
+aliases = ["2020/12/23/lattice-posets"]
 
 [extra] 
 math = true

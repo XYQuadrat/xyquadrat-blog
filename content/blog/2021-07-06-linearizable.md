@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Solving a simple linearizability problem"
-aliases = ["2021/07/06/linearizable.html"]
+aliases = ["2021/07/06/linearizable"]
 
 [extra] 
 math = true

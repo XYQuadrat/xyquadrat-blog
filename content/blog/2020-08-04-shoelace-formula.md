@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Why the Shoelace Formula works"
-aliases = ["2020/08/04/shoelace-formula.html"]
+aliases = ["2020/08/04/shoelace-formula"]
 
 [extra] 
 math = true

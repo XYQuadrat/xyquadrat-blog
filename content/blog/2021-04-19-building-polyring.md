@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Polyring - Building a webring in 2021"
-aliases = ["2021/04/19/building-polyring.html"]
+aliases = ["2021/04/19/building-polyring"]
 +++
 
 ## A webring? In the 21th century?

@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "ETH D-INFK Ersti Exam FAQ"
-aliases = ["2021/12/23/eth-exam-faq.html"]
+aliases = ["2021/12/23/eth-exam-faq"]
 
 [extra]
 toc = true

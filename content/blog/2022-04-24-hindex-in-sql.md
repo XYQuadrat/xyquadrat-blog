@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Implementing h-index in SQL"
-aliases = ["2022/04/24/hindex-in-sql.html"]
+aliases = ["2022/04/24/hindex-in-sql"]
 
 [extra]
 math = true

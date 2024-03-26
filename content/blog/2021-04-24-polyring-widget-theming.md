@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title =  "Theming support for the Polyring widget"
-aliases = ["2021/04/24/polyring-widget-theming.html"]
+aliases = ["2021/04/24/polyring-widget-theming"]
 +++
 
 > Honestly that's not a fully satisfactory solution; it'd be better to have a single parametrized widget that one could easily adapt to any design with a few simple arguments.

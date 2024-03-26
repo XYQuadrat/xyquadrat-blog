@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "My experience as a Teaching Assistant at ETH"
-aliases = ["2021/12/17/teaching-assistant-experiences.html"]
+aliases = ["2021/12/17/teaching-assistant-experiences"]
 
 [extra]
 toc = true

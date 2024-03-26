@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Beautiful boxes in LaTeX with better tcolorbox defaults"
-aliases = ["2022/04/04/latex-boxes.html"]
+aliases = ["2022/04/04/latex-boxes"]
 +++
 
 In my opinion, the default boxes you get with `tcolorbox` aren't that good-looking:

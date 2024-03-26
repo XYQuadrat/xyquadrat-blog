@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title =  "Categorize algebras by type"
-aliases = ["2020/12/22/algebra-type.html"]
+aliases = ["2020/12/22/algebra-type"]
 
 [extra] 
 math = true

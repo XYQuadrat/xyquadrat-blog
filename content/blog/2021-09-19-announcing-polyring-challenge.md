@@ -1,7 +1,7 @@
 +++
 template = "blog/page.html"
 title = "Announcing the Polyring Blogging Challenge"
-aliases = ["2021/09/19/announcing-polyring-challenge.html"]
+aliases = ["2021/09/19/announcing-polyring-challenge"]
 +++
 
 ![Polyring banner](/img/polyring_banner.png)
