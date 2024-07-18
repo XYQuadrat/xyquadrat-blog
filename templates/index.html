@@ -19,7 +19,7 @@
 
 {% set description = config.description %}
 
-{{ macros_head::seo(title=title, title_addition=title_addition, description=description, is_home=true) }}
+{{ head::seo(title=title, title_addition=title_addition, description=description, is_home=true) }}
 {% endblock seo %}
 
 {% block body %}
@@ -29,7 +29,7 @@
 {% block header %}
 {# This value is matched by the config.extra.menu.main->section #}
 {% set current_section = "blog" %}
-{{ macros_header::header(current_section=current_section)}}
+{{ header::header(current_section=current_section)}}
 {% endblock header %}
 
 {% block content %}
@@ -55,7 +55,7 @@
                 {% if page.extra.lead %}
                 <p class="lead">{{ page.extra.lead | safe }}</p>{% elif page.description %}<p class="lead">{{
                   page.description | safe }}</p>{% endif %}
-                {{ macros_publish::page_publish_metadata(page=page) }}
+                {{ publish::page_publish_metadata(page=page) }}
               </div>
             </div>
             {% endfor %}

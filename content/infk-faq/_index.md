@@ -1,7 +1,5 @@
 +++
 title = "Computer Science @ ETH - Erstis FAQ"
-date = 2022-07-06
-updated = 2022-07-06
 
 [extra]
 toc = true

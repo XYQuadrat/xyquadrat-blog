@@ -7,7 +7,7 @@
 {% block header %}
   {# This value is matched by the config.extra.menu.main->section #}
   {% set current_section = "blog" %}
-  {{ macros_header::header(current_section=current_section)}}
+  {{ header::header(current_section=current_section)}}
 {% endblock header %}
 
 {% block content %}
@@ -30,12 +30,12 @@
                 <h3><a class="stretched-link text-body" href="{{ page.permalink }}" preload>{{ page.title }}</a></h3>
                 {% if page.extra.lead %}
                   <p class="lead">{{ page.extra.lead | safe }}</p>{% elif page.description %}<p class="lead">{{ page.description | safe }}</p>{% endif %}
-                {{ macros_publish::page_publish_metadata(page=page) }}
+                {{ publish::page_publish_metadata(page=page) }}
               </div>
             </div>
             {% endfor %}
             {% if paginator.previous or paginator.next %}
-              {{ macros_section_nav::navigation(paginator=paginator) }}
+              {{ section_nav::navigation(paginator=paginator) }}
             {% endif %}
           </div>
         </article>

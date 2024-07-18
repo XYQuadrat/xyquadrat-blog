@@ -1,18 +1,18 @@
-{%- import 'macros/head.html' as macros_head -%}
-{% import 'macros/math.html' as macros_math -%}
-{% import 'macros/header.html' as macros_header -%}
-{% import 'macros/footer.html' as macros_footer -%}
-{% import 'macros/javascript.html' as macros_js -%}
-{% import 'macros/page-publish-metadata.html' as macros_publish -%}
-{% import 'macros/section-navigation.html' as macros_section_nav -%}
-{% import 'macros/toc.html' as macros_toc -%}
+{%- import 'macros/head.html' as head-%}
+{% import 'macros/math.html' as math -%}
+{% import 'macros/header.html' as header -%}
+{% import 'macros/footer.html' as footer -%}
+{% import 'macros/javascript.html' as js -%}
+{% import 'macros/page-publish-metadata.html' as publish -%}
+{% import 'macros/section-navigation.html' as section_nav -%}
+{% import 'macros/toc.html' as toc -%}
 <!DOCTYPE html>
-<html lang="{{ config.extra.language_code | default(value="en") }}">
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-{{ macros_head::resource() }}
-{{ macros_head::stylesheet() }}
+{{ head::resource() }}
+{{ head::stylesheet() }}
 
 {% block seo %}
   {% if config.extra.title_separator %}
@@ -22,8 +22,8 @@
   {% endif %}
 {% endblock seo %}
 
-{{ macros_head::favicons() }}
-{% block math %}{{ macros_math::math() }}{% endblock math %}
+{{ head::favicons() }}
+{% block math %}{{ math::math() }}{% endblock math %}
 </head>
 {% block body %}{% set page_class="home" %}{% endblock body %}
 <body hx-ext="preload" class="{{ page_class }}">
@@ -32,15 +32,15 @@
     document.body.className = theme;
   </script>
   {% block header %}
-    {{ macros_header::header(current_section="/") }}
+    {{ header::header(current_section="/") }}
   {% endblock header %}
 
   {% block content %}{% endblock content %}
 
   {% block footer %}
-    {{ macros_footer::footer() }}
+    {{ footer::footer() }}
   {% endblock footer %}
 
-  {{ macros_js::javascript() }}  
+  {{ js::javascript() }}
 </body>
 </html>
