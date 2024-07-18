@@ -75,7 +75,7 @@ Passing local test cases (these get run when you click the bottle) is not the sa
 
 ### I feel really overwhelmed, I'm in a bad spot mentally or I just don't know how to handle the load. What to do?
 
-It's super important that you get help. You don't have to and shouldn't go through a difficult time alone. ETH offers various ways to support you. One great option is the [Nightline](https://www.nightline.ch). You can call or chat with them most of the time throughout the week, and it's fully anonymous. They aren't professionals though. If you feel professional help is needed, do not hesitate to contact the [Psychologische Beratungsstelle](https://www.pbs.uzh.ch/de.html). There are also further options listed on [this page](https://ethz.ch/studierende/de/beratung/studium-und-gesundheit/kontakte-gesundheit.html). Again, please take care of yourself and do not wait for too long until you seek external help & advice.
+It's super important that you get help. You don't have to and shouldn't go through a difficult time alone. ETH offers various ways to support you. One great option is the [Nightline](https://www.nightline.ch). You can call or chat with them most of the time throughout the week, and it's fully anonymous. They aren't professionals though. If you feel professional help is needed, do not hesitate to contact the [Psychologische Beratungsstelle](https://www.pbs.uzh.ch/de.html). There are also further options listed on [this page](https://ethz.ch/studierende/de/beratung/studium-mentale-gesundheit/kontakte-gesundheit.html). Again, please take care of yourself and do not wait for too long until you seek external help & advice.
 
 ### Should I join Polyring?
 

@@ -53,7 +53,7 @@ At the risk of stating the obvious: Be there early enough.
 
 ### Where can I find summaries from other people?
 
-- [rwgs.ch (all subjects)](https://rwgs.ch)
+- [rwgs.ch (all subjects)](https://n.ethz.ch/~rschenk/posts/2023-17-05/)
 - [azurios.gitlab.io/page/summaries (A&D, eProg)](https://azurios.gitlab.io/page/summaries/)
 - [n.ethz.ch/~dcamenisch (all subjects)](https://n.ethz.ch/~dcamenisch/)
 - [github.com/soelmicheletti/ETH-Summaries (A&D)](https://github.com/soelmicheletti/ETH-Summaries)
@@ -68,7 +68,7 @@ I don't know, but I hope so! The Basisprüfung at ETH is tough, and Computer Sci
 
 ### I feel really overwhelmed or I am in a bad spot mentally. What to do?
 
-It's super important that you get help. You don't have to and shouldn't go through a difficult time alone. ETH offers various ways to support you. One great option is the [Nightline](https://www.nightline.ch). You can call or chat with them most of the time throughout the week, and it's fully anonymous. They aren't professionals though. If you feel professional help is needed, do not hesitate to contact the [Psychologische Beratungsstelle](https://www.pbs.uzh.ch/de.html). There are also further options listed on [this page](https://ethz.ch/studierende/de/beratung/studium-und-gesundheit/kontakte-gesundheit.html). Again, please take care of yourself and do not wait for too long until you seek external help & advice.
+It's super important that you get help. You don't have to and shouldn't go through a difficult time alone. ETH offers various ways to support you. One great option is the [Nightline](https://www.nightline.ch). You can call or chat with them most of the time throughout the week, and it's fully anonymous. They aren't professionals though. If you feel professional help is needed, do not hesitate to contact the [Psychologische Beratungsstelle](https://www.pbs.uzh.ch/de.html). There are also further options listed on [this page](https://ethz.ch/studierende/de/beratung/studium-mentale-gesundheit/kontakte-gesundheit.html). Again, please take care of yourself and do not wait for too long until you seek external help & advice.
 
 (This paragraph was taken from the [Erstis FAQ](https://xyquadrat.ch/infk-faq.html).)
 
