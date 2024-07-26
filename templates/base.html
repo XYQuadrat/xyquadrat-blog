@@ -11,26 +11,26 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-{{ head::resource() }}
-{{ head::stylesheet() }}
+  {{ head::resource() }}
+  {{ head::stylesheet() }}
 
-{% block seo %}
-  {% if config.extra.title_separator %}
-    {% set title_separator = " " ~ config.extra.title_separator ~ " " %}
-  {% else %}
-    {% set title_separator = " | " %}
-  {% endif %}
-{% endblock seo %}
+  {% block seo %}
+    {% if config.extra.title_separator %}
+      {% set title_separator = " " ~ config.extra.title_separator ~ " " %}
+    {% else %}
+      {% set title_separator = " | " %}
+    {% endif %}
+  {% endblock seo %}
 
-{{ head::favicons() }}
-{% block math %}{{ math::math() }}{% endblock math %}
+  {{ head::favicons() }}
+  {% block math %}
+    {{ math::math() }}
+  {% endblock math %}
 </head>
-{% block body %}{% set page_class="home" %}{% endblock body %}
+{% block body %}
+  {% set page_class="home" %}
+{% endblock body %}
 <body hx-ext="preload" class="{{ page_class }}">
-  <script>
-    const theme = localStorage.getItem('theme') || 'light';
-    document.body.className = theme;
-  </script>
   {% block header %}
     {{ header::header(current_section="/") }}
   {% endblock header %}

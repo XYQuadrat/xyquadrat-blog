@@ -1,21 +1,19 @@
-/* jost-variable - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: "Fixel";
   font-style: normal;
   font-weight: 125 950;
   font-display: optional;
   src:
     local("Jost"),
-    url("fonts/vendor/jost/jost-variable.woff2") format("woff2"),
+    url("fonts/FixelVariable-subset.woff2") format("woff2"),
 }
 
-/* jost-variable-italic - latin */
 @font-face {
-  font-family: "Jost";
+  font-family: "Fixel";
   font-style: italic;
   font-weight: 125 950;
   font-display: optional;
   src:
     local("Jost"),
-    url("fonts/vendor/jost/jost-variable-italic.woff2") format("woff2"),
+    url("fonts/FixelVariableItali-subset.woff2") format("woff2"),
 }
