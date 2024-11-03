@@ -1,3 +1,26 @@
 body {
     font-family: 'Fixel';
+    font-size: 1.15rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited {
+    color: #4430c6;
+}
+
+h1 {
+    margin-bottom: 0.25em;
+}
+
+pre {
+    margin: 0.75em 0;
+    padding: 0.5em;
+    overflow: auto;
+}
+
+p {
+    margin: 1rem 0;
 }

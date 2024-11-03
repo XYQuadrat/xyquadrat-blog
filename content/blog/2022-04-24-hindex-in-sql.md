@@ -7,7 +7,7 @@ aliases = ["2022/04/24/hindex-in-sql"]
 math = true
 +++
 
-The [h-index](https://en.wikipedia.org/wiki/H-index) is an easy-to-calculate metric that measures the impact of the publications of an author. The easiest definition is that it is the largest number `h` such that the author has `h` published papers with at least `h` citations. It's mostly used in the scientific community, but it can also be useful in other contexts. Recently I was asked to implement a h-index calculation functionality in a project of mine (hi @niko, if you're reading this), and since I keep the relevant data in an SQLite database, I thought that it'd be convenient to use SQL to calculate the h-index.
+The [h-index](https://en.wikipedia.org/wiki/H-index) is an easy-to-calculate metric that measures the impact of the publications of an author. The easiest definition is that it is the largest number `h` such that the author has `h` published papers with at least `h` citations. It's mostly used in the scientific community, but it can also be useful in other contexts. Recently I was asked to implement a h-index calculation functionality in a project of mine, and since I keep the relevant data in an SQLite database, I thought that it'd be convenient to use SQL to calculate the h-index.
 
 A useful restatement of the definition of the h-index is $$h =\max\lbrace i \in \mathbb{N}: f(i) \ge i \rbrace$$
 where $f(i)$ is the number of citations of the paper with index $i$, which allowed me to come up with the following solution:
