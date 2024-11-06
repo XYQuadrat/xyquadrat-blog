@@ -1,18 +1,23 @@
 body {
     font-family: 'Fixel';
     font-size: 1.15rem;
+    background-color: rgb(240, 240, 240);
 }
 
 a {
-    text-decoration: none;
+    color: #1d4ed8;
 }
 
 a:visited {
-    color: #4430c6;
+    color: #1e40af;
 }
 
 h1 {
-    margin-bottom: 0.25em;
+    margin-bottom: 0.75rem;
+}
+
+h2 {
+    margin-bottom: 0.2rem;
 }
 
 pre {

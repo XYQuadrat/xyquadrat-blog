@@ -35,19 +35,32 @@
 {% block content %}
   {% set blog_section = get_section(path="blog/_index.md") %}
   <div class="content">
-    <h1 class="text-center" id="blog">Latest articles</h1>
-    <div class="post-list">
-      {% for page in blog_section.pages | slice(end=5) %}
-        <div>
-            <h3><a class="text-body" href="{{ page.permalink }}" preload>{{ page.title }}</a></h3>
-            {% if page.extra.lead %}
-            <p class="lead">{{ page.extra.lead | safe }}</p>
-            {% elif page.description %}<p class="lead">{{
-              page.description | safe }}</p>
-            {% endif %}
-            {{ publish::page_publish_metadata(page=page) }}
+    <div class="tagbox">
+      <h1 class="tagline">
+        Welcome to my corner of the internet!
+      </h1>
+    </div>
+    <div class="split">
+      <div>
+        <p class="intro">I'm Julian, and this is my tiny website.</p>
+        <p>Here you'll find <a href="/blog">my blog posts</a>, some content from <a href="/eth">my studies</a> and other random things.</p>
+      </div>
+      <div>
+        <h1 class="text-center" id="blog">Latest articles</h1>
+        <div class="post-list">
+          {% for page in blog_section.pages | slice(end=3) %}
+            <div>
+                <h3><a class="text-body" href="{{ page.permalink }}" preload>{{ page.title }}</a></h3>
+                {% if page.extra.lead %}
+                <p class="lead">{{ page.extra.lead | safe }}</p>
+                {% elif page.description %}<p class="lead">{{
+                  page.description | safe }}</p>
+                {% endif %}
+                {{ publish::page_publish_metadata(page=page) }}
+            </div>
+          {% endfor %}
         </div>
-      {% endfor %}
+      </div>
     </div>
   </div>
 {% endblock content %}

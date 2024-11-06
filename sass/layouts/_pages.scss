@@ -1,12 +1,69 @@
+.container {
+    margin: 0 auto;
+}
+
 .content {
     padding: 0 5vw; 
-    max-width: 80ch;
-    margin: 0 auto;
     margin-bottom: 1.5rem;
+}
+
+.tagbox {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    margin-bottom: 2rem;
+    border-bottom: 0.25em solid black;
+}
+
+.tagline {
+    font-size: 8vw;
+    line-height: 1em;
+}
+
+.intro {
+    font-size: 2rem;
+    font-weight: 200;
+}
+
+.blog-text {
+    margin-top: 2rem;
+    max-width: 70ch;
 }
 
 .post-list {
     display: flex;
     flex-direction: column;
-    row-gap: 0.75rem;
+    row-gap: 1rem;
+}
+
+.split {
+    display: flex;
+}
+
+@media (max-width: 992px) {
+    .split {
+        flex-direction: column; 
+    }
+}
+
+.split div {
+    flex: 1;
+}
+
+.blog-navigation {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.blog-navigation a {
+    text-decoration: none;
+}
+
+.item-right {
+    margin-left: auto;
+    justify-self: end;
+}
+
+.icon-text {
+    display: flex;
+    gap: 0.25rem;
 }
