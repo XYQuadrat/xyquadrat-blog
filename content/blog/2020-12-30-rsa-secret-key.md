@@ -15,6 +15,4 @@ Normally, $n$ would be very big (hundreds-of-digits-big) making it very difficul
 
 Now, $d$ is defined as $ed \equiv_{(p-1)(q-1)} 1$. Filling in the values we now know, that results in $3 \cdot d \equiv_{40} 1$. (This is the same as finding the inverse of $e$ in $\mathbb{Z}^*_{(p-1)(q-1)}$). We can solve that by looking at multiples of $40$ plus $1$. If one of these is a multiple of $3$, we have found $d$. With a bit of trial & error, you should get $(2 \cdot 40) + 1 = 3 \cdot \mathbf{27}$. Thus, $27$ is a solution for the equation, so $d = 27$.
 
-And that's how you crack RSA in 3 easy steps. /s
-
 (You could now also try the original exercise from HS18 where $(n,e) = (77,7)$).
