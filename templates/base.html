@@ -1,7 +1,6 @@
 {%- import 'macros/head.html' as head-%}
 {% import 'macros/math.html' as math -%}
 {% import 'macros/header.html' as header -%}
-{% import 'macros/footer.html' as footer -%}
 {% import 'macros/javascript.html' as js -%}
 {% import 'macros/page-publish-metadata.html' as publish -%}
 {% import 'macros/section-navigation.html' as section_nav -%}
@@ -35,10 +34,6 @@
   {% endblock header %}
 
   {% block content %}{% endblock content %}
-
-  {% block footer %}
-    {{ footer::footer() }}
-  {% endblock footer %}
 
   {{ js::javascript() }}
 </body>

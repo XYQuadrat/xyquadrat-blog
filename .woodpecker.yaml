@@ -2,13 +2,12 @@ when:
   - event: push
     branch: main
 
-# TODO: Update to zola v0.19.0
 steps:
   - name: build
     image: docker.io/library/debian:bookworm-slim
     commands:
       - apt-get update && apt-get install wget -y
-      - wget https://github.com/getzola/zola/releases/download/v0.18.0/zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz
+      - wget https://github.com/getzola/zola/releases/download/v0.19.2/zola-v0.19.2-x86_64-unknown-linux-gnu.tar.gz
       - tar -xvf zola-v0.18.0-x86_64-unknown-linux-gnu.tar.gz
       - ./zola build
       - rm -rf /tmp/output/*
