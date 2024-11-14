@@ -1,68 +1,70 @@
 {% extends "base.html" %}
 
 {% block seo %}
-{{ super() }}
+  {{ super() }}
 
-{% if config.title %}
-{% set title = config.title %}
-{% else %}
-{% set title = "" %}
-{% endif %}
+  {% if config.title %}
+    {% set title = config.title %}
+  {% else %}
+    {% set title = "" %}
+  {% endif %}
 
-{% if config.extra.title_addition and title %}
-{% set title_addition = title_separator ~ config.extra.title_addition %}
-{% elif config.extra.title_addition %}
-{% set title_addition = config.extra.title_addition %}
-{% else %}
-{% set title_addition = "" %}
-{% endif %}
+  {% if config.extra.title_addition and title %}
+    {% set title_addition = title_separator ~ config.extra.title_addition %}
+  {% elif config.extra.title_addition %}
+    {% set title_addition = config.extra.title_addition %}
+  {% else %}
+    {% set title_addition = "" %}
+  {% endif %}
 
-{% set description = config.description %}
+  {% set description = config.description %}
 
-{{ macros_head::seo(title=title, title_addition=title_addition, description=description, is_home=true) }}
+  {{ head::seo(title=title, title_addition=title_addition, description=description, is_home=true) }}
 {% endblock seo %}
 
 {% block body %}
-{% set page_class = "blog" %}
+  {% set page_class = "" %}
 {% endblock body %}
 
 {% block header %}
-{# This value is matched by the config.extra.menu.main->section #}
-{% set current_section = "blog" %}
-{{ macros_header::header(current_section=current_section)}}
+  {# This value is matched by the config.extra.menu.main->section #}
+  {% set current_section = "blog" %}
+  {{ header::header(current_section=current_section)}}
 {% endblock header %}
 
 {% block content %}
-{% set blog_section = get_section(path="blog/_index.md") %}
-<div class="container" role="document">
+  {% set blog_section = get_section(path="blog/_index.md") %}
   <div class="content">
-    <div class="row justify-content-center">
-      <div class="col-md-12 col-lg-10 col-xl-8">
-        <div class="justify-content-center">
-          <webring-banner id="polyring-banner">
-            <p>Member of the <a href="https://polyring.ch">Polyring</a> webring</p>
-          </webring-banner>
-          <script async src="https://polyring.ch/embed.js" charset="utf-8"></script>
-        </div>
-        <article>
-          <h1 class="text-center" id="blog">Blog</h1>
-          <div class="card-list">
-            {% for page in blog_section.pages | slice(end=5) %}
-            <div class="card">
-              <div class="card-body">
-                <h3><a class="stretched-link text-body abc" href="{{ page.permalink }}" preload>{{ page.title }}</a>
-                </h3>
+    <div class="tagbox hide-mobile">
+      <h1 class="tagline">
+        Welcome to my corner of the internet!
+      </h1>
+    </div>
+    <div class="split">
+      <div>
+        <p class="intro">I'm Julian, and this is my tiny website.</p>
+        <p>Here you'll find <a href="/blog">my blog posts</a>, some content from <a href="/eth">my studies</a> and other random things.</p>
+        <webring-banner id="polyring-banner">
+          <p>Member of the <a href="https://polyring.ch">Polyring</a> webring</p>
+        </webring-banner>
+        <script async src="https://polyring.ch/embed.js" charset="utf-8"></script>
+      </div>
+      <div>
+        <h1 class="text-center" id="blog">Latest articles</h1>
+        <div class="post-list">
+          {% for page in blog_section.pages | slice(end=3) %}
+            <div>
+                <h3><a class="text-body" href="{{ page.permalink }}">{{ page.title }}</a></h3>
                 {% if page.extra.lead %}
-                <p class="lead">{{ page.extra.lead | safe }}</p>{% elif page.description %}<p class="lead">{{
-                  page.description | safe }}</p>{% endif %}
-                {{ macros_publish::page_publish_metadata(page=page) }}
-              </div>
+                <p class="lead">{{ page.extra.lead | safe }}</p>
+                {% elif page.description %}<p class="lead">{{
+                  page.description | safe }}</p>
+                {% endif %}
+                {{ publish::page_publish_metadata(page=page) }}
             </div>
-            {% endfor %}
-          </div>
-        </article>
+          {% endfor %}
+        </div>
       </div>
     </div>
   </div>
-</div>
 {% endblock content %}

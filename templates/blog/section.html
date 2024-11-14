@@ -7,40 +7,28 @@
 {% block header %}
   {# This value is matched by the config.extra.menu.main->section #}
   {% set current_section = "blog" %}
-  {{ macros_header::header(current_section=current_section)}}
+  {{ header::header(current_section=current_section)}}
 {% endblock header %}
 
 {% block content %}
 <div class="container" role="document">
   <div class="content">
-    <div class="row justify-content-center">
-      <div class="col-md-12 col-lg-10 col-xl-8">
-        <div class="center-content">
-          <webring-banner id="polyring-banner">
-            <p>Member of the <a href="https://polyring.ch">Polyring</a> webring</p>
-          </webring-banner>
-          <script async src="https://polyring.ch/embed.js" charset="utf-8"></script>
+    <article class="center">
+      <h1 id="blog">{{ section.title }}</h1>
+      <div class="post-list">
+        {% for page in paginator.pages %}
+        <div>
+            <h3><a class="stretched-link text-body" href="{{ page.permalink }}">{{ page.title }}</a></h3>
+            {% if page.extra.lead %}
+              <p class="lead">{{ page.extra.lead | safe }}</p>{% elif page.description %}<p class="lead">{{ page.description | safe }}</p>{% endif %}
+            {{ publish::page_publish_metadata(page=page) }}
         </div>
-        <article>
-          <h1 class="text-center" id="blog">{{ section.title }}</h1>
-          <div class="card-list">
-            {% for page in paginator.pages %}
-            <div class="card">
-              <div class="card-body">
-                <h3><a class="stretched-link text-body" href="{{ page.permalink }}" preload>{{ page.title }}</a></h3>
-                {% if page.extra.lead %}
-                  <p class="lead">{{ page.extra.lead | safe }}</p>{% elif page.description %}<p class="lead">{{ page.description | safe }}</p>{% endif %}
-                {{ macros_publish::page_publish_metadata(page=page) }}
-              </div>
-            </div>
-            {% endfor %}
-            {% if paginator.previous or paginator.next %}
-              {{ macros_section_nav::navigation(paginator=paginator) }}
-            {% endif %}
-          </div>
-        </article>
+        {% endfor %}
+        {% if paginator.previous or paginator.next %}
+          {{ section_nav::navigation(paginator=paginator) }}
+        {% endif %}
       </div>
-    </div>
+    </article>
   </div>
 </div>
 {% endblock content %}

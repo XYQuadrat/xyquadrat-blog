@@ -15,7 +15,7 @@ The concept of a webring might sound strange in the year 2021; after all, webrin
 ... Right? Well, not quite. Today it is incredibly easy to find facts and figures about nearly anything at the blink of an eye - but there is one big caveat: you must know what you are searching for. And that is sometimes astonishingly difficult.   
 Link aggregators like Reddit (though much of that spirit has been lost) or Hacker News are the main way of unguided content discovery. Webrings differentiate themselves from such aggregators by putting persons before pure content. What might seem like a disadvantage at first turns out to be a secret superpower of webrings, as you discover interesting articles and projects from interesting people that might have never shown up in your feeds otherwise.
 
-Alas, let me stop the rambling about _why_ I started a webring ([this blog post by Charlie Owen](https://www.sonniesedge.net/articles/webrings) might also be part of the reason) and instead tell you _how_ I tackled the technical part of the project.
+Alas, let me stop the rambling about _why_ I started a webring and instead tell you _how_ I tackled the technical part of the project.
 
 ## Open source to the rescue
 

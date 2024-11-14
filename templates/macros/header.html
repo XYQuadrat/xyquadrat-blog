@@ -1,37 +1,48 @@
 {% macro header(current_section) %}
-<div class="header-bar fixed-top"></div>
-<nav class="navbar fixed-top navbar-expand-md navbar-light">
-	<div class="container">
-		<input class="menu-btn order-0" type="checkbox" id="menu-btn">
-		<label class="menu-icon d-md-none" for="menu-btn"><span class="navicon"></span></label>
+<header>
+	<a href="{{ config.base_url | safe }}">
+		<img src="/mono_icon.svg" height="32px" width="32px">
+	</a>
 
-		<a class="navbar-brand order-1 order-md-0 me-auto" href="{{ config.base_url | safe }}">
-			<img alt="Link back to the home page" src="/mono_icon.svg" height="32px">
-		</a>
-		<button id="mode" class="btn btn-link order-2 order-md-4" type="button" aria-label="Toggle mode">
-			<span class="toggle-dark">
-				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-moon"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path></svg>
-			</span>
-			<span class="toggle-light">
-				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-sun"><circle cx="12" cy="12" r="5"></circle><line x1="12" y1="1" x2="12" y2="3"></line><line x1="12" y1="21" x2="12" y2="23"></line><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line><line x1="1" y1="12" x2="3" y2="12"></line><line x1="21" y1="12" x2="23" y2="12"></line><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line></svg>
-			</span>
-		</button>
-		<ul class="navbar-nav order-3 order-md-5">
-				<li class="nav-item">
-					<a class="nav-link" aria-label="Link to my GitHub profile" href="https://github.com/XYQuadrat"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg></a>
-				</li>
+	<nav>
+		<ul class="main-nav hide-mobile">
+			<a class="nav-link" href="{{ get_url(path='blog', trailing_slash=false) | safe }}">
+				<li class="nav-item">Blog</li>
+			</a>
+			<a class="nav-link" href="{{ get_url(path='eth', trailing_slash=true) | safe }}">
+				<li class="nav-item">ETH</li>
+			</a>
 		</ul>
-		<div class="collapse navbar-collapse order-4 order-md-1">
-			<ul class="navbar-nav main-nav me-auto order-5 order-md-2">
-				<li class="nav-item">
-					<a class="nav-link" href="{{ get_url(path='blog', trailing_slash=false) | safe }}" preload>Blog</a>
-				</li>
-				<li class="nav-item">
-					<a class="nav-link" href="{{ get_url(path='eth', trailing_slash=true) | safe }}" preload>ETH</a>
-				</li>
-			</ul>
-			<div class="break order-6 d-md-none"></div>
-		</div>
-	</div>
-</nav>
+	</nav>
+
+	<a class="nav-item hide-mobile" aria-label="Link to my GitHub profile" href="https://github.com/XYQuadrat">
+		<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+	</a>
+
+	<button class="item-right" id="menu-toggle" aria-expanded="false" aria-controls="menu">
+		<svg id="hamburger-open" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hamburger">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+		</svg>
+
+		<svg id="hamburger-close" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="hamburger" style="display: none;">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
+		</svg>
+	</button>
+
+	<div id="side-panel" class="side-panel">
+        <ul id="menu" class="menu">
+			<a class="nav-link" href="{{ get_url(path='blog', trailing_slash=false) | safe }}">
+				<li class="nav-item">Blog</li>
+			</a>
+			<a class="nav-link" href="{{ get_url(path='eth', trailing_slash=true) | safe }}">
+				<li class="nav-item">ETH</li>
+			</a>
+        </ul>
+		
+		<a class="nav-item mobile-github" aria-label="Link to my GitHub profile" href="https://github.com/XYQuadrat">
+			<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-github"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+		</a>
+    </div>
+
+</header>
 {% endmacro %}

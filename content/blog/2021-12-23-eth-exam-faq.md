@@ -2,10 +2,6 @@
 template = "blog/page.html"
 title = "ETH D-INFK Ersti Exam FAQ"
 aliases = ["2021/12/23/eth-exam-faq"]
-
-[extra]
-toc = true
-
 +++
 
 Note: This is not an official resource. The content here is tailored for the semester HS21 and might not be up-to-date for other years. Also, lots of the points raised here are common sense, but maybe it still helps someone.
@@ -53,7 +49,7 @@ At the risk of stating the obvious: Be there early enough.
 
 ### Where can I find summaries from other people?
 
-- [rwgs.ch (all subjects)](https://rwgs.ch)
+- [rwgs.ch (all subjects)](https://n.ethz.ch/~rschenk/posts/2023-17-05/)
 - [azurios.gitlab.io/page/summaries (A&D, eProg)](https://azurios.gitlab.io/page/summaries/)
 - [n.ethz.ch/~dcamenisch (all subjects)](https://n.ethz.ch/~dcamenisch/)
 - [github.com/soelmicheletti/ETH-Summaries (A&D)](https://github.com/soelmicheletti/ETH-Summaries)
@@ -64,11 +60,11 @@ At the risk of stating the obvious: Be there early enough.
 
 I don't know, but I hope so! The Basisprüfung at ETH is tough, and Computer Science isn't the easiest study program either. With that in mind, let me remind you of two things:
 1. If you made it until here, you already accomplished a lot. Of course this is easy to say as someone that passed, but it really is true. Be proud that you didn't already quit.
-2. Your BP grade does not define you as a person. First, after you completed your studies and start working somewhere, nobody cares about your Basisprüfung anymore (much earlier than that already, probably). Second, _you are not your grades_.
+2. Your BP grade does not define you as a person. First, after you completed your studies and start working somewhere, nobody cares about your Basisprüfung anymore (much earlier than that already, probably). Second, **you are not your grades**.
 
 ### I feel really overwhelmed or I am in a bad spot mentally. What to do?
 
-It's super important that you get help. You don't have to and shouldn't go through a difficult time alone. ETH offers various ways to support you. One great option is the [Nightline](https://www.nightline.ch). You can call or chat with them most of the time throughout the week, and it's fully anonymous. They aren't professionals though. If you feel professional help is needed, do not hesitate to contact the [Psychologische Beratungsstelle](https://www.pbs.uzh.ch/de.html). There are also further options listed on [this page](https://ethz.ch/studierende/de/beratung/studium-und-gesundheit/kontakte-gesundheit.html). Again, please take care of yourself and do not wait for too long until you seek external help & advice.
+It's super important that you get help. You don't have to and shouldn't go through a difficult time alone. ETH offers various ways to support you. One great option is the [Nightline](https://www.nightline.ch). You can call or chat with them most of the time throughout the week, and it's fully anonymous. They aren't professionals though. If you feel professional help is needed, do not hesitate to contact the [Psychologische Beratungsstelle](https://www.pbs.uzh.ch/de.html). There are also further options listed on [this page](https://ethz.ch/studierende/de/beratung/studium-mentale-gesundheit/kontakte-gesundheit.html). Again, please take care of yourself and do not wait for too long until you seek external help & advice.
 
 (This paragraph was taken from the [Erstis FAQ](https://xyquadrat.ch/infk-faq.html).)
 

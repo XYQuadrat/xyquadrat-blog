@@ -1,15 +1,21 @@
-.home .card,
-.blog .card {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
-  transition: background-color 0.3s ease-in-out;
+.page-header {
+    margin-bottom: 0.75em;
 }
 
-.home .card:hover,
-.blog .card:hover {
-  background-color: #e9ecef;
+.center {
+    max-width: 70ch;
+    margin: 0 auto;
 }
 
-.card-body {
-  padding: 0 2rem 1rem;
+.blog-text {
+    max-width: 70ch;
+}
+
+.blog-navigation {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.blog-navigation a {
+    text-decoration: none;
 }

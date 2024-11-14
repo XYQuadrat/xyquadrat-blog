@@ -1,5 +1,4 @@
 +++
-layout = "page.html"
 title = "ETH Zurich"
 +++
 

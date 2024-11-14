@@ -1,18 +1,9 @@
-/** Import theme variables */
-@import "common/variables";
-
-/** Import theme styles */
+@import "common/reset";
 @import "common/fonts";
 @import "common/global";
-@import "common/dark";
 
 @import "components/code";
-@import "components/buttons";
-@import "components/images";
-@import "layouts/footer";
+
 @import "layouts/header";
 @import "layouts/pages";
 @import "layouts/posts";
-@import "layouts/sidebar";
-
-@import "rewrite";

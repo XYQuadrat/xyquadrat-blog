@@ -1,226 +1,83 @@
-.navbar-light .navbar-brand,
-.navbar-light .navbar-brand:is(:hover, :active) {
-  color: $body-color;
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 3.5rem;
+    padding: 0rem 5vw;
+    margin: 0.5rem 0rem;
+    position: sticky;
+    top: 0;
+    background-color: rgb(240, 240, 240);
+    z-index: 100;
 }
 
-.navbar-light .navbar-nav .active .nav-link {
-  color: $primary;
-}
-
-.navbar-nav {
-  flex-direction: row;
-}
-
-@media (min-width: 768px) {
-  .nav-item {
-    margin-left: 0.75rem;
-  }
-}
-
-@media (max-width: 576px) {
-  .nav-item:first-child {
-    margin-left: 0;
-  }
-}
-
-@media (max-width: 768px) {
-  .navbar .container {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-}
-
-.break {
-  flex-basis: 100%;
-  height: 0;
-}
-
-.navbar {
-  background-color: rgba(255, 255, 255, 0.95);
-  border-bottom: 1px solid $gray-200;
-  margin-top: 4px;
-}
-
-.header-bar {
-  border-top: 4px solid;
-  border-image-source: linear-gradient(90deg, $primary, #8ed6fb 50%, $cyan);
-  border-image-slice: 1;
-}
-
-.home .navbar {
-  border-bottom: 0;
-}
-
-@media (min-width: 768px) {
-  .navbar-brand {
-    margin-right: 1rem !important;
-  }
-
-  .main-nav .nav-item:first-child .nav-link {
-    padding-left: 0;
-  }
-
-  .main-nav .nav-item:last-child .nav-link {
-    padding-right: 0;
-  }
-}
-
-/*
- * Source: https://medium.com/creative-technology-concepts-code/responsive-mobile-dropdown-navigation-using-css-only-7218e4498a99
-*/
-
-/* Style the menu icon for the dropdown */
-
-.navbar .menu-icon {
-  cursor: pointer;
-
-  /* display: inline-block; */
-
-  /* float: right; */
-  padding: 1.125rem 0.625rem;
-  margin: 0 0 0 -0.625rem;
-
-  /* position: relative; */
-  user-select: none;
-}
-
-.navbar .menu-icon .navicon {
-  background: $navbar-light-color;
-  display: block;
-  height: 2px;
-  position: relative;
-  transition: background 0.2s ease-out;
-  width: 18px;
-}
-
-.navbar .menu-icon .navicon::before,
-.navbar .menu-icon .navicon::after {
-  background: $navbar-light-color;
-  content: "";
-  display: block;
-  height: 100%;
-  position: absolute;
-  transition: all 0.2s ease-out;
-  width: 100%;
-}
-
-.navbar .menu-icon .navicon::before {
-  top: 5px;
-}
-
-.navbar .menu-icon .navicon::after {
-  top: -5px;
-}
-
-/* Add the icon and menu animations when the checkbox is clicked */
-
-.navbar .menu-btn {
-  display: none;
-}
-
-.navbar .menu-btn:checked~.navbar-collapse {
-  display: block;
-  max-height: 100vh;
-}
-
-.navbar .menu-btn:checked~.menu-icon .navicon {
-  background: transparent;
-}
-
-.navbar .menu-btn:checked~.menu-icon .navicon::before {
-  transform: rotate(-45deg);
-}
-
-.navbar .menu-btn:checked~.menu-icon .navicon::after {
-  transform: rotate(45deg);
-}
-
-.navbar .menu-btn:checked~.menu-icon:not(.steps) .navicon::before,
-.navbar .menu-btn:checked~.menu-icon:not(.steps) .navicon::after {
-  top: 0;
-}
-
-.navbar {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.navbar>.container {
-  display: flex;
-  flex-wrap: inherit;
-  align-items: center;
-  justify-content: space-between;
-}
-
-.navbar-nav {
-  list-style: none;
-  display: flex;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-
-.navbar-nav li {
-  display: block;
-
-}
-
-.nav-link {
-  display: block;
-  padding: .5rem 0rem;
-  transition: color .15s ease-in-out;
-}
-
-.navbar-collapse {
-  flex-basis: 100%;
-  flex-grow: 1;
-  align-items: center;
-}
-
-.navbar .btn-link,
-.nav-link {
-  color: #1d2d35;
+.hamburger {
+    width: 1.5rem;
+    height: 1.5rem;
 }
 
 .main-nav {
-  flex-direction: column;
+    display: flex;
+    gap: 1rem;
+    padding-left: 1rem;
 }
 
-.main-nav li:first-child a {
-  padding-left: 0;
+.nav-link {
+    font-weight: 500;
+    text-decoration: none;
 }
 
-.navbar-brand {
-  padding: .3125rem;
+.nav-item {
+    list-style: none;
+    color: #000;
 }
 
-.navbar-light .navbar-nav .nav-link:is(:hover, :focus) {
-  color: #0d6efd;
+#menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 1000;
 }
 
-.collapse:not(.show) {
-  display: none;
+.menu {
+    padding-inline-start: 2rem;
+}
+
+.side-panel {
+    position: fixed;
+    top: 0;
+    right: -300px; /* Hide panel off-screen */
+    width: 300px;
+    height: 100%;
+    padding-top: 3.5rem;
+    background-color: #f8f8f8;
+    transition: right 0.3s ease; /* Slide-in effect */
+    z-index: 999; /* Ensure side panel is above content */
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.side-panel.open {
+    right: 0; /* Slide into view */
+    box-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+}
+
+.mobile-github {
+    margin-bottom: 2rem;
+    padding-inline-start: 2rem;
 }
 
 @media (min-width: 768px) {
-  .navbar-expand-md {
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-  }
-
-  .navbar-collapse {
-    display: flex !important;
-    flex-basis: auto;
-  }
-
-  .navbar-nav {
-    flex-direction: row;
-  }
+    #menu-toggle {
+        display: none; /* Hide hamburger on larger screens */
+    }
 }
 
-.btn {
-  background-color: transparent;
-  border: 1px solid transparent;
+@media (max-width: 767px) {
+    .hide-mobile {
+        display: none;
+    }
 }

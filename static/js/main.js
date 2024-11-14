@@ -1,26 +1,20 @@
-const polyringBanner = document.getElementById("polyring-banner");
+document.addEventListener("DOMContentLoaded", function() {
+    const menuToggle = document.getElementById('menu-toggle');
+    const sidePanel = document.getElementById('side-panel');
+    const openIcon = document.getElementById('hamburger-open');
+    const closeIcon = document.getElementById('hamburger-close');
 
-// Set dark mode
-document.getElementById('mode').addEventListener('click', () => {
-  var theme = document.body.classList.toggle('dark') ? 'dark' : 'light';
+    menuToggle.addEventListener('click', () => {
+        const isOpen = sidePanel.classList.toggle('open');
 
-  localStorage.setItem('theme', theme);
+        menuToggle.setAttribute('aria-expanded', isOpen);
 
-  if (polyringBanner != null) {
-    polyringBanner.setAttribute("theme", `https://xyquadrat.ch/blog-${theme}.json`);
-  }
+        if (isOpen) {
+            openIcon.style.display = 'none';
+            closeIcon.style.display = 'block';
+        } else {
+            openIcon.style.display = 'block';
+            closeIcon.style.display = 'none';
+        }
+    });
 });
-
-// Enforce local storage setting but also fallback to user-agent preferences
-if (localStorage.getItem('theme') === 'dark' ||
-  (!localStorage.getItem('theme') && window.matchMedia("(prefers-color-scheme: dark)").matches)) {
-  document.body.classList.add('dark');
-
-  if (polyringBanner != null) {
-    polyringBanner.setAttribute("theme", "https://xyquadrat.ch/blog-dark.json");
-  }
-} else {
-  if (polyringBanner != null) {
-    polyringBanner.setAttribute("theme", "https://xyquadrat.ch/blog-light.json");
-  }
-}
