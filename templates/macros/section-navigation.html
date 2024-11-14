@@ -1,7 +1,7 @@
 {% macro navigation(paginator) %}
 <div class="blog-navigation">
 	{% if paginator.previous %}
-	<a href="{{ paginator.previous | safe }}" preload>
+	<a href="{{ paginator.previous | safe }}">
 		<div class="icon-text">
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="16">
 				<path stroke-linecap="round" stroke-linejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
@@ -11,7 +11,7 @@
 	</a>
 	{% endif %}
 	{% if paginator.next %}
-	<a class="item-right" href="{{ paginator.next | safe }}" preload>
+	<a class="item-right" href="{{ paginator.next | safe }}">
 		<div class="icon-text">
 			<span>Older</span>
 			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" width="16">

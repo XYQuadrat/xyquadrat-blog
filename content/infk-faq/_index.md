@@ -1,8 +1,5 @@
 +++
 title = "Computer Science @ ETH - Erstis FAQ"
-
-[extra]
-toc = true
 +++
 
 ### Do I need to visit the exercise sessions?
@@ -19,7 +16,7 @@ No, but it can be helpful for organization. Some people like digital notetaking,
 
 ### What operating system is best for our studies?
 
-All three major operating systems (Windows, macOS, Linux derivatives) work well. (If you plan on using [TempleOS](https://templeos.org/) or [Haiku](https://www.haiku-os.org/), you might encounter some difficulties.) In the second semester you will have Digital Design and Computer Architecture labs in which you use a (horrible) software called [Vivado](https://www.xilinx.com/products/design-tools/vivado.html) to program an FPGA. Vivado does not run on macOS, but you will work together with a partner, so if your partner has either Windows or Linux, this should not be a problem. Otherwise you can use a VM, or use one of the computers at ETH, which have Vivado preinstalled.
+All three major operating systems (Windows, macOS, Linux derivatives) work well. (If you plan on using [TempleOS](https://templeos.org/) or [Haiku](https://www.haiku-os.org/), you might encounter some difficulties.) In the second semester you will have Digital Design and Computer Architecture labs in which you use a (horrible) software called [Vivado](https://www.amd.com/en/products/software/adaptive-socs-and-fpgas/vivado.html) to program an FPGA. Vivado does not run on macOS, but you will work together with a partner, so if your partner has either Windows or Linux, this should not be a problem. Otherwise you can use a VM, or use one of the computers at ETH, which have Vivado preinstalled.
 
 ### Do I need to stick with my exercise group / TA?
 

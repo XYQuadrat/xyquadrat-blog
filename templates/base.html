@@ -5,7 +5,6 @@
 {% import 'macros/javascript.html' as js -%}
 {% import 'macros/page-publish-metadata.html' as publish -%}
 {% import 'macros/section-navigation.html' as section_nav -%}
-{% import 'macros/toc.html' as toc -%}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -30,7 +29,7 @@
 {% block body %}
   {% set page_class="home" %}
 {% endblock body %}
-<body hx-ext="preload" class="{{ page_class }}">
+<body class="{{ page_class }}">
   {% block header %}
     {{ header::header(current_section="/") }}
   {% endblock header %}

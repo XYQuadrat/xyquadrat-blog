@@ -50,7 +50,7 @@
         <div class="post-list">
           {% for page in blog_section.pages | slice(end=3) %}
             <div>
-                <h3><a class="text-body" href="{{ page.permalink }}" preload>{{ page.title }}</a></h3>
+                <h3><a class="text-body" href="{{ page.permalink }}">{{ page.title }}</a></h3>
                 {% if page.extra.lead %}
                 <p class="lead">{{ page.extra.lead | safe }}</p>
                 {% elif page.description %}<p class="lead">{{

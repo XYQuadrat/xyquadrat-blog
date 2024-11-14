@@ -2,9 +2,6 @@
 template = "blog/page.html"
 title = "My experience as a Teaching Assistant at ETH"
 aliases = ["2021/12/17/teaching-assistant-experiences"]
-
-[extra]
-toc = true
 +++
 
 This semester I've been teaching the course "Algorithms & Datastructures" at ETH for the first time as a Teaching Assistant. That means that every week, I'd lead an exercise session with about 25 people where I would explain the exercises, recap some theory and highlight common pitfalls. In addition, I would correct and grade bonus exercises. Here's what I learnt, how I liked it, and what I'd do differently if I did it again (which I might, who knows!).

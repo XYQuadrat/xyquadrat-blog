@@ -2,10 +2,6 @@
 template = "blog/page.html"
 title = "ETH D-INFK Ersti Exam FAQ"
 aliases = ["2021/12/23/eth-exam-faq"]
-
-[extra]
-toc = true
-
 +++
 
 Note: This is not an official resource. The content here is tailored for the semester HS21 and might not be up-to-date for other years. Also, lots of the points raised here are common sense, but maybe it still helps someone.
@@ -64,7 +60,7 @@ At the risk of stating the obvious: Be there early enough.
 
 I don't know, but I hope so! The Basisprüfung at ETH is tough, and Computer Science isn't the easiest study program either. With that in mind, let me remind you of two things:
 1. If you made it until here, you already accomplished a lot. Of course this is easy to say as someone that passed, but it really is true. Be proud that you didn't already quit.
-2. Your BP grade does not define you as a person. First, after you completed your studies and start working somewhere, nobody cares about your Basisprüfung anymore (much earlier than that already, probably). Second, _you are not your grades_.
+2. Your BP grade does not define you as a person. First, after you completed your studies and start working somewhere, nobody cares about your Basisprüfung anymore (much earlier than that already, probably). Second, **you are not your grades**.
 
 ### I feel really overwhelmed or I am in a bad spot mentally. What to do?
 
