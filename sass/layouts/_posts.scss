@@ -7,6 +7,15 @@
     margin: 0 auto;
 }
 
-h1:has(+ span) {
-    margin-bottom: 0px;
+.blog-text {
+    max-width: 70ch;
+}
+
+.blog-navigation {
+    margin-top: 1rem;
+    display: flex;
+}
+
+.blog-navigation a {
+    text-decoration: none;
 }

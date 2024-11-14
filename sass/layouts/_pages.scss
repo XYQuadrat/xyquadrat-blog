@@ -18,15 +18,12 @@
 .tagline {
     font-size: 8vw;
     line-height: 1em;
+    margin-bottom: 1rem;
 }
 
 .intro {
     font-size: 2rem;
     font-weight: 200;
-}
-
-.blog-text {
-    max-width: 70ch;
 }
 
 .post-list {
@@ -50,15 +47,6 @@
     flex: 1;
 }
 
-.blog-navigation {
-    margin-top: 1rem;
-    display: flex;
-}
-
-.blog-navigation a {
-    text-decoration: none;
-}
-
 .item-right {
     margin-left: auto;
     justify-self: end;
@@ -67,4 +55,8 @@
 .icon-text {
     display: flex;
     gap: 0.25rem;
+}
+
+h1:has(+ span), h2:has(+ span), h3:has(+ span) {
+    margin-bottom: 0px;
 }
