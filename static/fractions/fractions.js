@@ -51,7 +51,7 @@ function drawCircle(radius) {
 }
 
 function drawRectangle() {
-    let width = rectCanvas.width / denominator.value - 1;
+    let width = rectCanvas.width / denominator.value - 3;
 
     for (let i = 0; i < denominator.value; i++) {
         rect.beginPath();

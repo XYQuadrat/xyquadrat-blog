@@ -8,11 +8,11 @@ You may use these for any non-commercial purpose without attribution.
 
 <label>
     <h4>Numerator</h4>
-    <input type="number" id="numerator" min=0 value=3>
+    <input type="number" id="numerator" min=0 max=100 value=3>
 </label>
 <label>
     <h4>Denominator</h4>
-    <input type="number" id="denominator" min=2 value=5>
+    <input type="number" id="denominator" min=2 max=100 value=5>
 </label> 
 
 <div class="grid-container">
