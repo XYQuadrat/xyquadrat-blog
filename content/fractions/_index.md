@@ -31,5 +31,5 @@ You may use these for any non-commercial purpose without attribution.
 </div>
 </div>
 
-<link rel="stylesheet" href="fractions/fractions.css">
-<script src="fractions/fractions.js"></script>
+<link rel="stylesheet" href="/fractions/fractions.css">
+<script src="/fractions/fractions.js"></script>
