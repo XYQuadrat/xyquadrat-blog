@@ -55,7 +55,7 @@ function drawRectangle() {
 
     for (let i = 0; i < denominator.value; i++) {
         rect.beginPath();
-        rect.rect(i * width + 1, rectCanvas.height / 4, width, rectCanvas.height / 2);
+        rect.rect(i * width + 3, rectCanvas.height / 4, width, rectCanvas.height / 2);
 
         setStyle(i, rect);
         rect.stroke();
@@ -68,7 +68,7 @@ function drawLine() {
     const yHeight = lineCanvas.height / 2;
 
     line.strokeStyle = "#444";
-    line.lineWidth = 2;
+    line.lineWidth = 6;
     line.beginPath();
     line.moveTo(marginLeft, yHeight);
     line.lineTo(marginLeft + lineLength, yHeight);
@@ -87,8 +87,8 @@ function drawLine() {
         line.strokeStyle = "#444";
 
         line.beginPath();
-        line.moveTo(marginLeft + i * lineLength / denominator.value, yHeight - 6);
-        line.lineTo(marginLeft + i * lineLength / denominator.value, yHeight + 6);
+        line.moveTo(marginLeft + i * lineLength / denominator.value, yHeight - 30);
+        line.lineTo(marginLeft + i * lineLength / denominator.value, yHeight + 30);
         line.stroke();
     }
 }
@@ -100,7 +100,7 @@ function setStyle(i, context) {
         context.fill();
     }
 
-    context.lineWidth = 2;
+    context.lineWidth = 6;
     context.strokeStyle = "#444";
 }
 

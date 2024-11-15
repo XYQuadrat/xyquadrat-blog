@@ -1,16 +1,17 @@
-body {
-    font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-    margin: 1rem;
-    color: #444;
-}
-
 canvas {
     display: block;
     margin: 0.5rem 0px;
-    width: 100%;
+    width: 350px;
+    height: 350px;
 }
 
-a {
+label {
+    display: block;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+}
+
+.download-link {
     background-color: rgb(33, 150, 243);
     padding: 0.5rem 1rem;
     border-radius: 5px;
@@ -19,15 +20,10 @@ a {
     font-weight: 700;
 }
 
-a:hover {
-    background-color: rgb(12, 58, 104);
+.download-link:hover {
+    background-color: rgb(24, 85, 146);
     text-decoration: underline;
     transition: 100ms;
-}
-
-h4 {
-    margin-top: 1.5rem;
-    margin-bottom: 0.25rem;
 }
 
 .grid-container {
@@ -50,4 +46,7 @@ h4 {
 
 .canvas-card {
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
