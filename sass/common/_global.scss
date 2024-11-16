@@ -6,10 +6,15 @@ body {
 
 a {
     color: #1d4ed8;
+    text-decoration: none;
 }
 
-a:visited {
-    color: #1e40af;
+a:hover, a:focus {
+    background-color: rgba($color: #1d4ed8, $alpha: 0.1);
+    box-shadow: 0px 0px 0px 3px rgba(#1d4ed8, 0.1);
+    border-radius: 4px;
+    transition-property: box-shadow, background-color;
+    transition-duration: 0.2s;
 }
 
 h1, h2, h3, h4, h5, h6 {
