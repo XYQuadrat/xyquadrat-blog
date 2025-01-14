@@ -35,15 +35,13 @@
 {% block content %}
   {% set blog_section = get_section(path="blog/_index.md") %}
   <div class="content">
-    <div class="tagbox hide-mobile">
-      <h1 class="tagline">
-        Welcome to my corner of the internet!
-      </h1>
+    <div class="tagbox">
+      <h1 class="tagline">Oh hi, I'm Julian!</h1>
+      <p class="intro">And this is my little corner on the internet.<br>
+      Here you'll find <a href="/blog">my blog posts</a>, some content from <a href="/eth">my studies</a> and other <a href="/fractions">random</a> things.</p>
     </div>
     <div class="split">
-      <div>
-        <p class="intro">I'm Julian, and this is my tiny website.</p>
-        <p>Here you'll find <a href="/blog">my blog posts</a>, some content from <a href="/eth">my studies</a> and other <a href="/fractions">random</a> things.</p>
+      <div class="polyring-box">
         <webring-banner id="polyring-banner">
           <p>Member of the <a href="https://polyring.ch">Polyring</a> webring</p>
         </webring-banner>
