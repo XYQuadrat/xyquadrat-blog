@@ -22,7 +22,6 @@
  
 #blog {
     margin-top: 0.25em;
-    font-weight: 200;
 }
 
 .polyring-box {
@@ -56,11 +55,7 @@
 }
 
 @media (min-width: 993px) {
-    #blog {
-        text-align: end;
-    }
-
-    .post-list {
+    .homepage-post-list {
         align-items: end;
         text-align: end;
     }
@@ -87,4 +82,8 @@
 
 h1:has(+ span), h2:has(+ span), h3:has(+ span) {
     margin-bottom: 0px;
+}
+
+.text-right {
+    text-align: end;
 }

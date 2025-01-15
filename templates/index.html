@@ -48,8 +48,8 @@
         <script async src="https://polyring.ch/embed.js" charset="utf-8"></script>
       </div>
       <div>
-        <h1 class="text-center" id="blog">Latest articles</h1>
-        <div class="post-list">
+        <h1 class="text-right">Latest articles</h1>
+        <div class="homepage-post-list">
           {% for page in blog_section.pages | slice(end=3) %}
             <div>
                 <h3><a class="text-body" href="{{ page.permalink }}">{{ page.title }}</a></h3>
