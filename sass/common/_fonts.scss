@@ -2,7 +2,7 @@
   font-family: "Fixel";
   font-style: normal;
   font-weight: 125 950;
-  font-display: optional;
+  font-display: fallback;
   src:
     local("Fixel"),
     url("fonts/FixelVariable-subset.woff2") format("woff2"),
@@ -12,7 +12,7 @@
   font-family: "Fixel";
   font-style: italic;
   font-weight: 125 950;
-  font-display: optional;
+  font-display: fallback;
   src:
     local("Fixel"),
     url("fonts/FixelVariableItalic-subset.woff2") format("woff2"),
